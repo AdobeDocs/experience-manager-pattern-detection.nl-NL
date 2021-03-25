@@ -1,22 +1,22 @@
 ---
-title: Forms
+title: FORM
 description: Help-pagina Patroondetectiecode
 translation-type: tm+mt
-source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
+source-git-commit: aa44c3ce87496f412191000f1980a7ebbde386cd
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
 
 
-# [!DNL FORMS] {#forms}
+# [!DNL FORMS] {#form}
 
 [!DNL Adobe Experience Manager Forms]
 
 ## Achtergrond {#background}
 
-`FORMS` wijst potentiële problemen met betrekking tot migratie van Adobe Experience Manager Forms naar Adobe Experience Manager Forms als Cloud Service aan. Deze problemen verhelpen voordat u naar de Cloud Service migreert.
+`FORMS` Hiermee worden mogelijke problemen met betrekking tot migratie van  [!DNL Adobe Experience Manager Forms] naar  [!DNL Adobe Experience Manager Form]s aangegeven als een  [!DNL Cloud Service]. Deze problemen verhelpen voordat u naar [!DNL Cloud Service] migreert.
 
 De volgende subtypes helpen u de verschillende soorten kwesties identificeren:
 
@@ -29,25 +29,25 @@ Zie de [Mogelijke implicaties en risico&#39;s](#implications-and-risks) en [Moge
 
 ## Mogelijke implicaties en risico&#39;s {#implications-and-risks}
 
-Neem de volgende problemen op voordat u als Cloud Service naar Adobe Experience Manager Forms migreert. Wanneer de hieronder vermelde implicaties en risico&#39;s niet worden aangepakt, functioneren sommige eigenschappen niet zoals verwacht in het milieu van de Cloud Service.
+Beantwoord de volgende problemen voordat u naar [!DNL Adobe Experience Manager Forms as a Cloud Service] migreert. Wanneer de hieronder vermelde implicaties en risico&#39;s niet worden aangepakt, functioneren sommige eigenschappen niet zoals verwacht in het milieu van de Cloud Service.
 
 * De functionaliteit van de coderedacteur van de eigenschap van de regelredacteur is niet beschikbaar. (CODE_EDITOR)
 
 * E-mailondersteuning (SMTP-poort) is standaard uitgeschakeld. (EMAIL_SERVICE_CONFIGURATION)
 
-* De verzendactie **[!UICONTROL Email PDF]** is niet beschikbaar.(EMAIL_PDF_SUBMIT_ACTION)
+* De handeling **[!UICONTROL Email PDF]** Verzenden is niet beschikbaar.(EMAIL_PDF_SUBMIT_ACTION)
 
-* Aangepaste XDP-formulieren worden nog niet ondersteund. (XDP_BASED_FORM)
+* Adaptieve Forms op basis van XFA worden nog niet ondersteund. (XFA_BASED_FORM, XDP_BASED_FORM)
 
-* Een verzendactie wordt direct aangeroepen bij het verzenden van een formulier in plaats van te wachten tot alle ondertekenaars de ondertekening hebben voltooid. Het adaptieve document met een formulierhandtekening (PDF-overeenkomst van Adobe Sign verzonden naar ondertekenaars) is dus niet beschikbaar voor het verzenden van handelingen voor gebruik of verwerking. (FORM_SIGN_INTEGRATION)
+* Een handeling Verzenden wordt direct aangeroepen bij het verzenden van een formulier in plaats van te wachten tot alle ondertekenaars de ondertekening hebben voltooid. Het PDF-bestand van de Adobe Sign-overeenkomst dat naar ondertekenaars is verzonden, kan dus niet worden gebruikt of verwerkt door Handelingen verzenden. (FORM_SIGN_INTEGRATION)
 
 * De stap Handtekening is niet beschikbaar. (SIGNATURE_STEP)
 
 * De stap Verifiëren is niet beschikbaar. (VERIFY_STEP)
 
-* De Forms Portal-functie en **[!UICONTROL Forms Portal submit action]** zijn niet beschikbaar. Met Forms Portal kunt u geen formulieren weergeven, concepten opslaan of verzonden formulieren weergeven. U kunt geen gegevens verzenden (gebruik **[!UICONTROL Forms Portal submit action]**) die naar een adaptief formulier zijn verzonden naar een Forms Portal. [!UICONTROL Save as draft] en  [!UICONTROL Auto Save] een adaptieve formulierfunctie worden momenteel niet ondersteund. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL, DRAFT_AUTO_SAVE, DRAFT_SAVE)
+* De Forms Portal-functie en **[!UICONTROL Forms Portal Submit Action]** zijn nog niet beschikbaar. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL, DRAFT_AUTO_SAVE, DRAFT_SAVE)
 
-* De verzendactie **[!UICONTROL Submit to Forms workflow]** is niet beschikbaar. Op AEM 6.5 Forms en eerdere versies werd de verzendactie gebruikt om adaptieve formuliergegevens naar verouderde AEM Forms te verzenden over JEE Workflows en LiveCycle Workflow. (LC_WORKFLOW_SUBMISSION)
+* De handeling **[!UICONTROL Submit to Forms Workflow]** Verzenden is niet beschikbaar. Op [!DNL AEM 6.5 Forms] en eerdere versies is de handeling Verzenden gebruikt om aangepaste formuliergegevens te verzenden naar verouderde [!DNL AEM Forms on JEE] Workflows en LiveCycle Workflow. (LC_WORKFLOW_SUBMISSION)
 
 * Het Interactieve Communicatie vermogen is niet beschikbaar.  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS).
 
@@ -55,34 +55,42 @@ Neem de volgende problemen op voordat u als Cloud Service naar Adobe Experience 
 
 * Metagegevensaccordeon is niet beschikbaar. (METADATA_ACCORDION_FORM_CONTAINER)
 
-* De component CAPTCHA gebruikt nu de Google reCAPTCHA-service om CAPTCHA standaard te valideren. De optie voor het valideren van CAPTCHA met Adobe Experience Manager is niet beschikbaar. (FORMS_CAPTCHA)
+* De component CAPTCHA gebruikt nu de Google reCAPTCHA-service om CAPTCHA standaard te valideren. De optie voor het valideren van CAPTCHA met Adobe Experience Manager is afgekeurd. (FORMS_CAPTCHA)
+
+* [!DNL AEM Forms] is niet beschikbaar voor  [!DNL Cloud Services]. (AEM_FORMS_APP)
+
+* [Documentservices ](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) zijn niet beschikbaar in AEM Workflows. (WORKFLOW_DOCSERVICES)
 
 ## Mogelijke oplossingen {#solutions}
 
 * Gebruik het migratiehulpprogramma om alle regelscripts in uw omgeving om te zetten in herbruikbare functies. U kunt de herbruikbare functies met de Visuele redacteur van de Regel gebruiken om resultaten te blijven verkrijgen die met regelmanuscripten worden verkregen. (CODE_EDITOR)
 
-* Neem contact op met het ondersteuningsteam om de functionaliteit voor e-mail (open SMTP-poort) voor uw omgeving in te schakelen. Standaard zijn alleen uitgaande HTTP- en HTTPS-verbindingen ingeschakeld. (EMAIL_SERVICE_CONFIGURATION)
+* Neem contact op met het ondersteuningsteam om de functionaliteit voor e-mail (open SMTP-poort) voor uw omgeving in te schakelen. Standaard zijn alleen uitgaande HTTP- en HTTPS-verbindingen ingeschakeld. (E-MAIL_SERVICE_CONFIGURATION, stap E-mail)
 
-* Gebruik **[!UICONTROL Email]** verzendt actie in plaats van **[!UICONTROL Email PDF]**. De verzendactie **[!UICONTROL Email]** biedt opties om bijlagen te verzenden en Document of Record (DoR) bij e-mail te voegen. (EMAIL_PDF_SUBMIT_ACTION)
+* Gebruik **[!UICONTROL Email]** Handeling verzenden in plaats van **[!UICONTROL Email PDF]**. De **[!UICONTROL Email]** Handeling verzenden biedt opties voor het verzenden van bijlagen en het toevoegen van Document of Record (DoR) bij e-mail. (EMAIL_PDF_SUBMIT_ACTION)
 
-* Migreer adaptieve formulieren op basis van XDP niet naar een Cloud Service-omgeving. Houd de maandelijkse opmerkingen bij de release in de gaten voor de beschikbaarheid van de functies. (XDP_BASED_FORM)
+* Verzonden gegevens bevatten Adobe Sign-overeenkomst-id. U kunt de id van de Overeenkomst ondertekenen gebruiken om een PDF van de Overeenkomst van het Ondertekenen terug te winnen, indien vereist.  (FORM_SIGN_INTEGRATION)
 
-* Verzonden gegevens bevatten ondertekeningsovereenkomst-id. U kunt de id van de Overeenkomst ondertekenen gebruiken om een PDF van de Overeenkomst van het Ondertekenen terug te winnen, indien vereist.  (FORM_SIGN_INTEGRATION)
+* Verwijder de stap Handtekening uit een bestaand adaptief formulier. Configureer uw adaptieve formulier voor het gebruik van [ondertekeningservaring in de browser](https://medium.com/adobetech/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). De Adobe Sign-overeenkomst wordt weergegeven om de overeenkomst in de browser te ondertekenen wanneer een adaptief formulier wordt verzonden. Ondertekeningservaring in de browser helpt de ondertekenaar sneller te ondertekenen en bespaart tijd. (SIGNATURE_STEP)
 
-* Vervang de stap Handtekening in uw aangepaste formulieren door de optie om een aangepast formulier na verzending te ondertekenen in hetzelfde venster. Hiermee kunt u een [ondertekeningservaring in de browser](https://medium.com/adobetech/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684) blijven bieden. (SIGNATURE_STEP)
+* Verwijder de stap Verifiëren uit uw bestaande Adaptieve Forms voordat u dergelijke formulieren naar een [!DNL Cloud Service]-omgeving verplaatst. (VERIFY_STEP)
 
-* Verwijder de stap Verifiëren uit uw bestaande adaptieve formulieren voordat u deze naar een Cloud Service-omgeving verplaatst. (VERIFY_STEP)
+* Wijzig uw bestaande adaptieve formulieren om [Verzenden naar REST-eindpunt](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [E-mail verzenden](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [Verzenden met gebruik van formuliergegevensmodel](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model) en [Een AEM workflow aanroepen](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Handelingen verzenden. Forms Portal en Forms Portal verzenden Actie zijn nog niet beschikbaar. Houd de maandelijkse opmerkingen bij de release in de gaten voor de beschikbaarheid van de functies. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL)
 
-* Er is geen alternatief voor **[!UICONTROL Forms Portal submit action]**. U kunt deze verzendactie gebruiken als de Forms Portal-functie voor de Cloud Service is uitgebracht. Houd de maandelijkse opmerkingen bij de release in de gaten voor de beschikbaarheid van de functies. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL)
+* U kunt een AEM-workflow ontwikkelen en uw bestaande adaptieve formulieren aanpassen om [AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Actie verzenden te gebruiken om gegevens naar een AEM-workflow te verzenden in plaats van de **[!UICONTROL Submit to Forms Workflow]** Handeling verzenden te gebruiken. U kunt een aangepaste handeling Verzenden ontwikkelen om gegevens, bijlagen of Document of Record (DoR) naar een LiveCycle-proces te verzenden in plaats van de [!UICONTROL Submit to Forms Workflow] te gebruiken. (LC_WORKFLOW_SUBMISSION)
 
-* Er is geen alternatieve verzendactie om acties te verzenden **[!UICONTROL Submit to Forms workflow]**. U kunt een aangepaste verzendactie ontwikkelen om gegevens, bijlagen of Document of Record (DoR) naar een LiveCycle-proces te verzenden. (LC_WORKFLOW_SUBMISSION)
+* Houd een oog op maandelijkse versienota&#39;s voor de beschikbaarheid van de Interactieve eigenschap van Mededelingen. Migreer uw Interactieve Mededelingen, Brieven, en verwante Woordenboeken niet aan een milieu van de Cloud Service tot de eigenschap niet beschikbaar is. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* Migreer uw Interactieve Mededelingen, Brieven, en verwante Woordenboeken niet aan een milieu van de Cloud Service. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
-
-* Schakel de opties **[!UICONTROL Save as draft]** en **[!UICONTROL Enable Auto Save]** in de aangepaste formulieren uit voordat u deze naar de Cloud Service verplaatst. U kunt deze opties inschakelen zodra de Forms Portal-functie voor de Cloud Service wordt vrijgegeven. Houd de maandelijkse opmerkingen bij de release in de gaten voor de beschikbaarheid van de functies. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
+* Schakel de opties **[!UICONTROL Save as draft]** en **[!UICONTROL Enable Auto Save]** in uw adaptieve Forms uit voordat u deze naar de Cloud Service migreert. U kunt deze opties inschakelen zodra de Forms Portal-functie voor de Cloud Service wordt vrijgegeven. Houd de maandelijkse opmerkingen bij de release in de gaten voor de beschikbaarheid van de functies. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
 
 * Er is geen vervanging voor metagegevensaccordeon. Verwijder het bestand uit uw formulieren voordat u het naar de Cloud Service verplaatst.(METADATA_ACCORDION_FORM_CONTAINER)
 
 * Gebruik Google reCaptcha in plaats van de CAPTCHA-service die door Adobe Experience Manager wordt aangeboden. (FORMS_CAPTCHA)
+
+* Adaptive Forms biedt een responsief ontwerp. Deze formulieren wijzigen de weergave, het ontwerp en de interactiviteit op basis van het onderliggende apparaat. U kunt Adaptive Forms blijven gebruiken op een mobiel apparaat terwijl u de maandelijkse releaseopmerkingen bijhoudt voor de beschikbaarheid van de [!DNL AEM Forms]-app. (AEM_FORMS_APP)
+
+* Migreer geen model van het Werkschema van AEM die een stap van het Werkschema van de Diensten van het Document gebruikt. Migreer of werk geen Adaptieve Forms bij die gebruikersgegevens naar een Werkstroommodel verzendt dat de stappen van het Werkschema van de Diensten van het Document gebruikt of verander de Submit Actie in [gesteunde één](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html) alvorens de vorm te migreren. (WORKFLOW_DOCSERVICES)
+
+* Ondersteuning voor adaptieve Forms op basis van XFA is niet beschikbaar in de verpakking. Als u van plan bent om op XFA-Gebaseerde AanpassingsForms te gebruiken, contacteer de Steun van de Adobe met details van uw gebruiksgeval en specifieke vereisten.(XFA_BASED_FORM, XDP_BASED_FORM)
 
 Bereik uit aan [Adobe Steun](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om ongerustheid te richten.
