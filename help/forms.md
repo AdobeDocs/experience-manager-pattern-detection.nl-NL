@@ -2,9 +2,9 @@
 title: FORM
 description: Help-pagina Patroondetectiecode
 translation-type: tm+mt
-source-git-commit: aa44c3ce87496f412191000f1980a7ebbde386cd
+source-git-commit: 9a02482d023ce1a6cbbff24b8e6509c91ddd2a6b
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ De volgende subtypes helpen u de verschillende soorten kwesties identificeren:
 
 * `modified.feature`: Deze functies, elementen of API&#39;s zijn bijgewerkt of gewijzigd voor Cloud Service. Voordat u naar de Cloud Service gaat, voert u het migratiehulpprogramma uit om deze functies en elementen compatibel te maken met de Cloud Service.
 * `unavailable.feature`: Uw omgeving heeft functies en elementen die niet beschikbaar zijn of uit de Cloud Service zijn verwijderd. Migreer dergelijke functies of middelen niet naar een Cloud Service-omgeving.
-* `unsupported.feature`: Uw omgeving gebruikt enkele functies die op de Cloud Service nog niet worden ondersteund. Migreer dergelijke functies of middelen niet naar een Cloud Service-omgeving. Houd de maandelijkse opmerkingen bij de release in de gaten voor de beschikbaarheid van de functies.
-* `unsupported.api`: Uw omgeving heeft enkele API&#39;s die nog niet worden ondersteund op de Cloud Service. Voordat u naar de Cloud Service gaat, schakelt u deze API&#39;s uit, vervangt of verwijdert u ze uit de code. Houd de maandelijkse opmerkingen bij de release in de gaten voor de beschikbaarheid van de functies.
+* `unsupported.feature`: Uw omgeving gebruikt enkele functies die op de Cloud Service nog niet worden ondersteund. Migreer dergelijke functies of middelen niet naar een Cloud Service-omgeving. Raadpleeg de maandelijkse releaseopmerkingen voor informatie over de beschikbaarheid van de functies.
+* `unsupported.api`: Uw omgeving heeft enkele API&#39;s die nog niet worden ondersteund op de Cloud Service. Voordat u naar de Cloud Service gaat, schakelt u deze API&#39;s uit, vervangt of verwijdert u ze uit de code. Raadpleeg de maandelijkse releaseopmerkingen voor informatie over de beschikbaarheid van de functies.
 
 Zie de [Mogelijke implicaties en risico&#39;s](#implications-and-risks) en [Mogelijke oplossingen](#solutions) secties voor informatie over vervangingen en andere acties die worden vereist om sommige eigenschappen en APIs met de Cloud Service compatibel te maken
 
@@ -75,19 +75,19 @@ Beantwoord de volgende problemen voordat u naar [!DNL Adobe Experience Manager F
 
 * Verwijder de stap Verifiëren uit uw bestaande Adaptieve Forms voordat u dergelijke formulieren naar een [!DNL Cloud Service]-omgeving verplaatst. (VERIFY_STEP)
 
-* Wijzig uw bestaande adaptieve formulieren om [Verzenden naar REST-eindpunt](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [E-mail verzenden](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [Verzenden met gebruik van formuliergegevensmodel](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model) en [Een AEM workflow aanroepen](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Handelingen verzenden. Forms Portal en Forms Portal verzenden Actie zijn nog niet beschikbaar. Houd de maandelijkse opmerkingen bij de release in de gaten voor de beschikbaarheid van de functies. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL)
+* Wijzig uw bestaande adaptieve formulieren om [Verzenden naar REST-eindpunt](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [E-mail verzenden](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [Verzenden met gebruik van formuliergegevensmodel](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model) en [Een AEM workflow aanroepen](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Handelingen verzenden. Forms Portal en Forms Portal verzenden Actie zijn nog niet beschikbaar. Raadpleeg de maandelijkse releaseopmerkingen voor informatie over de beschikbaarheid van de functies. (FORMS_PORTAL_SUBMISSION, FORMS_PORTAL)
 
 * U kunt een AEM-workflow ontwikkelen en uw bestaande adaptieve formulieren aanpassen om [AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Actie verzenden te gebruiken om gegevens naar een AEM-workflow te verzenden in plaats van de **[!UICONTROL Submit to Forms Workflow]** Handeling verzenden te gebruiken. U kunt een aangepaste handeling Verzenden ontwikkelen om gegevens, bijlagen of Document of Record (DoR) naar een LiveCycle-proces te verzenden in plaats van de [!UICONTROL Submit to Forms Workflow] te gebruiken. (LC_WORKFLOW_SUBMISSION)
 
-* Houd een oog op maandelijkse versienota&#39;s voor de beschikbaarheid van de Interactieve eigenschap van Mededelingen. Migreer uw Interactieve Mededelingen, Brieven, en verwante Woordenboeken niet aan een milieu van de Cloud Service tot de eigenschap niet beschikbaar is. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
+* Zoek maandelijkse versienota&#39;s voor informatie over beschikbaarheid van de Interactieve eigenschap van Mededelingen. Migreer uw Interactieve Mededelingen, Brieven, en verwante Woordenboeken niet aan een milieu van de Cloud Service tot de eigenschap niet beschikbaar is. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* Schakel de opties **[!UICONTROL Save as draft]** en **[!UICONTROL Enable Auto Save]** in uw adaptieve Forms uit voordat u deze naar de Cloud Service migreert. U kunt deze opties inschakelen zodra de Forms Portal-functie voor de Cloud Service wordt vrijgegeven. Houd de maandelijkse opmerkingen bij de release in de gaten voor de beschikbaarheid van de functies. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
+* Schakel de opties **[!UICONTROL Save as draft]** en **[!UICONTROL Enable Auto Save]** in uw adaptieve Forms uit voordat u deze naar de Cloud Service migreert. U kunt deze opties inschakelen zodra de Forms Portal-functie voor de Cloud Service wordt vrijgegeven. Raadpleeg de maandelijkse releaseopmerkingen voor informatie over de beschikbaarheid van de functies. (DRAFT_AUTO_SAVE, DRAFT_SAVE)
 
 * Er is geen vervanging voor metagegevensaccordeon. Verwijder het bestand uit uw formulieren voordat u het naar de Cloud Service verplaatst.(METADATA_ACCORDION_FORM_CONTAINER)
 
 * Gebruik Google reCaptcha in plaats van de CAPTCHA-service die door Adobe Experience Manager wordt aangeboden. (FORMS_CAPTCHA)
 
-* Adaptive Forms biedt een responsief ontwerp. Deze formulieren wijzigen de weergave, het ontwerp en de interactiviteit op basis van het onderliggende apparaat. U kunt Adaptive Forms blijven gebruiken op een mobiel apparaat terwijl u de maandelijkse releaseopmerkingen bijhoudt voor de beschikbaarheid van de [!DNL AEM Forms]-app. (AEM_FORMS_APP)
+* Adaptive Forms biedt een responsief ontwerp. Deze formulieren wijzigen de weergave, het ontwerp en de interactiviteit op basis van het onderliggende apparaat. U kunt Adaptive Forms blijven gebruiken op een mobiel apparaat. Raadpleeg de maandelijkse releaseopmerkingen voor informatie over de beschikbaarheid van de [!DNL AEM Forms]-app. (AEM_FORMS_APP)
 
 * Migreer geen model van het Werkschema van AEM die een stap van het Werkschema van de Diensten van het Document gebruikt. Migreer of werk geen Adaptieve Forms bij die gebruikersgegevens naar een Werkstroommodel verzendt dat de stappen van het Werkschema van de Diensten van het Document gebruikt of verander de Submit Actie in [gesteunde één](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html) alvorens de vorm te migreren. (WORKFLOW_DOCSERVICES)
 
