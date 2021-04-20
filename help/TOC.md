@@ -4,7 +4,7 @@ user-guide-title: Experience Manager Patroondetectiegids
 breadcrumb-title: AEM patroondetectie
 user-guide-description: Meer informatie over Adobe Experience Manager Pattern Detection.
 feature-set: Experience Manager
-feature: Gereedschappen voor ontwikkelaars
+feature: Developer Tools
 role: Developer
 translation-type: tm+mt
 source-git-commit: a6ba6e93c89644160650882ecbf17028bec35068
