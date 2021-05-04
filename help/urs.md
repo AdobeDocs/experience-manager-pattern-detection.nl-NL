@@ -1,18 +1,24 @@
 ---
 title: URS
 description: Help-pagina Patroondetectiecode
+exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
 translation-type: tm+mt
-source-git-commit: 5a83dd8d08da974a5d775032b8dbea2593be9d15
+source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
-
 # URS {#urs}
 
 Niet-ondersteunde gegevensopslagstructuur
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_urs_overview"
+>title="Niet-ondersteunde gegevensopslagstructuur"
+>abstract="URS identificeert gevallen van niet-ondersteunde gegevensopslagstructuur. Deze oppervlakken bevatten informatie om conflicten te voorkomen tussen AEM productcode en klantcode, inhoud die vanuit /etc wordt geherstructureerd naar andere mappen in de opslagplaats en meer."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="Repositoregeling"
 
 ## Achtergrond {#background}
 
@@ -34,6 +40,13 @@ Subtypes worden gebruikt om de specifieke types van bewaarplaatskwesties te iden
 * Pakketten met zowel muteerbare als onveranderlijke inhoud veroorzaken waarschijnlijk problemen tijdens plaatsing.
 
 ## Mogelijke oplossingen {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_urs_guidance"
+>title="Implementatieleiding"
+>abstract="De beste praktijken zijn overzicht uw codeproject en zorgen ervoor het zich aan de AEM projectstructuurrichtlijnen houdt en vermijden code die op oudere/niet gestaafde opbergwegen baseert die ongewenste gedrag in AEM als Cloud Service kan veroorzaken. Neem contact op met Adobe Support voor hulp en uitleg"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html" text="Richtlijnen voor projectstructuur AEM"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
 
 * Zie [Herstructurering van opslagplaats](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html) voor richtsnoeren ter voorbereiding op AEM als Cloud Service.
 * Raadpleeg ook [AEM Projectstructuur](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) voor meer informatie over veranderbare en onveranderlijke gebieden van de opslagplaats.
