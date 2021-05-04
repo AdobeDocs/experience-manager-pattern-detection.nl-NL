@@ -1,20 +1,25 @@
 ---
 title: IOI
 description: Help-pagina Patroondetectiecode
+exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
 translation-type: tm+mt
-source-git-commit: 4f94d4a1e0b8eb7bedbedba2c8a683f34655b527
+source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
-
 
 # IOI {#ioi}
 
 Importeren van intern eiken
 
 ## Achtergrond {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ioi_overview"
+>title="Importeren van intern eiken"
+>abstract="IOI-code identificeert het gebruik door klanten van interne eiken-pakketten, die ze via OSGi importeren. Zij worden gewoonlijk zonder bepaalde versie uitgevoerd en zijn uitsluitend bestemd voor consumptie door andere eikenbundels of laagactieve AEM."
 
 `IOI` identificeert klantengebruik van interne pakketten van eikenhout, die hen via OSGi invoeren. Zij worden gewoonlijk zonder bepaalde versie uitgevoerd en zijn uitsluitend bestemd voor consumptie door andere eikenbundels of laagactieve AEM.
 
@@ -26,6 +31,12 @@ Sommige hiervan worden gebruikt door `com.adobe.granite.repository`, die een bew
 * API in interne export kan veranderen.
 
 ## Mogelijke oplossingen {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_ioi_guidance"
+>title="Implementatieleiding"
+>abstract="Klanten dienen hun aangepaste code te herzien om het gebruik van dergelijke API&#39;s te identificeren en deze als Cloud Service compatibel met AEM te maken. Neem contact op met Adobe Support voor hulp en uitleg"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
 
 * Gebruik de Sling Resource API (of de JCR API) in plaats van toegang op laag niveau.
 * Vermijd dat dit afhankelijk is van interne pakketten die geen deel uitmaken van een openbare API of SPI.
