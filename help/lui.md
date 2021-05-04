@@ -1,20 +1,26 @@
 ---
 title: LUI
 description: Help-pagina Patroondetectiecode
+exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
 translation-type: tm+mt
-source-git-commit: a2c7137dd5cb2479bc0c6134d3afa58111049a68
+source-git-commit: 76dc944f1592118920f89c513faf456b8aa443a9
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '554'
 ht-degree: 2%
 
 ---
-
 
 # LUI {#lui}
 
 Oudere gebruikersinterface
 
 ## Achtergrond {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_lui_overview"
+>title="Oudere gebruikersinterface"
+>abstract="LUI identificeert het gebruik van verouderde gebruikersinterface-elementen die niet worden aanbevolen of niet worden ondersteund in latere versies van AEM en in AEM als Cloud Service."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="Opvallende wijzigingen - AEM als Cloud Service"
 
 `LUI` identificeert het gebruik van vervangen gebruikersinterface-elementen die niet worden aanbevolen of niet worden ondersteund in latere versies van AEM en in AEM als Cloud Service.
 
@@ -37,10 +43,23 @@ en de eigenschapswaarde `sling:resourceType` bevat niet
 
 ## Mogelijke implicaties en risico&#39;s {#implications-and-risks}
 
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_lui_guidance"
+>title="Implementatieleiding"
+>abstract="De klassieke UI is niet meer beschikbaar in AEM als Cloud Service en de standaardinterface voor creatie is Touch-Toegelaten UI. De beste praktijken moeten alle niet gestaafde interfaces bewegen en de verbonden aanpassingen zouden aan nieuwere eigenschappen/mogelijkheden moeten worden refactored die met AEM als Cloud Service compatibel zijn. Klanten kunnen de bestaande AEM Modernization Suite gebruiken om de inspanningen te verminderen die nodig zijn om de AEM Sites-implementaties te moderniseren."
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/" text="AEM-moderniseringstools"
+
 * De klassieke gebruikersinterface is niet meer beschikbaar in AEM als Cloud Service. De standaardinterface voor ontwerpen is de interface met aanraakbediening.
 * Het vertrouwen op verouderde douanecomponenten kan onderhoudskosten in tijd verhogen.
 
 ## Mogelijke oplossingen {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_lui_tools"
+>title="Hulpmiddelen &amp; Middelen"
+>abstract="Met behulp van AEM Modernization Suite kunnen klanten de dialoog Classic (ExtJS) omzetten in de dialoogvensters Coral. De bedoeling is om klanten te helpen van de niet-ondersteunde of oudere functies over te stappen op het robuuste, moderne AEM. Deze hulpmiddelen zijn vervormbaar, configuratie-bewust en verlengbaar. Ook, verken vervanging van douanecomponenten met de reeks gestandaardiseerde Componenten van de Kern om de ontwikkelingstijd te versnellen en de onderhoudskosten van uw toepassingen te drukken."
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="Componentconversie"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Kernonderdelen"
 
 * Gebruik [AEM Moderniseringsreeks](https://opensource.adobe.com/aem-modernize-tools/) om de inspanning te verminderen nodig om uw implementaties van AEM Sites te moderniseren. Deze gereedschappen zijn onder andere:
    * Klassieke (ExtJS) Dialoogvensters naar Coral Dialogs
