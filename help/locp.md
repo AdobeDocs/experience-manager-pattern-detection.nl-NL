@@ -1,20 +1,27 @@
 ---
 title: LOCP
 description: Help-pagina Patroondetectiecode
+exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
 translation-type: tm+mt
-source-git-commit: 4f94d4a1e0b8eb7bedbedba2c8a683f34655b527
+source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
-
 
 # LOCP {#locp}
 
 /libs Overwriting Custom Packages
 
 ## Achtergrond {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_locp_overview"
+>title="/libs Overwriting Custom Packages"
+>abstract="LOCP identificeert de opsporing van een douanepakket dat inhoud aan /libs levert, die een anti-patroon (behalve in het geval ACLs) is."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html" text="Duurzame verbeteringen"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html#platform" text="Samenvoegen van verkoopbronnen"
 
 `LOCP` identificeert de opsporing van een douanepakket dat inhoud aan levert,  `/libs`die een anti-patroon (behalve in het geval ACLs) is.
 
@@ -24,6 +31,13 @@ ht-degree: 0%
 * In sommige gevallen wordt de nieuwe inhoud mogelijk niet correct geïnstalleerd.
 
 ## Mogelijke oplossingen {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_locp_guidance"
+>title="Implementatieleiding"
+>abstract="Klanten dienen hun aangepaste code en pakketten te controleren om na te gaan of inhoud wordt geleverd aan /libs en deze opnieuw te ordenen op bedekking van de inhoud onder /apps en deze compatibel te maken met AEM als Cloud Service. Neem contact op met Adobe Support voor hulp en uitleg"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html#platform" text="Bedekkingen"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
 
 * Klantpakketten moeten inhoud implementeren op `/apps` in plaats van `/libs`.
 * Neem contact op met ons [AEM ondersteuningsteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor meer informatie of voor meer informatie.
