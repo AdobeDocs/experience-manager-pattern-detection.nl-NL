@@ -1,20 +1,26 @@
 ---
 title: FORM
 description: Help-pagina Patroondetectiecode
+exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
 translation-type: tm+mt
-source-git-commit: 9a02482d023ce1a6cbbff24b8e6509c91ddd2a6b
+source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL FORMS] {#form}
 
 [!DNL Adobe Experience Manager Forms]
 
 ## Achtergrond {#background}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_forms_overview"
+>title="Forms"
+>abstract="In de Forms-code worden potentiële problemen met betrekking tot migratie van Adobe Experience Manager Forms naar Adobe Experience Manager Forms als Cloud Service geïdentificeerd. Bekijk de mogelijke implicaties en risico&#39;s die aan deze problemen zijn verbonden en pak deze problemen aan voordat u naar de Cloud Service gaat."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/forms.html#implications-and-risks" text="Mogelijke gevolgen en risico&#39;s"
 
 `FORMS` Hiermee worden mogelijke problemen met betrekking tot migratie van  [!DNL Adobe Experience Manager Forms] naar  [!DNL Adobe Experience Manager Form]s aangegeven als een  [!DNL Cloud Service]. Deze problemen verhelpen voordat u naar [!DNL Cloud Service] migreert.
 
@@ -62,6 +68,12 @@ Beantwoord de volgende problemen voordat u naar [!DNL Adobe Experience Manager F
 * [Documentservices ](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) zijn niet beschikbaar in AEM Workflows. (WORKFLOW_DOCSERVICES)
 
 ## Mogelijke oplossingen {#solutions}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_bpa_forms_guidance"
+>title="Implementatieleiding"
+>abstract="Informatie die via FORMS-code wordt weergegeven, kan u helpen bij vervangingen en andere acties die nodig zijn om bepaalde functies en API&#39;s compatibel te maken met de Cloud Service. Neem contact op met Adobe Support voor hulp en uitleg"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
 
 * Gebruik het migratiehulpprogramma om alle regelscripts in uw omgeving om te zetten in herbruikbare functies. U kunt de herbruikbare functies met de Visuele redacteur van de Regel gebruiken om resultaten te blijven verkrijgen die met regelmanuscripten worden verkregen. (CODE_EDITOR)
 
