@@ -2,10 +2,9 @@
 title: ASO
 description: Help-pagina Patroondetectiecode
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-translation-type: tm+mt
-source-git-commit: 449288e567adda9998a89e0ad5198fd5a4e93f35
+source-git-commit: dc9d6c94d5a724cf24890378ba6a8af7396760c6
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -28,13 +27,13 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 
 * `aem.version`: De AEM versie.
 * `aem.product`: Detectie van het gebruik van een AEM product (handel, Forms, enz.).
-* `node.count`: Het aantal knooppunten van een bepaald type (Pagina, Element, enz.).
-* `node.store`: Het implementatietype van de knoopopslag (SegmentNodeStore, DocumentNodeStore).
+* `node.count`: Het aantal knooppunten van een bepaald type (pagina, element, enz.) en het totaal aan knooppunten.
+* `node.store`: Het implementatietype van de knoopopslag (SegmentNodeStore, DocumentNodeStore) en zijn grootte.
 * `data.store`: Het implementatietype voor gegevensopslag (FileDataStore, S3DataStore, AzureDataStore).
 * `maintenance.task`: Een onderhoudstaak.
 * `slow.query`: Een langzame query.
 
-## Mogelijke implicaties en risico&#39;s {#implications-and-risks}
+## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
 * De AEM versie, knooptellingen, en de de implementatietypen van de archiefopslag en van de gegevensopslag worden verstrekt voor informatiedoeleinden.
 * De aangepaste toepassing kan afhankelijk zijn van producten of functies die niet in AEM als Cloud Service beschikbaar zijn.
