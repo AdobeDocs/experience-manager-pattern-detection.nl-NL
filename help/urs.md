@@ -2,9 +2,9 @@
 title: URS
 description: Help-pagina Patroondetectiecode
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 8539f5957d7f98af17819d3dd087272f029791aa
+source-git-commit: 9d92254d2f5e84f833ed6926a0ae69b334730d21
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,16 @@ Niet-ondersteunde gegevensopslagstructuur
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="Niet-ondersteunde gegevensopslagstructuur"
->abstract="URS identificeert gevallen van niet-ondersteunde gegevensopslagstructuur. Deze oppervlakken bevatten informatie om conflicten te voorkomen tussen AEM productcode en klantcode, inhoud die vanuit /etc wordt geherstructureerd naar andere mappen in de opslagplaats en meer."
+>abstract="URS identificeert gevallen van niet-ondersteunde repository structuur en knooppuntkenmerken. Deze oppervlakken bevatten informatie om conflicten te voorkomen tussen AEM productcode en klantcode, inhoud die vanuit /etc wordt geherstructureerd naar andere mappen in de opslagplaats en meer."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/restructuring/repository-restructuring.html" text="Repositoregeling"
 
 ## Achtergrond {#background}
 
-`URS` identificeert gevallen van niet-ondersteunde gegevensopslagstructuur. Vanaf AEM 6.4 zijn er richtsnoeren voor de herstructurering van de inhoud van de opslagplaats opgesteld. Door hiërarchieën voor AEM productcode en klantcode duidelijk te omlijnen en conflicten tussen hen te vermijden, wordt de inhoud geherstructureerd uit `/etc` aan andere omslagen in de bewaarplaats, die de volgende regels op hoog niveau volgen:
+`URS` identificeert gevallen van niet-ondersteunde repository structuur en knooppuntkenmerken. Vanaf AEM 6.4 zijn er richtsnoeren voor de herstructurering van de inhoud van de opslagplaats opgesteld. Door hiërarchieën voor AEM productcode en klantcode duidelijk te omlijnen en conflicten tussen hen te vermijden, wordt de inhoud geherstructureerd uit `/etc` aan andere omslagen in de bewaarplaats, die de volgende regels op hoog niveau volgen:
 
-* AEM productcode wordt altijd in `/libs` geplaatst, die niet door douanecode moet worden beschreven de code van de Douane zou in `/apps`, `/content`, en `/conf` moeten worden geplaatst.
+* AEM productcode wordt altijd in `/libs` geplaatst, die niet door douanecode moet worden beschreven.
+* Aangepaste code moet worden geplaatst in `/apps`, `/content` en `/conf`.
+* AEM als Cloud Service biedt geen ondersteuning voor lange knooppuntnamen (>150 bytes).
 * Het wordt ten zeerste aanbevolen dat deze richtsnoeren voor AEM als Cloud Service worden gevolgd.
 
 Subtypes worden gebruikt om de specifieke types van bewaarplaatskwesties te identificeren die zouden moeten worden opgelost:
