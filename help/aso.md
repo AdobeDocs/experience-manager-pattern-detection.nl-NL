@@ -2,9 +2,9 @@
 title: ASO
 description: Help-pagina Patroondetectiecode
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: dc9d6c94d5a724cf24890378ba6a8af7396760c6
+source-git-commit: 3e05ecb2c78b0ebf97d334cf592347b54255c75f
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Systeemoverzicht AEM
 >id="aemcloud_bpa_aso_overview"
 >title="Systeemoverzicht AEM"
 >abstract="ASO-code identificeert algemene informatie over de AEM. Elke vondst verstrekt één waarde van een bepaald type van systeeminformatie die in uw migratieplanning en refactoring inspanning kan helpen."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM als Cloud Service - Opmerkingen bij de release"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="AEM as a Cloud Service - Opmerkingen bij de release"
 
 `ASO` identificeert algemene informatie over de AEM instantie. Elke bevinding biedt één waarde voor een bepaald type systeeminformatie.
 
@@ -32,11 +32,12 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 * `data.store`: Het implementatietype voor gegevensopslag (FileDataStore, S3DataStore, AzureDataStore).
 * `maintenance.task`: Een onderhoudstaak.
 * `slow.query`: Een langzame query.
+* `group.membership`: Het aantal gebruikers en subgroepen (alleen directe/gedeclareerde leden) in een groep.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
-* De AEM versie, knooptellingen, en de de implementatietypen van de archiefopslag en van de gegevensopslag worden verstrekt voor informatiedoeleinden.
-* De aangepaste toepassing kan afhankelijk zijn van producten of functies die niet in AEM als Cloud Service beschikbaar zijn.
+* De AEM versie, knooptellingen, groepslidmaatschap en knoopopslag en de implementatietypen van de gegevensopslag worden verstrekt voor informatiedoeleinden.
+* De aangepaste toepassing kan afhankelijk zijn van producten of functies die niet beschikbaar zijn in AEM as a Cloud Service.
 * Een upgrade met niet-ondersteunde functies kan resulteren in een mislukte upgrade en een niet-functionele toepassing.
 
 ## Mogelijke oplossingen {#solutions}
@@ -44,9 +45,9 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_aso_guidance"
 >title="Implementatieleiding"
->abstract="Informatie die via ASO-code wordt weergegeven, biedt algemene informatie voor uw AEM omgeving, zoals versie, productinvoegtoepassingen, systeeminformatie. Deze informatie moet worden gecontroleerd voor niet-ondersteunde producten of functies in AEM als Cloud Service. Neem contact op met Adobe Support voor hulp en verduidelijkingen."
+>abstract="Informatie die via ASO-code wordt weergegeven, biedt algemene informatie voor uw AEM omgeving, zoals versie, productinvoegtoepassingen, systeeminformatie. Deze informatie moet worden gecontroleerd voor niet-ondersteunde producten of functies in AEM as a Cloud Service. Neem contact op met Adobe Support voor hulp en verduidelijkingen."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
 
 * AEM upgrades met niet-ondersteunde producten of functies worden niet aanbevolen en worden mogelijk niet ondersteund.
-* Bekijk de [releaseopmerkingen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) voor meer informatie over de laatste wijzigingen in AEM als Cloud Service.
-* Neem contact op met ons [AEM ondersteuningsteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor meer informatie of voor meer informatie.
+* Controleer de [releaseopmerkingen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) voor meer informatie over de meest recente wijzigingen in AEM as a Cloud Service.
+* Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
