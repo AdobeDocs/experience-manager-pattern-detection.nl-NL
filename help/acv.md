@@ -1,8 +1,8 @@
 ---
 title: ACV
 description: Help-pagina Patroondetectiecode
-exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a5
-source-git-commit: 66489471aef923c6ab7e02acbab5f941b6459000
+exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
+source-git-commit: 301aef7e53e94eb5941691450b3f1192408f2c6b
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -19,10 +19,10 @@ Assets Content Validator
 >id="aemcloud_bpa_acv_overview"
 >title="Assets Content Validator"
 >abstract="ACV identificeert de ontbrekende verplichte knooppunten in de inhoud van elementen."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html" text="Opvallende wijzigingen - Experience Managers als Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="Experience Manager als Cloud Service - Opmerkingen bij de release"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/home.html" text="Opmerkelijke wijzigingen - Experience Manager as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="Experience Manager as a Cloud Service - Opmerkingen bij de release"
 
-`ACV`  De Content Validator van activa identificeert de ontbrekende verplichte knopen in activa inhoud. Dit kan ertoe leiden dat bepaalde elementen van Activa bij Experience Manager als Cloud Service niet correct zijn.
+`ACV`  De Content Validator van activa identificeert de ontbrekende verplichte knopen in activa inhoud. Dit kan ertoe leiden dat bepaalde elementen van Activa op as a Cloud Service Experience Manager niet correct zijn.
 
 Subtypes worden gebruikt om de verschillende soorten informatie te identificeren, zoals:
 
@@ -31,7 +31,7 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
-* Dit kan ertoe leiden dat bepaalde functies van Elementen die afhankelijk zijn van overerfde eigenschappen in Experience Manager als Cloud Service, mislukken.
+* Dit kan tot mislukken van bepaalde eigenschappen van Activa leiden die van geërfte eigenschappen in as a Cloud Service Experience Manager afhangen.
 * AEM Assets is afhankelijk van het bestaan van de oorspronkelijke uitvoering. De verwerking van het element in de Cloud Service verloopt in een lus als de oorspronkelijke uitvoering ontbreekt.
 
 ## Mogelijke oplossingen {#solutions}
@@ -44,4 +44,4 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 
 * Analyseer een map als er een onderliggend knooppunt ontbreekt. Maak de knooppunten handmatig als het aantal mappen kan worden beheerd. Gebruik anders een script.
 * Voor de elementen die de oorspronkelijke uitvoering missen, uploadt u de elementen opnieuw of verwijdert u deze voordat u migreert.
-* Bereik uit aan ons [team van de Zorg van de Klant van de Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om ongerustheid te richten.
+* Bereik onze [Klantenzorgteam van Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
