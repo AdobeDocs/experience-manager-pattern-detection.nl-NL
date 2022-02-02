@@ -2,9 +2,9 @@
 title: ASO
 description: Help-pagina Patroondetectiecode
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 3e05ecb2c78b0ebf97d334cf592347b54255c75f
+source-git-commit: d45c6b561a9665cbac39bfd8d9ce6eb2658c24e8
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,14 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 * `maintenance.task`: Een onderhoudstaak.
 * `slow.query`: Een langzame query.
 * `group.membership`: Het aantal gebruikers en subgroepen (alleen directe/gedeclareerde leden) in een groep.
+* `cqtag.count`: Het aantal gecodeerde CQ-elementen.
+* `smarttag.count`: Het aantal slimme gelabelde elementen.
+* `ccom.version`: De versie van het pakket Core Component.
+* `instance.type`: Het AEM instantietype (auteur|publish).
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
-* De AEM versie, knooptellingen, groepslidmaatschap en knoopopslag en de implementatietypen van de gegevensopslag worden verstrekt voor informatiedoeleinden.
+* De AEM versie, knooppuntaantallen, groepslidmaatschap, knoopopslag, de types van implementatie van de gegevensopslag, CQ Telling van de Markering, Slimme Telling van de Markering, de versie van de Component van de Kern en AEM instantietype worden verstrekt voor informatiedoeleinden.
 * De aangepaste toepassing kan afhankelijk zijn van producten of functies die niet beschikbaar zijn in AEM as a Cloud Service.
 * Een upgrade met niet-ondersteunde functies kan resulteren in een mislukte upgrade en een niet-functionele toepassing.
 
