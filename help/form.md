@@ -2,9 +2,9 @@
 title: FORM
 description: Help-pagina Patroondetectiecode
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 6b4d13ba49aba72be60f01eb040b0cb7e7741694
+source-git-commit: 127f6ee2268d27d78067f030ef343da50a625004
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -58,9 +58,9 @@ De volgende problemen verhelpen voordat u naar [!DNL Adobe Experience Manager Fo
 
 * De component CAPTCHA gebruikt nu de Google reCAPTCHA-service om CAPTCHA standaard te valideren. De optie voor het valideren van CAPTCHA met Adobe Experience Manager is afgekeurd. (FORMS_CAPTCHA)
 
-* [Document Services](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) stappen zijn niet beschikbaar in AEM Workflows. (WORKFLOW_DOCSERVICES)
-
 * [!DNL AEM Forms] app is niet beschikbaar voor [!DNL Cloud Services]. (AEM_FORMS_APP)
+
+* [Document Services](https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en#deployment-topology) stappen zijn niet beschikbaar in AEM Workflows. (WORKFLOW_DOCSERVICES)
 
 ## Mogelijke oplossingen {#solutions}
 
@@ -94,8 +94,8 @@ De volgende problemen verhelpen voordat u naar [!DNL Adobe Experience Manager Fo
 
 * Migreer geen model van het Werkschema van AEM die een stap van het Werkschema van de Diensten van het Document gebruikt. Migreer of werk geen Adaptieve Forms bij die gebruikersgegevens naar een Werkstroommodel verzendt dat de stappen van het Werkschema van de Diensten van het Document gebruikt of verander de Submit Actie in [ondersteund één](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html) voordat u het formulier migreert. (WORKFLOW_DOCSERVICES)
 
-* Ondersteuning voor adaptieve Forms op basis van XFA is niet beschikbaar in de verpakking. Als u van plan bent om op XFA-Gebaseerde AanpassingsForms te gebruiken, contacteer de Steun van de Adobe met details van uw gebruiksgeval en specifieke vereisten.(XFA_BASED_FORM, XDP_BASED_FORM)
-
 * Adaptive Forms biedt een responsief ontwerp. Deze formulieren wijzigen de weergave, het ontwerp en de interactiviteit op basis van het onderliggende apparaat. U kunt Adaptive Forms blijven gebruiken op een mobiel apparaat. Zoek naar maandelijkse versienota&#39;s voor informatie over beschikbaarheid van [!DNL AEM Forms] app. (AEM_FORMS_APP)
+
+* Ondersteuning voor adaptieve Forms op basis van XFA is niet beschikbaar in de verpakking. Als u van plan bent om op XFA-Gebaseerde AanpassingsForms te gebruiken, contacteer de Steun van de Adobe met details van uw gebruiksgeval en specifieke vereisten.(XFA_BASED_FORM, XDP_BASED_FORM)
 
 Uitstrekken tot [Adobe-ondersteuning](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
