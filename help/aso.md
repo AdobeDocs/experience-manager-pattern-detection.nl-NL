@@ -2,9 +2,9 @@
 title: ASO
 description: Help-pagina Patroondetectiecode
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: ff4f798d540d52d7875e514a2edb959e64e068fb
+source-git-commit: a6bb7df8d0fbad0a233db6972bbb82902aa60c4b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 * `ccom.version`: De versie van het pakket Core Component.
 * `instance.type`: Het AEM instantietype (auteur|publish).
 * `unprocessed.asset.count`: Het aantal onverwerkte activa.
+* `vanity.url.count`: Het aantal vanity URL&#39;s.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
