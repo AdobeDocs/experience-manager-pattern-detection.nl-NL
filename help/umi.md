@@ -2,9 +2,9 @@
 title: UMI
 description: Help-pagina Patroondetectiecode
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: e72ddc20578f8ca736da198e626478816e7ca641
+source-git-commit: b19818f3f043641328b68adfe37a9c9cb09d1143
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,9 @@ De volgende configuraties worden gecontroleerd op wijziging:
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
 
 * Wijzig of verwijder de vier bovenstaande configuraties niet.
+   * In geval van de volgende schending:\
+      &quot;Vereiste eigenschappen voor de OSGi-configuratie &#39;xyz-configuration&#39; ontbreken: &#39;[property-1,property-2...]&quot;.&quot;\
+      Gelieve te bevestigen of deze schrappingen wettig of niet zijn aangezien deze configuraties OOTB zijn en nooit van de Manager van OSGi Config gewijzigd/bewaard zouden kunnen zijn.
 * Als configuraties zijn gewijzigd, moeten ze worden teruggezet op de verwachte waarden. Deze waarden worden vermeld in het `UMI` berichten.
 * Voor `com.day.cq.commons.impl.ExternalizerImpl`, gelieve [documentatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/externalizer.html?lang=en) voor het instellen van externalizer config met gebruik van de omgevingsvariabelen van de cloud manager in AEM as a Cloud Service.
 * Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
