@@ -2,9 +2,9 @@
 title: ASO
 description: Help-pagina Patroondetectiecode
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a3b610f2028c4923344672dd71c2bd5d252a35c4
+source-git-commit: 9b46c353b052da43eca7ed636f62e08109f74aab
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,7 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 * `instance.type`: Het AEM instantietype (auteur|publish).
 * `unprocessed.asset.count`: Het aantal onverwerkte activa.
 * `vanity.url.count`: Het aantal vanity URL&#39;s.
+* `index.size`: Totale migreerbare indexgrootte van Lucene.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
