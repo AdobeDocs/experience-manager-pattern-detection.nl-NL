@@ -2,7 +2,7 @@
 title: LUI
 description: Help-pagina Patroondetectiecode
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 1dbb239f23986f11c0dd6bfa883d8ab9124c0b52
+source-git-commit: 1c2d064c239ad6f5599678d8057fe2a6b7fd8d01
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 1%
@@ -57,8 +57,8 @@ Subtypes worden gebruikt om de verschillende types van gebruikersinterfaceelemen
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_lui_tools"
 >title="Hulpmiddelen &amp; Middelen"
->abstract="Met behulp van AEM Modernization Suite kunnen klanten de dialoog Classic (ExtJS) omzetten in de dialoogvensters Coral. De bedoeling is om klanten te helpen van de niet-ondersteunde of oudere functies over te stappen op het robuuste, moderne AEM. Deze hulpmiddelen zijn vervormbaar, configuratie-bewust en verlengbaar. Ook, verken vervanging van douanecomponenten met de reeks gestandaardiseerde Componenten van de Kern om de ontwikkelingstijd te versnellen en de onderhoudskosten van uw toepassingen te drukken."
->additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/tools/component.html" text="Componentconversie"
+>abstract="Met behulp van AEM Modernization Suite kunnen klanten de dialoog Classic (ExtJS) omzetten in de dialoogvensters Coral. De bedoeling is om klanten te helpen van de niet-ondersteunde of oudere functies over te stappen op het robuuste, moderne AEM. Deze hulpmiddelen zijn configureerbaar, configuratie-bewust en verlengbaar. Ook, verken vervanging van douanecomponenten met de reeks gestandaardiseerde Componenten van de Kern om de ontwikkelingstijd te versnellen en de onderhoudskosten van uw toepassingen te drukken."
+>additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/component/about.html" text="Componentconversie"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html" text="Kernonderdelen"
 
 * Gebruiken [AEM Moderniseringsgereedschapsset](https://opensource.adobe.com/aem-modernize-tools/) om de inspanningen te verminderen die nodig zijn om uw AEM Sites-implementaties te moderniseren. Deze gereedschappen zijn onder andere:
