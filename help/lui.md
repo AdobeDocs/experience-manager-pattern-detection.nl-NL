@@ -2,9 +2,9 @@
 title: LUI
 description: Help-pagina Patroondetectiecode
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 1c2d064c239ad6f5599678d8057fe2a6b7fd8d01
+source-git-commit: 1553f13b8d6b92363a80298b4d05bd885c6f3a6a
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '783'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,8 @@ Subtypes worden gebruikt om de verschillende types van gebruikersinterfaceelemen
    * U vindt sjablonen voor inhoudsfragmenten op de volgende locaties:
       * Sjablonen voor inhoudsfragmenten buiten het vak worden opgeslagen in `/libs/settings/dam/cfm/templates`
       * Ze kunnen worden overlapt in  `/apps/settings/dam/cfm/templates`  of  `/conf/.../settings/dam/cfm/templates`(... = globale of &quot;huurder&quot;)
+* `translation.dictionary`: I18n-woordenboek aanwezig onder /apps.
+   * /apps is onveranderlijk bij runtime en translator.html zou niet meer in AEM als wolkendienst beschikbaar zijn.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -51,6 +53,7 @@ Subtypes worden gebruikt om de verschillende types van gebruikersinterfaceelemen
 * De klassieke gebruikersinterface is niet meer beschikbaar in AEM as a Cloud Service. De standaardinterface voor ontwerpen is de interface met aanraakbediening.
 * Het vertrouwen op verouderde douanecomponenten kan onderhoudskosten in tijd verhogen.
 * De sjablonen voor inhoudsfragmenten zijn vervangen door de modellen voor inhoudsfragmenten in AEM 6.3. Door inhoudsfragmenten te migreren die zijn gebaseerd op verouderde sjablonen naar AEM as a Cloud Service, blijven deze fragmenten behouden als functioneel, maar kunnen er geen nieuwe fragmenten worden gemaakt op basis van de verouderde sjabloon. Het zal ook niet mogelijk zijn om deze fragmenten te leveren gebruikend AEM GraphQL, die inhoudsfragmentmodellen als schema&#39;s vereist.
+* /apps is onveranderlijk bij runtime en translator.html zou niet meer in AEM als wolkendienst beschikbaar zijn. De I18n-woordenboeken moeten dus via de CI/CD-leiding van Git komen.
 
 ## Mogelijke oplossingen {#solutions}
 
@@ -68,4 +71,5 @@ Subtypes worden gebruikt om de verschillende types van gebruikersinterfaceelemen
    * Ontwerpdialoogvensters en ontwerpdialoogvensters voor bewerkbaar sjabloonbeleid
 * Bekijk de bibliotheek met aangepaste componenten van uw project en ga zo mogelijk over naar de gestandaardiseerde set [Kernonderdelen](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) om de ontwikkelingstijd te versnellen en de onderhoudskosten van uw toepassingen te drukken.
 * U wordt aangeraden inhoudsfragmentmodellen te maken met dezelfde mogelijkheden als de oudere sjablonen en deze modellen te gebruiken voor het maken van inhoudsfragmenten die verder gaan.Zie voor [Modellen van inhoudsfragmenten](https://experienceleague.adobe.com/docs/experience-manager-65/assets/content-fragments/content-fragments-models.html?lang=en) voor meer informatie .
+* I18n-woordenboeken moeten afkomstig zijn van Git via de CI/CD-pijplijn. [Documentatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes.html?lang=en#apps-libs-immutable)
 * Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
