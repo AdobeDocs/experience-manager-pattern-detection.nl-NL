@@ -2,9 +2,9 @@
 title: ACV
 description: Help-pagina Patroondetectiecode
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 0a6b0f8f2b64bf1c966b8f282a2205f2772afe3f
+source-git-commit: bbeb7193e198a32a9bc966e1821b1058dbbc8c02
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,7 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 * `missing.original.rendition`: Identificeer de activa met een ontbrekende verplichte originele vertoning in de bewaarplaats. Voor voorvertoningspagina&#39;s van PDF in het veld Opmerking hoeft geen subassets te worden gegenereerd in AEMaaCS. Voor PDF-elementen wordt dus de rapportage van subactiva die de oorspronkelijke uitvoering missen, onderdrukt.
 * `metadata.descendants.violation`: Identificeer de activa met meer dan 100 nakomelingen onder meta-gegevensknoop van het activa in de bewaarplaats.
 * `conflict.node`: Identificeer de aanwezigheid van conflictknopen in de bewaarplaats onder /content/dam/path.
+* `psb.file.large`: Grote PSB-bestanden identificeren (dc:format: application/vnd.3gpp.pic-bw-small) met een grootte groter dan 2 gigabytes.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -37,6 +38,7 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 * AEM Assets is afhankelijk van het bestaan van de oorspronkelijke uitvoering. De verwerking van het element in de Cloud Service verloopt in een lus als de oorspronkelijke uitvoering ontbreekt. Het genereren van submiddelen wordt niet ondersteund in AEMaaCS.
 * Een hoog aantal afstammingen onder het knooppunt metadata kan het laden van mappen die bestaan uit elementen die dit overtreden, vertragen.
 * Aanwezigheid van conflictknooppunten kan leiden tot inname bij AEM as a Cloud Service.
+* Experience Manager verwerkt mogelijk geen PSB-bestanden met zeer hoge resolutie. Klanten die ImageMagick gebruiken voor het verwerken van grote bestanden kunnen worden geconfronteerd met een negatieve invloed op de prestaties als benchmarking van de Experience Manager-server niet is uitgevoerd.
 
 ## Mogelijke oplossingen {#solutions}
 
@@ -50,4 +52,5 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 * Voor de elementen die de oorspronkelijke uitvoering missen, uploadt u de elementen opnieuw of verwijdert u deze voordat u migreert.
 * Geen actie vereist voor ontbrekende subassets van oorspronkelijke uitvoering.
 * In het geval van conflictknooppunten moeten ze worden opgelost of moeten ze mogelijk worden verwijderd voordat ze naar AEM as a Cloud Service worden gemigreerd.
+* Neem contact op met de klantenondersteuning van Adobe als u van plan bent om veel grote PSD- of PSB-bestanden te verwerken. Experience Manager verwerkt PSB-bestanden met zeer hoge resolutie die groter zijn dan 30000 x 23000 pixels mogelijk niet. Zie [documentatie](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html).
 * Bereik onze [Klantenzorgteam van Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
