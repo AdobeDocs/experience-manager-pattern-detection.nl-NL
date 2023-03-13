@@ -2,9 +2,9 @@
 title: DG
 description: Help-pagina Patroondetectiecode
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 27820ac7a28231641c887c05aa10ff1f617bfeb5
+source-git-commit: 9bc04f53b6c6c91a528f3c77ea1c702127a6b7df
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '667'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,7 @@ Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te i
 * `maintenance.task.configuration`: De configuratie van een bepaalde periodieke onderhoudsactiviteit.
 * `sling.commons.scheduler`: Het gebruik van de Sling Commons Scheduler-API voor een geplande taak.
 * `unsupported.asset.api`: Het gebruik van niet-ondersteunde API&#39;s van Asset Manager in de toepassingscode.
+* `javax.jcr.observation.EventListener`: Het gebruik van Event Listener in toepassingscode.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -51,6 +52,10 @@ Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te i
       * getAssetForBinary
       * removeAssetForBinary
       * createAsset
+
+* `javax.jcr.observation.EventListener`
+   * Toepassingen die afhankelijk zijn van de gebeurtenislistener werken mogelijk niet zoals verwacht, omdat de uitvoering niet kan worden gegarandeerd.
+
 
 ## Mogelijke oplossingen {#solutions}
 
@@ -75,4 +80,7 @@ Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te i
 
 * `unsupported.asset.api`
    * Gebruik in plaats van de niet-ondersteunde API&#39;s van Asset Manager [aem-upload](https://github.com/adobe/aem-upload).
+
+* `javax.jcr.observation.EventListener`
+   * In plaats van de gebeurtenislistener te gebruiken, wordt aangeraden het gebeurtenisafhandelingsmechanisme te verwijzen naar [Verkooptaken](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) aangezien zij de garantie van verwerking biedt.
 * Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
