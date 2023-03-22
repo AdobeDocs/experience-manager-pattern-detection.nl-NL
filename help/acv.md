@@ -2,7 +2,7 @@
 title: ACV
 description: Help-pagina Patroondetectiecode
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: bbeb7193e198a32a9bc966e1821b1058dbbc8c02
+source-git-commit: 1aa0169c5ea5180500fd41c8074a9bf561151b62
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -52,5 +52,5 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 * Voor de elementen die de oorspronkelijke uitvoering missen, uploadt u de elementen opnieuw of verwijdert u deze voordat u migreert.
 * Geen actie vereist voor ontbrekende subassets van oorspronkelijke uitvoering.
 * In het geval van conflictknooppunten moeten ze worden opgelost of moeten ze mogelijk worden verwijderd voordat ze naar AEM as a Cloud Service worden gemigreerd.
-* Neem contact op met de klantenondersteuning van Adobe als u van plan bent om veel grote PSD- of PSB-bestanden te verwerken. Experience Manager verwerkt PSB-bestanden met zeer hoge resolutie die groter zijn dan 30000 x 23000 pixels mogelijk niet. Zie [documentatie](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/best-practices-for-imagemagick.html).
+* Neem contact op met de klantenondersteuning van Adobe als u van plan bent om veel grote PSD- of PSB-bestanden te verwerken. Experience Manager verwerkt PSB-bestanden met zeer hoge resolutie die groter zijn dan 30000 x 23000 pixels mogelijk niet. Zie [documentatie](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html).
 * Bereik onze [Klantenzorgteam van Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
