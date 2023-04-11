@@ -2,9 +2,9 @@
 title: ASO
 description: Help-pagina Patroondetectiecode
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 9b46c353b052da43eca7ed636f62e08109f74aab
+source-git-commit: 725a04c2d0c7f14673ac8cef9b62239ae3a5166c
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,7 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 * `unprocessed.asset.count`: Het aantal onverwerkte activa.
 * `vanity.url.count`: Het aantal vanity URL&#39;s.
 * `index.size`: Totale migreerbare indexgrootte van Lucene.
+* `workflow.count`: Het aantal workflows van de auteur in de status actief en geschaald.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -47,6 +48,7 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 * Het hogere aantal vanity URLs (>1000) kan een lading op Dispatcher en de Publish servers met dure vragen plaatsen.
 * De aangepaste toepassing kan afhankelijk zijn van producten of functies die niet beschikbaar zijn in AEM as a Cloud Service.
 * Een upgrade met niet-ondersteunde functies kan resulteren in een mislukte upgrade en een niet-functionele toepassing.
+* Een hoog aantal workflows van de auteur in de status actief of geschaald kan de prestaties nadelig beïnvloeden.
 
 ## Mogelijke oplossingen {#solutions}
 
