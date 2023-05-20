@@ -52,7 +52,7 @@ Subtypes worden gebruikt om de verschillende types van gebruikersinterfaceelemen
 
 * De klassieke gebruikersinterface is niet meer beschikbaar in AEM as a Cloud Service. De standaardinterface voor ontwerpen is de interface met aanraakbediening.
 * Het vertrouwen op verouderde douanecomponenten kan onderhoudskosten in tijd verhogen.
-* De sjablonen voor inhoudsfragmenten zijn vervangen door de modellen voor inhoudsfragmenten in AEM 6.3. Door inhoudsfragmenten te migreren die zijn gebaseerd op verouderde sjablonen naar AEM as a Cloud Service, blijven deze fragmenten behouden als functioneel, maar kunnen er geen nieuwe fragmenten worden gemaakt op basis van de verouderde sjabloon. Het zal ook niet mogelijk zijn om deze fragmenten te leveren gebruikend AEM GraphQL, die inhoudsfragmentmodellen als schema&#39;s vereist.
+* De sjablonen voor inhoudsfragmenten zijn vervangen door de modellen voor inhoudsfragmenten in AEM 6.3. Door inhoudsfragmenten te migreren die zijn gebaseerd op verouderde sjablonen naar AEM as a Cloud Service, blijven deze fragmenten behouden als functioneel, maar kunnen er geen nieuwe fragmenten worden gemaakt op basis van de verouderde sjabloon. Deze fragmenten kunnen ook niet worden geleverd met AEM GraphQL, waarvoor als schema&#39;s modellen voor inhoudsfragmenten zijn vereist.
 * /apps is onveranderlijk bij runtime en translator.html zou niet meer in AEM als wolkendienst beschikbaar zijn. De I18n-woordenboeken moeten dus via de CI/CD-leiding van Git komen.
 
 ## Mogelijke oplossingen {#solutions}

@@ -2,7 +2,6 @@
 title: CCL
 description: Help-pagina Patroondetectiecode
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-translation-type: tm+mt
 source-git-commit: 4ad2fe0fa05b8252112df8a94958e65bb882482d
 workflow-type: tm+mt
 source-wordcount: '158'
@@ -26,7 +25,7 @@ Aangepaste clientbibliotheek
 Er wordt één subtype gebruikt met deze code:
 * `custom.client.library`
 
-## Mogelijke implicaties en risico&#39;s {#implications-and-risks}
+## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
 * De clientbibliotheken die aan AEM zijn toegevoegd, moeten worden herzien om ervoor te zorgen dat er geen duplicatie plaatsvindt en dat de meest recente versies worden gebruikt.
 
@@ -38,4 +37,4 @@ Er wordt één subtype gebruikt met deze code:
 >abstract="De clientbibliotheken die worden toegevoegd aan AEM die door CCL worden geïdentificeerd, moeten worden gecontroleerd om te voorkomen dat er sprake is van duplicatie en dat de meest recente versies worden gebruikt. Neem contact op met Adobe Support voor hulp en uitleg"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
 
-* Neem contact op met ons [AEM ondersteuningsteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor meer informatie of voor meer informatie.
+* Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.

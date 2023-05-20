@@ -2,7 +2,6 @@
 title: DM
 description: Help-pagina Patroondetectiecode
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-translation-type: tm+mt
 source-git-commit: 54b121a6ec29ba6ff6fb33b402f1821c34d0763f
 workflow-type: tm+mt
 source-wordcount: '201'
@@ -31,7 +30,7 @@ Er wordt een subtype gebruikt met deze code:
    * `dynamicmedia`: Dynamic Media - Hybride modus
    * `dynamicmedia_scene7`: Dynamic Media - modus Scène 7
 
-## Mogelijke implicaties en risico&#39;s {#implications-and-risks}
+## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
 * `dynamic.media.runmode`
    * Er kunnen upgradeproblemen zijn met betrekking tot Dynamic Media.
@@ -41,7 +40,7 @@ Er wordt een subtype gebruikt met deze code:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
 >title="Implementatieleiding"
->abstract="AEM als Cloud Service steunt slechts dynamicmedia_scene7 runmode. Controleer de huidige instellingen en neem contact op met het Adobe Support Team voor hulp en uitleg."
+>abstract="AEM as a Cloud Service steunt slechts dynamicmedia_scene7 runmode. Controleer de huidige instellingen en neem contact op met het Adobe Support Team voor hulp en uitleg."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html" text="Dynamic Media instellen"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
 
@@ -49,4 +48,4 @@ Er wordt een subtype gebruikt met deze code:
 * `dynamic.media.runmode`
    * Meer informatie vindt u op [Dynamic Media instellen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html).
 
-* Neem contact op met ons [AEM ondersteuningsteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor meer informatie of voor meer informatie.
+* Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.

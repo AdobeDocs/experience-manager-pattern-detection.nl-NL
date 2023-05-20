@@ -1,7 +1,6 @@
 ---
 title: SJABLOON
 description: Help-pagina voor patroondetectiecode
-translation-type: tm+mt
 source-git-commit: 79561c1f0f5bab7c070557e3fd950c728c33e79c
 workflow-type: tm+mt
 source-wordcount: '121'
@@ -12,14 +11,14 @@ ht-degree: 0%
 
 # [!DNL TEMPLATE] {#template}
 
-Sjabloonmodel
+Sjabloon
 
 ## Achtergrond {#background}
 
 Geef een beschrijving van de uitgave die deze code vertegenwoordigt.
 Beantwoord de vraag: &quot;Wat is dit?&quot;
 
-## Mogelijke implicaties en risico&#39;s {#implications-and-risks}
+## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
 Geef een beschrijving van de mogelijke implicaties en risico&#39;s die zich zullen voordoen als daar niets aan wordt gedaan.
 Beantwoord de vraag: &quot;Waarom zou het me iets kunnen schelen?&quot;
@@ -34,4 +33,4 @@ Beantwoord de vraag: &quot;Wat kan ik ermee doen?&quot;
 
 * mogelijke oplossing #1
 * mogelijke oplossing #2
-* Neem contact op met ons [AEM ondersteuningsteam](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor meer informatie of voor meer informatie.
+* Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
