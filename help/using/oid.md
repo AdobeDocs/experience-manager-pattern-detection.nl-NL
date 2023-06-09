@@ -2,7 +2,7 @@
 title: OID
 description: Help-pagina Patroondetectiecode
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: d3e518cf8ad53a2cd28d4eea7f9b75c672881507
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Eak-indexdefinitie
 
 Subtypes worden gebruikt om de verschillende soorten informatie te identificeren:
 
-* `index.rule.violation`: Een aangepaste eikenindex is niet compatibel met AEM as a Cloud Service.
+* `index.rule.violation`: Een aangepaste eikenindex is niet compatibel met AEM as a Cloud Service
 * `standard.index.modification`: Een wijziging in een standaard-eikenindex.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
