@@ -2,9 +2,9 @@
 title: URS
 description: Help-pagina Patroondetectiecode
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: d5b8b890502e9951acf01bc15fc1aa2e526ea9e5
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,6 @@ Subtypes worden gebruikt om de specifieke types van bewaarplaatskwesties te iden
 * `node.location`: Een knooppunt onder `/etc` die sinds de installatie is gewijzigd.
 * `workflow.location`: Een workflowmodel of een startprogramma onder `/etc/workflow`.
 * `package.structure`: Een pakket dat zowel muteerbare als onveranderlijke inhoud bevat.
-* `node.name.length`: Een knooppuntnaam met niet-ondersteunde lengte.
 * `node.size`: Een knooppunt met niet-ondersteunde grootte.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
