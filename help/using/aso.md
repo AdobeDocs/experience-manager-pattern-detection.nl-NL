@@ -2,9 +2,9 @@
 title: ASO
 description: Help-pagina Patroondetectiecode
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 4f5ac6b496ca1fb67ced52b4ec105034a869a2d0
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,7 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 * De aangepaste toepassing kan afhankelijk zijn van producten of functies die niet beschikbaar zijn in AEM as a Cloud Service.
 * Een upgrade met niet-ondersteunde functies kan resulteren in een mislukte upgrade en een niet-functionele toepassing.
 * Een hoog aantal workflows van de auteur in de status actief of geschaald kan de prestaties nadelig beïnvloeden.
+* De langzame vragen kunnen de prestaties van het systeem degraderen.
 
 ## Mogelijke oplossingen {#solutions}
 
@@ -61,5 +62,6 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 * AEM upgrades met niet-ondersteunde producten of functies worden niet aanbevolen en worden mogelijk niet ondersteund.
 * De onverwerkte activa moeten worden verwerkt en het dam:assetState bezit op het jcr:content knoop van de Activa moet aan &quot;verwerkt&quot;worden geplaatst of deze activa verwijderen uit de migratie reeks alvorens aan AEMaaCS te migreren.
 * URL&#39;s met Vanity kunnen worden vervangen door Apache Rewrites.
+* Zie [documentatie](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) voor het oplossen van problemen langzame vragen.
 * Controleer de [releaseopmerkingen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) voor meer informatie over de meest recente wijzigingen in AEM as a Cloud Service.
 * Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
