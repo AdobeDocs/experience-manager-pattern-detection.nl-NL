@@ -2,9 +2,9 @@
 title: ASO
 description: Help-pagina Patroondetectiecode
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 4f5ac6b496ca1fb67ced52b4ec105034a869a2d0
+source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 * `vanity.url.count`: Het aantal vanity URL&#39;s.
 * `index.size`: Totale migreerbare indexgrootte van Lucene.
 * `workflow.count`: Het aantal workflows van de auteur in de status actief en geschaald.
+* `jvm.arguments`: De JVM-argumenten die aan de opdrachtregel worden toegevoegd bij het starten van de AEM.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
