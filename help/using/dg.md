@@ -2,9 +2,9 @@
 title: DG
 description: Help-pagina Patroondetectiecode
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,7 @@ Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te i
 * `sling.commons.scheduler`: Het gebruik van de Sling Commons Scheduler-API voor een geplande taak.
 * `unsupported.asset.api`: Het gebruik van niet-ondersteunde API&#39;s van Asset Manager in de toepassingscode.
 * `javax.jcr.observation.EventListener`: Het gebruik van Event Listener in toepassingscode.
+* `custom.guava.cache`: Het gebruik van de Guava-cache in de toepassingscode.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -55,6 +56,9 @@ Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te i
 
 * `javax.jcr.observation.EventListener`
    * Toepassingen die afhankelijk zijn van de gebeurtenislistener werken mogelijk niet zoals verwacht, omdat de uitvoering niet kan worden gegarandeerd.
+
+* `custom.guava.cache`
+   * Het gebruik van de Guava-cache kan prestatieproblemen veroorzaken bij AEM.
 
 
 ## Mogelijke oplossingen {#solutions}
@@ -83,4 +87,7 @@ Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te i
 
 * `javax.jcr.observation.EventListener`
    * In plaats van de gebeurtenislistener te gebruiken, wordt aangeraden het gebeurtenisafhandelingsmechanisme te verwijzen naar [Verkooptaken](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) aangezien zij de garantie van verwerking biedt.
+
+* `custom.guava.cache`
+   * Indien nodig moeten er buiten AEM kooien worden gemaakt. Een externe caching-oplossing kan overwogen worden.
 * Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
