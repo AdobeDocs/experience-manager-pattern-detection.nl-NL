@@ -2,9 +2,9 @@
 title: ACV
 description: Help-pagina Patroondetectiecode
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 1558502da1a63663ba239157bc1296e0a64e9616
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 * `metadata.descendants.violation`: Identificeer de activa met meer dan 100 nakomelingen onder meta-gegevensknoop van het activa in de bewaarplaats.
 * `conflict.node`: Identificeer de aanwezigheid van conflictknopen in de bewaarplaats onder /content/dam/path.
 * `psb.file.large`: Grote PSB-bestanden identificeren (dc:format: application/vnd.3gpp.pic-bw-small) met een grootte groter dan 2 gigabytes.
+* `invalid.asset.name`: Middelen identificeren met ongeldige tekens[* / : [\] | # % { } ? &amp;] in de naam.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -39,6 +40,7 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 * Een hoog aantal afstammingen onder het knooppunt metadata kan het laden van mappen die bestaan uit elementen die dit overtreden, vertragen.
 * Aanwezigheid van conflictknooppunten kan leiden tot inname bij AEM as a Cloud Service.
 * Experience Manager verwerkt mogelijk geen PSB-bestanden met zeer hoge resolutie. Klanten die ImageMagick gebruiken voor het verwerken van grote bestanden kunnen worden geconfronteerd met een negatieve invloed op de prestaties als benchmarking van de Experience Manager-server niet is uitgevoerd.
+* Ongeldige tekens in de naam van het element kunnen leiden tot fouten tijdens het migreren naar AEM as a Cloud Service.
 
 ## Mogelijke oplossingen {#solutions}
 
