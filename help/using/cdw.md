@@ -2,9 +2,9 @@
 title: CDW
 description: Help-pagina Patroondetectiecode
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,10 @@ Aangepaste dialoogvensterwidget
 >title="Aangepaste dialoogvensterwidget"
 >abstract="CDW identificeert de widgets van de Dialoog van de Douane die zouden moeten worden bijgewerkt om hen met AEM as a Cloud Service compatibel te zijn."
 
-`CDW`  Aangepaste dialoogvensterwidgets identificeren de aangepaste widgets CoralUI en Klassiek. Deze moeten worden bijgewerkt om ze compatibel te maken met AEM as a Cloud Service.
+`CDW`  Aangepaste dialoogvensterwidgets identificeren de aangepaste klassieke-dialoogwidgets. Deze moeten worden bijgewerkt om ze compatibel te maken met AEM as a Cloud Service.
 
-Subtypes worden gebruikt om de verschillende soorten informatie te identificeren, zoals:
+Subtypes worden gebruikt om de informatie te identificeren, zoals:
 
-* `custom.coral.widget`: Identificeer de widgets van de douanedialoog die op CoralUI 2 of CoralUI 3 worden gebaseerd.
 * `custom.classic.widget`: Identificeer de douane dialoog widgets die op ExtJs worden gebaseerd.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
@@ -40,5 +39,4 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
 
 * Aangepaste Klassieke dialoogvensterwidgets moeten worden omgezet van ExtJS in [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html).
-* De widgets van het dialoogvenster Aangepast koraal moeten worden geëvalueerd voor update naar CoralUI 3.
 * Bereik onze [Klantenzorgteam van Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.

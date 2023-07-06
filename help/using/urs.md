@@ -2,9 +2,9 @@
 title: URS
 description: Help-pagina Patroondetectiecode
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: d5b8b890502e9951acf01bc15fc1aa2e526ea9e5
+source-git-commit: d2ba93866c8f2b50c36ba6f5e9c5dc0313731c3b
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ Niet-ondersteunde gegevensopslagstructuur
 
 * AEM productcode wordt altijd in geplaatst `/libs`, die niet door aangepaste code mag worden overschreven.
 * Aangepaste code moet worden geplaatst in `/apps`, `/content` en `/conf`.
-* AEM as a Cloud Service ondersteunt lange knooppuntnamen (>150 bytes) niet.
 * Het wordt ten zeerste aanbevolen deze richtsnoeren te volgen voor AEM as a Cloud Service.
 
 Subtypes worden gebruikt om de specifieke types van bewaarplaatskwesties te identificeren die zouden moeten worden opgelost:
