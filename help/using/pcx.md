@@ -26,7 +26,7 @@ Complexiteit pagina
 
 Subtypes worden gebruikt om de verschillende soorten informatie te identificeren:
 
-* `page.complexity.medium`: Een pagina bevat een gemiddeld hoog aantal knooppunten die de renderprestaties kunnen beïnvloeden.
+* `page.complexity.medium`: Een pagina bevat een matig hoog aantal knooppunten dat de renderprestaties kan beïnvloeden.
 * `page.complexity.high`: Een pagina bevat een zeer groot aantal knooppunten die de renderprestaties kunnen beïnvloeden.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
@@ -38,13 +38,13 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="Implementatieleiding"
->abstract="De beste manier is de inhoudsstructuur te controleren om de complexiteit van de pagina te verminderen, wat weer de weergaveprestaties van de pagina zou verbeteren. Neem contact op met Adobe Support voor hulp en uitleg"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
+>abstract="De beste manier is de inhoudsstructuur te controleren om de complexiteit van de pagina te verminderen, wat weer de weergaveprestaties van de pagina zou verbeteren. Neem contact op met de Adobe Support voor hulp en verduidelijking"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Ga als volgt te werk om het totale aantal knooppunten op een pagina te verminderen:
    * Controleer of er geen onnodige containers zijn.
-   * Test of dezelfde lay-out kan worden bereikt met minder containers.
+   * Test of dezelfde indeling met minder containers kan worden bereikt.
    * Vereenvoudig de pagina-inhoud.
-   * Verminder de diepte van de knoopstructuur.
+   * Verminder de diepte van de nodestructuur.
    * Refactor omvat alle ervaringsfragmenten voor eenvoud.
 * Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.

@@ -45,11 +45,11 @@ as a Cloud Service gebruik AEM [Distributie van inhoud verkopen](https://sling.a
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_guidance"
 >title="Implementatieleiding"
->abstract="De beste praktijken moeten, douanefunctionaliteit direct afhankelijk van replicatieagenten herzien, refactor, en optimaliseren en het compatibel maken met AEM as a Cloud Service. Neem contact op met Adobe Support voor hulp en uitleg"
+>abstract="De beste praktijken moeten, douanefunctionaliteit direct afhankelijk van replicatieagenten herzien, refactor, en optimaliseren en het compatibel maken met AEM as a Cloud Service. Neem contact op met de Adobe Support voor hulp en verduidelijking"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#replication" text="Replicatie - AEM as a Cloud Service"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
-* Zie de AEM as a Cloud Service [Richtlijnen voor ontwikkeling](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#no-reverse-replication-agents) en opmerkingen bij de release [replicatiemiddelen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#replication-agents).
+* Zie de AEM as a Cloud Service [Richtlijnen voor ontwikkeling](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#no-reverse-replication-agents) en opmerkingen bij de release voor [replicatiemiddelen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#replication-agents).
 * Het overzicht, de refactor, en optimaliseert functionaliteit direct afhankelijk van replicatieagenten om bedrijfstaken uit te voeren.
 * Zie hoe [replicatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#replication) wordt beïnvloed door plaatsing in AEM as a Cloud Service.
 * Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.

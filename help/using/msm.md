@@ -35,7 +35,7 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_guidance"
 >title="Implementatieleiding"
->abstract="De beste praktijken moeten alle configuraties van de douanerolMSM en de acties van de douanerolflatie herzien en ervoor zorgen zij aan AEM as a Cloud Service werken. Neem contact op met Adobe Support voor hulp en uitleg"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
+>abstract="De beste praktijken moeten alle configuraties van de douanerolMSM en de acties van de douanerolflatie herzien en ervoor zorgen zij aan AEM as a Cloud Service werken. Neem contact op met de Adobe Support voor hulp en verduidelijking"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.

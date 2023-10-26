@@ -24,7 +24,7 @@ Aangepaste dialoogvensterwidget
 
 Subtypes worden gebruikt om de informatie te identificeren, zoals:
 
-* `custom.classic.widget`: Identificeer de douane dialoog widgets die op ExtJs worden gebaseerd.
+* `custom.classic.widget`: Identificeer de aangepaste dialoogvenster-widgets op basis van ExtJs.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -36,7 +36,7 @@ Subtypes worden gebruikt om de informatie te identificeren, zoals:
 >id="aemcloud_bpa_cdw_guidance"
 >title="Implementatieleiding"
 >abstract="Neem contact op met de klantenservice voor hulp."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Aangepaste Klassieke dialoogvensterwidgets moeten worden omgezet van ExtJS in [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html).
-* Bereik onze [Klantenzorgteam van Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
+* Bereik uit naar onze [Klantenzorgteam van Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.

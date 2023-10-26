@@ -40,11 +40,11 @@ Niet-ondersteunde configuratie van de uitvoermodus
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="Hulpmiddelen &amp; Middelen"
->abstract="Bekijk het WKND-oudere project om te begrijpen hoe schendingen van URC compatibel kunnen worden gemaakt met AEM Cloud Service. Lees ook het voorbeeld voor OSGi-configuraties van OSGi-versies op basis van aangepaste runmode op basis van Github om na te gaan of AEM as a Cloud Service is."
+>abstract="Bekijk het WKND-verouderde project om te begrijpen hoe schendingen van URC compatibel kunnen worden gemaakt met AEM Cloud Service. Lees ook het voorbeeld voor OSGi-configuraties van OSGi-versies op basis van aangepaste runmode op basis van Github om na te gaan of AEM as a Cloud Service is."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="WKND-verouderd project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="Voorbeeld van schending van URC - Github"
 
 * Herzie het gebruik van deze configuratie om te bepalen als het noodzakelijk is.
-* Wijzig de naam van de configuratie om een van de ondersteunde configuraties te gebruiken [runmode-namen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#custom-runmodes) en volgen [richtlijnen voor runmode resolutie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#runmode-resolution).
+* Wijzig de naam van de configuratie in een van de ondersteunde configuraties [runmode-namen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#custom-runmodes) en volgen [richtlijnen voor runmode resolutie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#runmode-resolution).
 * Controleren [verouderd](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc) projecten en begrijpen hoe [OTC-overtredingen](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc) kan worden gecorrigeerd en verenigbaar worden gemaakt met AEM as a Cloud Service.
 * Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.

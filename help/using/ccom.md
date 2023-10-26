@@ -24,9 +24,9 @@ Aangepaste component
 
 Met deze code wordt een subtype gebruikt om de componentcategorie te identificeren:
 
-* `custom.core`: Een supertype in de keten van supertypes van de component bevat &quot;kern/wcm/componenten/&quot;, erop wijzend dat het van een kerncomponent erft.
-* `custom.foundation`: Een supertype in de keten van supertypes van de component bevat &quot;kern/wcm/componenten/&quot;, erop wijzend dat het van een kerncomponent erft.
-* `custom.overlay.foundation`: Het componentpad bevat &quot;wcm/foundation/components/&quot; of &quot;foundation/components/&quot;, wat aangeeft dat het een stichtingscomponent bedekt.
+* `custom.core`: Een supertype in de keten van supertypen van de component bevat &quot;core/wcm/components/&quot;, wat aangeeft dat het overerft van een kerncomponent.
+* `custom.foundation`: Een supertype in de keten van supertypen van de component bevat &quot;core/wcm/components/&quot;, wat aangeeft dat het overerft van een kerncomponent.
+* `custom.overlay.foundation`: Het componentpad bevat &quot;wcm/foundation/components/&quot; of &quot;foundation/components/&quot;, wat aangeeft dat het een stivingscomponent bedekt.
 * `custom`: De aangepaste component neemt een kern- of stichtingscomponent niet over of bedekt deze.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}

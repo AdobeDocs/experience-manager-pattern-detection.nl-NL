@@ -27,11 +27,11 @@ Assets Content Validator
 Subtypes worden gebruikt om de verschillende soorten informatie te identificeren, zoals:
 
 * `missing.jcrcontent`: Identificeer de mappen met ontbrekende verplichte knooppunten in de opslagplaats. Door eventuele ontbrekende inhoud in de opslagplaats te identificeren, kunt u eventuele defecte functies of gebruiksgevallen voorkomen.
-* `missing.original.rendition`: Identificeer de activa met een ontbrekende verplichte originele vertoning in de bewaarplaats. Voor voorvertoningspagina&#39;s van PDF in het veld Opmerking hoeft geen subassets te worden gegenereerd in AEMaaCS. Voor PDF-elementen wordt dus de rapportage van subactiva die de oorspronkelijke uitvoering missen, onderdrukt.
-* `metadata.descendants.violation`: Identificeer de activa met meer dan 100 nakomelingen onder meta-gegevensknoop van het activa in de bewaarplaats.
-* `conflict.node`: Identificeer de aanwezigheid van conflictknopen in de bewaarplaats onder /content/dam/path.
-* `psb.file.large`: Grote PSB-bestanden identificeren (dc:format: application/vnd.3gpp.pic-bw-small) met een grootte groter dan 2 gigabytes.
-* `invalid.asset.name`: Middelen identificeren met ongeldige tekens[* / : [\] | # % { } ? &amp;] in de naam.
+* `missing.original.rendition`: Identificeer de activa met een ontbrekende verplichte oorspronkelijke vertoning in de bewaarplaats. Voor voorvertoningspagina&#39;s van PDF in het veld Opmerking hoeft geen subassets te worden gegenereerd in AEMaaCS. Voor PDF-elementen wordt dus de rapportage van subactiva die de oorspronkelijke uitvoering missen, onderdrukt.
+* `metadata.descendants.violation`: Identificeer de elementen met meer dan 100 afstammingen onder het metagegevensknooppunt van het element in de gegevensopslagruimte.
+* `conflict.node`: Identificeer de aanwezigheid van conflictknooppunten in de opslagplaats onder /content/dam/ path.
+* `psb.file.large`: Identificeer grote PSB-bestanden (dc:format: application/vnd.3gpp.pic-bw-small) met een grootte groter dan 2 gigabytes.
+* `invalid.asset.name`: Identificeer elementen met ongeldige tekens[* / : [\] | # % { } ? &amp;] in de naam.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -47,12 +47,12 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_acv_guidance"
 >title="Implementatieleiding"
->abstract="Adobe raadt aan de inhoudstructuur te controleren om te voorkomen dat werkstromen die afhankelijk zijn van overgenomen eigenschappen, worden verbroken. Neem contact op met de klantenservice voor hulp."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
+>abstract="Adobe raadt aan de inhoudsstructuur te controleren om te voorkomen dat werkstromen die afhankelijk zijn van overgenomen eigenschappen, worden verbroken. Neem contact op met de klantenservice voor hulp."
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Analyseer een map als er een onderliggend knooppunt ontbreekt. Maak de knooppunten handmatig als het aantal mappen kan worden beheerd. Gebruik anders een script.
 * Voor de elementen die de oorspronkelijke uitvoering missen, uploadt u de elementen opnieuw of verwijdert u deze voordat u migreert.
 * Geen actie vereist voor ontbrekende subassets van oorspronkelijke uitvoering.
 * In het geval van conflictknooppunten moeten ze worden opgelost of moeten ze mogelijk worden verwijderd voordat ze naar AEM as a Cloud Service worden gemigreerd.
-* Neem contact op met de klantenondersteuning van Adobe als u van plan bent om veel grote PSD- of PSB-bestanden te verwerken. Experience Manager verwerkt PSB-bestanden met zeer hoge resolutie die groter zijn dan 30000 x 23000 pixels mogelijk niet. Zie [documentatie](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html).
-* Bereik onze [Klantenzorgteam van Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
+* Neem contact op met de klantenondersteuning van de Adobe als u van plan bent om veel grote PSD- of PSB-bestanden te verwerken. Experience Manager verwerkt PSB-bestanden met zeer hoge resolutie die groter zijn dan 30000 x 23000 pixels mogelijk niet. Zie [documentatie](https://experienceleague.adobe.com/docs/experience-manager-65/assets/extending/best-practices-for-imagemagick.html).
+* Bereik uit naar onze [Klantenzorgteam van Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.

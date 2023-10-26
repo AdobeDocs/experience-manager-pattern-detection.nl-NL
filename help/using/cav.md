@@ -18,14 +18,14 @@ Overtreding van inhoudsgebied
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cav_overview"
 >title="Overtreding van inhoudsgebied"
->abstract="De CAV-code identificeert het patroon waarbij verschillende inhoudsgebieden worden gebruikt op een manier die in strijd is met de regels van de inhoudclassificatie. Deze schending geeft u een overzicht van overlays, beperkte inhoud die u wellicht moet wijzigen als we naar AEM as a Cloud Service gaan."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html#platform" text="Samenvoegen van verkoopbronnen"
+>abstract="De CAV-code identificeert het patroon waarbij verschillende inhoudsgebieden worden gebruikt op een manier die in strijd is met de regels van de inhoudsclassificatie. Deze schending geeft u een overzicht van overlays, beperkte inhoud die u wellicht moet wijzigen als we naar AEM as a Cloud Service gaan."
+>additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html#platform" text="Samenvoeging van verkoopbronnen"
 
 `CAV` Hiermee geeft u het patroon aan waarin verschillende inhoudsgebieden worden gebruikt op een manier die in strijd is met de regels van de inhoudclassificatie.
 
-Verwerking van verzendverzoeken bepaalt hoe de inhoud van een bron, de `sling:resourceType` Deze eigenschap wordt met name gebruikt om het script te bepalen dat wordt gebruikt voor het renderen van de inhoud. Zie [Script zoeken](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html#locating-the-script) voor meer informatie . Sling biedt ook technieken voor het benaderen en samenvoegen van bronnen via &quot;Bedekkingen&quot; en &quot;Overschrijvingen&quot;. Deze worden beschreven als deel van [Samenvoegen van verkoopbronnen](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html) en in [Bedekkingen](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html).
+Verwerking van verzendverzoeken bepaalt hoe de inhoud van een bron, de `sling:resourceType` Deze eigenschap wordt met name gebruikt om het script te bepalen dat wordt gebruikt voor het renderen van de inhoud. Zie [Script zoeken](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/the-basics.html#locating-the-script) voor meer informatie . Sling biedt ook technieken voor het benaderen en samenvoegen van bronnen via &quot;Bedekkingen&quot; en &quot;Overschrijvingen&quot;. Deze worden beschreven als deel van [Samenvoeging van verkoopbronnen](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html) en in [Bedekkingen](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html).
 
-Om het voor klanten veiliger en gemakkelijker te maken te begrijpen welke gebieden `/libs` zijn veilig te gebruiken en de inhoud te bedekken in `/libs` is geclassificeerd met &quot;mixin&quot;-eigenschappen: Openbaar, Abstract, Definitief en Intern. Elke classificatie impliceert regels over hoe de inhoud gebruiker, geërft, of bedekt kan zijn. Zie [Duurzame verbeteringen](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html) voor een gedetailleerde beschrijving.
+Om het voor klanten veiliger en gemakkelijker te maken te begrijpen welke gebieden `/libs` zijn veilig te gebruiken en de inhoud te bedekken in `/libs` is geclassificeerd met &quot;mixin&quot;-eigenschappen: Public, Abstract, Final en Internal. Elke classificatie impliceert regels over hoe de inhoud gebruiker, geërft, of bedekt kan zijn. Zie [Duurzame verbeteringen](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html) voor een gedetailleerde beschrijving.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -39,7 +39,7 @@ Om het voor klanten veiliger en gemakkelijker te maken te begrijpen welke gebied
 >title="Implementatieleiding"
 >abstract="Patronen die met CAS zijn geïdentificeerd en waarbij een ander inhoudsgebied wordt geschonden, moeten worden herzien. Definitieve en interne gebieden voor de classificatie van inhoud moeten worden vermeden. Neem contact op met Adobe Support voor hulp en verduidelijkingen."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html" text="Duurzame verbeteringen"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Minimaliseer het gebruik van inhoudsoverlay voor die gevallen waarin het nodig is.
 * Vermijd met name het bedekken van beperkte inhoud (definitieve en interne indeling).

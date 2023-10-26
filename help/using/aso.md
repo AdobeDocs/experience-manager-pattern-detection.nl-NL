@@ -27,9 +27,9 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 
 * `aem.version`: De AEM versie.
 * `aem.product`: Detectie van het gebruik van een AEM product (handel, Forms, enz.).
-* `node.count`: Het aantal knooppunten van een bepaald type (pagina, element, enz.) en het totaal aan knooppunten.
-* `node.store`: Het implementatietype van de knoopopslag (SegmentNodeStore, DocumentNodeStore) en zijn grootte.
-* `data.store`: Het implementatietype voor gegevensopslag (FileDataStore, S3DataStore, AzureDataStore).
+* `node.count`: Het aantal knooppunten van een bepaald type (Pagina, Element, enz.) en het totaal aan knooppunten.
+* `node.store`: Het implementatietype van de nodeopslag (SegmentNodeStore, DocumentNodeStore) en zijn grootte.
+* `data.store`: Het implementatietype voor de gegevensopslag (FileDataStore, S3DataStore, AzureDataStore).
 * `maintenance.task`: Een onderhoudstaak.
 * `slow.query`: Een langzame query.
 * `group.membership`: Het aantal gebruikers en subgroepen (alleen directe/gedeclareerde leden) in een groep.
@@ -40,7 +40,7 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 * `unprocessed.asset.count`: Het aantal onverwerkte activa.
 * `vanity.url.count`: Het aantal vanity URL&#39;s.
 * `index.size`: Totale migreerbare indexgrootte van Lucene.
-* `workflow.count`: Het aantal workflows van de auteur in de status actief en geschaald.
+* `workflow.count`: Het aantal workflows van de auteur in de staat van de lopende en van de schaal.
 * `jvm.arguments`: De JVM-argumenten die aan de opdrachtregel worden toegevoegd bij het starten van de AEM.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
@@ -58,7 +58,7 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 >id="aemcloud_bpa_aso_guidance"
 >title="Implementatieleiding"
 >abstract="Informatie die via ASO-code wordt weergegeven, biedt algemene informatie voor uw AEM omgeving, zoals versie, productinvoegtoepassingen, systeeminformatie. Deze informatie moet worden gecontroleerd voor niet-ondersteunde producten of functies in AEM as a Cloud Service. Neem contact op met Adobe Support voor hulp en verduidelijkingen."
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * AEM upgrades met niet-ondersteunde producten of functies worden niet aanbevolen en worden mogelijk niet ondersteund.
 * De onverwerkte activa moeten worden verwerkt en het dam:assetState bezit op het jcr:content knoop van de Activa moet aan &quot;verwerkt&quot;worden geplaatst of deze activa verwijderen uit de migratie reeks alvorens aan AEMaaCS te migreren.

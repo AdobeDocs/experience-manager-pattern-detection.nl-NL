@@ -34,7 +34,7 @@ Er wordt één subtype gebruikt met deze code:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccl_guidance"
 >title="Implementatieleiding"
->abstract="De clientbibliotheken die worden toegevoegd aan AEM die door CCL worden geïdentificeerd, moeten worden gecontroleerd om te voorkomen dat er sprake is van duplicatie en dat de meest recente versies worden gebruikt. Neem contact op met Adobe Support voor hulp en uitleg"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
+>abstract="De clientbibliotheken die worden toegevoegd aan AEM die door CCL worden geïdentificeerd, moeten worden gecontroleerd om te voorkomen dat er sprake is van duplicatie en dat de meest recente versies worden gebruikt. Neem contact op met de Adobe Support voor hulp en verduidelijking"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.

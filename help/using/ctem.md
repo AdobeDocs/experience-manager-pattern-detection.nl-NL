@@ -43,10 +43,10 @@ Sjablonen worden aangeduid met een waarde van het primaire type &quot;cq:Templat
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ctem_tools"
 >title="Hulpmiddelen &amp; Middelen"
->abstract="Met behulp van AEM Moderniseringssuite kunnen klanten de structuur van een pagina manipuleren van een statische definitie naar een bewerkbare sjabloon. De bedoeling is om klanten te helpen van de beperkte mogelijkheden van de oudere functies over te stappen op het robuuste, moderne AEM. Deze hulpmiddelen zijn configureerbaar, configuratie-bewust en verlengbaar. Neem contact op met Adobe Support voor hulp en uitleg"
+>abstract="Met behulp van AEM Moderniseringssuite kunnen klanten de structuur van een pagina manipuleren van een statische definitie naar een bewerkbare sjabloon. De bedoeling is om klanten te helpen van de beperkte mogelijkheden van de oudere functies over te stappen op het robuuste, moderne AEM. Deze hulpmiddelen zijn configureerbaar, configuratie-bewust en verlengbaar. Neem contact op met de Adobe Support voor hulp en verduidelijking"
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="Paginastructuurconverter"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
-* De [AEM moderniseringsinstrumenten](https://opensource.adobe.com/aem-modernize-tools/) om statische sjablonen te migreren naar bewerkbare sjablonen.
+* Gebruik de [AEM moderniseringsinstrumenten](https://opensource.adobe.com/aem-modernize-tools/) om statische sjablonen te migreren naar bewerkbare sjablonen.
 * Meer informatie over bewerkbare sjablonen vindt u op [Sjablonen](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html).
 * Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.

@@ -32,7 +32,7 @@ Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te i
 * `sling.commons.scheduler`: Het gebruik van de Sling Commons Scheduler-API voor een geplande taak.
 * `unsupported.asset.api`: Het gebruik van niet-ondersteunde API&#39;s van Asset Manager in de toepassingscode.
 * `javax.jcr.observation.EventListener`: Het gebruik van Event Listener in toepassingscode.
-* `custom.guava.cache`: Het gebruik van de Guava-cache in de toepassingscode.
+* `custom.guava.cache`: Het gebruik van Guava Cache in toepassingscode.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -72,14 +72,14 @@ Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te i
 
 * `java.io.inputstream`
    * Gebruik een direct-binaire upload benadering waarin het binaire getal direct aan de datastore wordt toegevoegd.
-   * Gebruik voor gebruik van middelen [aem-upload](https://github.com/adobe/aem-upload). Voor andere typen binaire getallen kan de aangepaste upload-logica worden gemodelleerd volgens hetzelfde patroon.
+   * Gebruik deze optie voor gebruik van middelen [aem-upload](https://github.com/adobe/aem-upload). Voor andere typen binaire getallen kan de aangepaste upload-logica worden gemodelleerd volgens hetzelfde patroon.
 
 * `maintenance.task.configuration`
    * AEM as a Cloud Service bekijken [Onderhoudstaken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html) documentatie.
    * Zorg ervoor dat [Configuratie onderhoudstaken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#maintenance-tasks-configuration-in-source-control) is in broncontrole.
 
 * `sling.commons.scheduler`
-   * Vervang het gebruik van [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) with [Verkooptaken](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), die ten minste eenmaal een uitvoeringsgarantie hebben.
+   * Het gebruik van [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) with [Verkooptaken](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), die ten minste eenmaal een uitvoeringsgarantie hebben.
    * Langlopende banen moeten zo mogelijk worden vermeden.
 
 * `unsupported.asset.api`

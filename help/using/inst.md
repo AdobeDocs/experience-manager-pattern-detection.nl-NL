@@ -26,11 +26,11 @@ Geïnstalleerd artefact
 
 Wanneer meerdere versies van een pakket zijn geïnstalleerd, wordt alleen de laatste versie gerapporteerd.
 
-Pakketten en bundels die worden gedetecteerd, zijn niet noodzakelijkerwijs geoptimaliseerd voor AEM as a Cloud Service. Elk pakket van derden moet met de maker of de Adobe worden gecontroleerd op compatibiliteit met AEM as a Cloud Service.
+Pakketten en bundels die worden gedetecteerd, zijn niet noodzakelijkerwijs geoptimaliseerd voor AEM as a Cloud Service. Elk pakket van derden moet met de maker of Adobe ervan worden gecontroleerd op compatibiliteit met AEM as a Cloud Service.
 
 Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 
-* `custom.bundle`: Een bundel die in AEM is geïnstalleerd.
+* `custom.bundle`: Een bundel die is geïnstalleerd in AEM.
 * `custom.package`: Een pakket dat is geïnstalleerd in AEM.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
@@ -38,7 +38,7 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
 >title="Implementatieleiding"
->abstract="Klanten kunnen geen pakketten van derden meer installeren met behulp van CRX Package Manager. Klanten moeten deze geïnstalleerde artefacten controleren en ze moeten een structuur hebben en optimaliseren om met AEM as a Cloud Service te kunnen werken. Elk pakket van derden moet met de maker of de Adobe worden gecontroleerd op compatibiliteit met AEM as a Cloud Service."
+>abstract="Klanten kunnen geen pakketten van derden meer installeren met behulp van CRX Package Manager. Klanten moeten deze geïnstalleerde artefacten controleren en ze moeten een structuur hebben en optimaliseren om met AEM as a Cloud Service te kunnen werken. Elk pakket van derden moet met de maker of Adobe ervan worden gecontroleerd op compatibiliteit met AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embeddeds" text="Subpakketten insluiten in het Containerpakket"
 
 

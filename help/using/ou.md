@@ -23,7 +23,7 @@ Verouderd gebruik
 
 `OU` geeft de situatie aan waarin sommige JCR-knooppunten, zoals Sling- of AEM-componenten of OSGi-API-exportbewerkingen, op een niet-compatibele manier worden gewijzigd of verwijderd. De klant is wellicht niet op de hoogte van deze wijziging voordat een upgrade wordt uitgevoerd. Ze kunnen worden bijgewerkt naar een niet-compatibele versie of zijn helemaal niet beschikbaar.
 
-Aangezien de oude versies niet standaard worden geïnstalleerd, werkt de klantentoepassing mogelijk niet correct.
+Aangezien de oude versies niet standaard worden geïnstalleerd, werkt de toepassing van de klant mogelijk niet correct.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -36,9 +36,9 @@ Aangezien de oude versies niet standaard worden geïnstalleerd, werkt de klanten
 >id="aemcloud_bpa_ou_guidance"
 >title="Implementatieleiding"
 >abstract="De beste praktijken moeten klantencode herzien en aanpassen om de nieuwste versie van AEM componenten of APIs te gebruiken. Neem contact op met Adobe Support voor hulp en verduidelijkingen."
->additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="Adobe Experience Manager SDK API"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
+>additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="ADOBE EXPERIENCE MANAGER SDK API"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
-* Korte termijn: Installatie van compatibiliteitspakket kan helpen.
-* Langdurig: Pas de klantcode aan om de nieuwste versie van AEM componenten of API&#39;s te gebruiken.
+* Korte termijn: installatie van compatibiliteitspakket kan helpen.
+* Lange termijn: pas de klantcode aan om de nieuwste versie van AEM componenten of API&#39;s te gebruiken.
 * Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.

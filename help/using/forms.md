@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_overview"
->title="Forms"
+>title="FORMS"
 >abstract="De Forms-code identificeert mogelijke problemen met betrekking tot migratie van Adobe Experience Manager Forms naar Adobe Experience Manager Forms as a Cloud Service. Bekijk de mogelijke implicaties en risico&#39;s die aan deze problemen zijn verbonden en pak deze problemen aan voordat u naar de Cloud Service gaat."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/forms.html#implications-and-risks" text="Mogelijke gevolgen en risico&#39;s"
 
@@ -26,15 +26,15 @@ ht-degree: 0%
 De volgende subtypes helpen u de verschillende soorten kwesties identificeren:
 
 * `modified.feature`: Deze functies, elementen of API&#39;s zijn bijgewerkt of gewijzigd voor Cloud Service. Voordat u naar de Cloud Service gaat, voert u het migratiehulpprogramma uit om deze functies en elementen compatibel te maken met de Cloud Service.
-* `unavailable.feature`: Uw omgeving heeft functies en elementen die niet beschikbaar zijn of uit de Cloud Service zijn verwijderd. Migreer dergelijke functies of middelen niet naar een Cloud Service-omgeving.
+* `unavailable.feature`: Uw omgeving bevat functies en elementen die niet beschikbaar zijn of uit de Cloud Service zijn verwijderd. Migreer dergelijke functies of middelen niet naar een Cloud Service-omgeving.
 * `unsupported.feature`: Uw omgeving gebruikt enkele functies die op de Cloud Service nog niet worden ondersteund. Migreer dergelijke functies of middelen niet naar een Cloud Service-omgeving. Raadpleeg de maandelijkse releaseopmerkingen voor informatie over de beschikbaarheid van de functies.
-* `unsupported.api`: Uw omgeving heeft enkele API&#39;s die nog niet worden ondersteund op de Cloud Service. Voordat u naar de Cloud Service gaat, schakelt u deze API&#39;s uit, vervangt of verwijdert u ze uit de code. Raadpleeg de maandelijkse releaseopmerkingen voor informatie over de beschikbaarheid van de functies.
+* `unsupported.api`: Uw omgeving bevat enkele API&#39;s die nog niet worden ondersteund op de Cloud Service. Voordat u naar de Cloud Service gaat, schakelt u deze API&#39;s uit, vervangt of verwijdert u ze uit de code. Raadpleeg de maandelijkse releaseopmerkingen voor informatie over de beschikbaarheid van de functies.
 
 Zie de [Mogelijke gevolgen en risico&#39;s](#implications-and-risks) en [Mogelijke oplossingen](#solutions) secties voor informatie over vervangingen en andere acties die worden vereist om sommige eigenschappen en APIs compatibel te maken met de Cloud Service
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
-De volgende problemen verhelpen voordat u naar [!DNL Adobe Experience Manager Forms as a Cloud Service]. Wanneer de hieronder vermelde implicaties en risico&#39;s niet worden aangepakt, functioneren sommige eigenschappen niet zoals verwacht in het milieu van de Cloud Service.
+De volgende problemen verhelpen voordat u gaat migreren naar [!DNL Adobe Experience Manager Forms as a Cloud Service]. Wanneer de hieronder vermelde implicaties en risico&#39;s niet worden aangepakt, functioneren sommige eigenschappen niet zoals verwacht in het milieu van de Cloud Service.
 
 * De functionaliteit van de coderedacteur van de eigenschap van de regelredacteur is niet beschikbaar. (CODE_EDITOR)
 
@@ -50,7 +50,7 @@ De volgende problemen verhelpen voordat u naar [!DNL Adobe Experience Manager Fo
 
 * De stap Verifiëren is niet beschikbaar. (VERIFY_STEP)
 
-* De **[!UICONTROL Submit to Forms Workflow]** Verzendactie is niet beschikbaar. Op AEM 6.5 Forms en eerdere versies werd de handeling Verzenden gebruikt om adaptieve formuliergegevens naar verouderde AEM Forms te verzenden over JEE Workflows en LiveCycle Workflow. (LC_WORKFLOW_SUBMISSION)
+* De **[!UICONTROL Submit to Forms Workflow]** Verzendactie is niet beschikbaar. Op AEM 6.5 Forms en eerdere versies werd de handeling Verzenden gebruikt om adaptieve formuliergegevens naar verouderde AEM Forms te verzenden over JEE Workflows en LiveCycle Workflows. (LC_WORKFLOW_SUBMISSION)
 
 * Het Interactieve Communicatie vermogen is niet beschikbaar.  (FP_PROFILE_INTERACTIVE_COMMUNICATIONS).
 
@@ -67,8 +67,8 @@ De volgende problemen verhelpen voordat u naar [!DNL Adobe Experience Manager Fo
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_guidance"
 >title="Implementatieleiding"
->abstract="Informatie die via FORMS-code wordt weergegeven, kan u helpen bij vervangingen en andere acties die nodig zijn om bepaalde functies en API&#39;s compatibel te maken met de Cloud Service. Neem contact op met Adobe Support voor hulp en uitleg"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
+>abstract="Informatie die via FORMS-code wordt weergegeven, kan u helpen bij vervangingen en andere acties die nodig zijn om bepaalde functies en API&#39;s compatibel te maken met de Cloud Service. Neem contact op met de Adobe Support voor hulp en verduidelijking"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Gebruik het migratiehulpprogramma om alle regelscripts in uw omgeving om te zetten in herbruikbare functies. U kunt de herbruikbare functies met de Visuele redacteur van de Regel gebruiken om resultaten te blijven verkrijgen die met regelmanuscripten worden verkregen. (CODE_EDITOR)
 
@@ -82,20 +82,20 @@ De volgende problemen verhelpen voordat u naar [!DNL Adobe Experience Manager Fo
 
 * Verwijder de stap Verifiëren uit uw bestaande Adaptive Forms voordat u dergelijke formulieren naar een [!DNL Cloud Service] milieu. (VERIFY_STEP)
 
-* De bestaande aangepaste formulieren wijzigen voor gebruik [Verzenden naar REST-eindpunt](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [E-mail verzenden](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [Verzenden met gebruik van formuliergegevensmodel](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model), en [Een AEM-workflow aanroepen](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Handelingen verzenden.
+* De bestaande adaptieve formulieren wijzigen voor gebruik [Verzenden naar REST-eindpunt](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-to-rest-endpoint), [E-mail verzenden](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#send-email), [Verzenden met gebruik van formuliergegevensmodel](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#submit-using-form-data-model), en [Een AEM-workflow aanroepen](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Handelingen verzenden.
 
 * U kunt een AEM workflow ontwikkelen en de bestaande aangepaste formulieren aanpassen aan het gebruik [AEM](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#invoke-an-aem-workflow) Handeling verzenden om gegevens naar een AEM te verzenden in plaats van de **[!UICONTROL Submit to Forms Workflow]** Handeling verzenden. U kunt een aangepaste handeling Verzenden ontwikkelen om gegevens, bijlagen of Document of Record (DoR) naar een LiveCycle-proces te verzenden in plaats van de opdracht [!UICONTROL Submit to Forms Workflow]. (LC_WORKFLOW_SUBMISSION)
 
 * Zoek maandelijkse versienota&#39;s voor informatie over beschikbaarheid van de Interactieve eigenschap van Mededelingen. Migreer uw Interactieve Mededelingen, Brieven, en verwante Woordenboeken niet aan een milieu van de Cloud Service tot de eigenschap niet beschikbaar is. (FP_PROFILE_INTERACTIVE_COMMUNICATIONS)
 
-* Er is geen vervanging voor metagegevensaccordeon. Verwijder het bestand uit uw formulieren voordat u het naar de Cloud Service verplaatst.(METADATA_ACCORDION_FORM_CONTAINER)
+* Er is geen vervanging voor metagegevensaccordeon. Verwijder het bestand uit uw formulieren voordat u het naar de Cloud Service migreert.(METADATA_ACCORDION_FORM_CONTAINER)
 
 * Gebruik de Google reCaptcha in plaats van de CAPTCHA-service van Adobe Experience Manager. (FORMS_CAPTCHA)
 
-* Migreer geen model van het Werkschema van AEM die een stap van het Werkschema van de Diensten van het Document gebruikt. Migreer of werk geen Adaptieve Forms bij die gebruikersgegevens naar een Werkstroommodel verzendt dat de stappen van het Werkschema van de Diensten van het Document gebruikt of verander de Submit Actie in [ondersteund één](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html) voordat u het formulier migreert. (WORKFLOW_DOCSERVICES)
+* Migreer geen AEM workflowmodel dat gebruikmaakt van een workflowstap Document Services. Migreer of werk geen Adaptieve Forms bij die gebruikersgegevens naar een Werkstroommodel verzendt dat de stappen van het Werkschema van de Diensten van het Document gebruikt of verander de Submit Actie in [ondersteund één](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html) voordat u het formulier migreert. (WORKFLOW_DOCSERVICES)
 
 * Adaptive Forms biedt een responsief ontwerp. Deze formulieren wijzigen de weergave, het ontwerp en de interactiviteit op basis van het onderliggende apparaat. U kunt Adaptive Forms blijven gebruiken op een mobiel apparaat. Zoek naar maandelijkse versienota&#39;s voor informatie over beschikbaarheid van [!DNL AEM Forms] app. (AEM_FORMS_APP)
 
-* Ondersteuning voor adaptieve Forms op basis van XFA is niet beschikbaar in de verpakking. Als u van plan bent om op XFA-Gebaseerde AanpassingsForms te gebruiken, contacteer de Steun van de Adobe met details van uw gebruiksgeval en specifieke vereisten.(XFA_BASED_FORM, XDP_BASED_FORM)
+* Ondersteuning voor adaptieve Forms op basis van XFA is niet beschikbaar in de verpakking. Als u van plan bent om op XFA-Gebaseerde Aangepaste Forms te gebruiken, contacteer de Steun van de Adobe met details van uw gebruiksgeval en specifieke vereisten.(XFA_BASED_FORM, XDP_BASED_FORM)
 
-Uitstrekken tot [Adobe-ondersteuning](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
+Uitstrekken tot [Ondersteuning voor Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.

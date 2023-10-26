@@ -28,7 +28,7 @@ Er wordt een subtype gebruikt met deze code:
 
 * `dynamic.media.runmode`: De gekoppelde waarde van dit subtype, indien opgegeven, is:
    * `dynamicmedia`: Dynamic Media - Hybride modus
-   * `dynamicmedia_scene7`: Dynamic Media - modus Scène 7
+   * `dynamicmedia_scene7`: Dynamic Media - modus Scene 7
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -40,9 +40,9 @@ Er wordt een subtype gebruikt met deze code:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
 >title="Implementatieleiding"
->abstract="AEM as a Cloud Service steunt slechts dynamicmedia_scene7 runmode. Controleer de huidige instellingen en neem contact op met het Adobe Support Team voor hulp en uitleg."
+>abstract="AEM as a Cloud Service steunt slechts dynamicmedia_scene7 runmode. Controleer de huidige instellingen en neem contact op met het ondersteuningsteam voor Adoben voor hulp en uitleg."
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/administering-dynamic-media.html" text="Dynamic Media instellen"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 
 * `dynamic.media.runmode`

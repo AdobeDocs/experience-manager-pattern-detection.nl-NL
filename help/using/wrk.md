@@ -32,7 +32,7 @@ Een subtype wordt gebruikt om het type werkschemaprobleem te identificeren dat m
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_guidance"
 >title="Implementatieleiding"
->abstract="Aangezien de standaard werkschema&#39;s van activa automatisch mijn activa microservices worden gesteund, is de beste praktijken al model of de lancering van het douaneactiva te herzien om te zien of zijn zij nodig zodra wij overgang aan AEM as a Cloud Service. Aanpassingen aan workflows voor bedrijfsmiddelen vereisen migratie om te kunnen werken met AEM as a Cloud Service met de hulp van het Hulpprogramma voor migratie van bedrijfsmiddelen"
+>abstract="Aangezien de standaard werkschema&#39;s van activa automatisch mijn activa microservices worden gesteund, is de beste praktijken al model of de lancering van het douaneactiva te herzien om te zien of zijn zij nodig zodra wij overgang aan AEM as a Cloud Service. Aanpassingen aan workflows voor bedrijfsmiddelen vereisen migratie om te kunnen werken met AEM as a Cloud Service met behulp van het hulpmiddel voor migratie van bedrijfsmiddelen"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html" text="Aan de slag - Asset Microservices"
 
 * Middelenverwerking is traditioneel uitgevoerd met middelenwerkstromen die worden uitgevoerd op de AEM Auteur-instantie. Met AEM as a Cloud Service, wordt de activaverwerking nu uitgevoerd door activa microservices. (Zie de [Overzicht van asset microservices](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/asset-microservices-overview.html) voor meer informatie .
@@ -44,9 +44,9 @@ Een subtype wordt gebruikt om het type werkschemaprobleem te identificeren dat m
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
 >title="Hulpmiddelen &amp; Middelen"
->abstract="Reviseren en plannen om het Asset Workflow Migration Tool uit te voeren zodra een aangepast workflowmodel of een startprogramma voor middelen is geïdentificeerd. Neem contact op met Adobe Support voor hulp en uitleg"
+>abstract="Reviseren en plannen om het Asset Workflow Migration Tool uit te voeren zodra een aangepast workflowmodel of een startprogramma voor middelen is geïdentificeerd. Neem contact op met de Adobe Support voor hulp en verduidelijking"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/asset-workflow-migration-tool.html" text="De tool Asset Workflow Migration"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Als er een workflowmodel voor aangepaste middelen of een startprogramma is geïdentificeerd, kunt u het programma [Hulpprogramma voor migratie van workflows](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/refactoring-tools/asset-workflow-migration-tool.html).
 * Controleer de [Aan de slag met middelenmicroservices](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html) voor meer informatie .

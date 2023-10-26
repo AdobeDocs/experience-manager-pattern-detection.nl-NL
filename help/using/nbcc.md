@@ -34,9 +34,9 @@ VEROUDERD: Niet-achterwaartse compatibele wijzigingen (vervangen door NCC, niet-
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_nbcc_guidance"
 >title="Implementatieleiding"
->abstract="Aangepaste code controleren is de beste manier om te controleren of alleen achterwaartse compatibele Sling-componenten worden bedekt of waarnaar wordt verwezen. Neem contact op met Adobe Support voor hulp en uitleg"
+>abstract="Aangepaste code controleren is de beste manier om te controleren of alleen achterwaartse compatibele Sling-componenten worden bedekt of waarnaar wordt verwezen. Neem contact op met de Adobe Support voor hulp en verduidelijking"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html#platform" text="Bedekkingen"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Bedekking of verwijzing alleen naar achterwaartse compatibele Sling-componenten.
 * Overweeg de middelen die afkomstig zijn van `/libs` of bundels na een AEM upgrade.

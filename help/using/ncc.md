@@ -34,9 +34,9 @@ Niet-compatibele wijzigingen
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_guidance"
 >title="Implementatieleiding"
->abstract="Aangepaste code controleren is de beste manier om alleen compatibele Sling-componenten te controleren of ernaar te verwijzen. Neem contact op met Adobe Support voor hulp en uitleg"
+>abstract="Aangepaste code controleren is de beste manier om alleen compatibele Sling-componenten te controleren of ernaar te verwijzen. Neem contact op met de Adobe Support voor hulp en verduidelijking"
 >additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html#platform" text="Bedekkingen"
->additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Experience Cloud-ondersteuning"
+>additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Bedekking of verwijzing alleen compatibele Sling-componenten.
 * Overweeg de middelen die afkomstig zijn van `/libs` of bundels na een AEM upgrade.
