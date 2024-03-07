@@ -3,7 +3,7 @@ title: INS
 description: Help-pagina Patroondetectiecode
 source-git-commit: e469b546a75a77e538a54de3ffc1ca385c8cf21d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---

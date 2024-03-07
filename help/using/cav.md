@@ -4,7 +4,7 @@ description: Help-pagina Patroondetectiecode
 exl-id: b2282da2-a028-4be7-914c-17dcd5d2902a
 source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
