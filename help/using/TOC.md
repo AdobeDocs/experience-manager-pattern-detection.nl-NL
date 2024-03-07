@@ -6,9 +6,9 @@ user-guide-description: Meer informatie over Adobe Experience Manager Pattern De
 feature-set: Experience Manager
 feature: Developer Tools
 role: Developer
-source-git-commit: 6fe0d0abfbef3690a641c63f3b560efbd8df9ce1
+source-git-commit: 60d4f353a4252fc8c318d606ca67d618e69fe4a4
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 0%
 + [DOPI](dopi.md)
 + [ECU](ecu.md)
 + [[!DNL FORMS]](forms.md)
++ [INS](ins.md)
 + [INST](inst.md)
 + [IOI](ioi.md)
 + [LOCP](locp.md)
