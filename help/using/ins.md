@@ -1,9 +1,10 @@
 ---
 title: INS
-description: Help-pagina Patroondetectiecode
-source-git-commit: e469b546a75a77e538a54de3ffc1ca385c8cf21d
+description: Help-pagina Patroondetectiecode.
+exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -38,4 +39,4 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * De naamruimtedefinities corrigeren volgens [JCR-specificatie](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html). Vermelde stappen [hier](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163)
-* Bereik uit naar onze [Klantenzorgteam van Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
+* Contact opnemen met de [Klantenzorgteam van Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om problemen aan te pakken.

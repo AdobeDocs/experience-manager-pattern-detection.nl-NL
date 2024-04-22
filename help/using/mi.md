@@ -1,10 +1,10 @@
 ---
 title: MI
-description: Help-pagina Patroondetectiecode
+description: Help-pagina Patroondetectiecode.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: efb06dc7e00f91d4c080553df3153deb90b093f2
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Probleem met verkeerde configuratie
 >title="Probleem met verkeerde configuratie"
 >abstract="MI identificeert configuratiekwesties op AEM instantie"
 
-`MI`  Probleem met verkeerde configuratie identificeert configuratieproblemen bij AEM instantie.
+MI Misconfiguration Issue identificeert configuratiekwesties op AEM instantie.
 
 Subtypes worden gebruikt om de verschillende soorten informatie te identificeren, zoals:
 
@@ -43,11 +43,11 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * `sling.job.max.parallel`
-   * Het is raadzaam de waarde in te stellen op 0,5 om de helft van de beschikbare verwerkers te benutten.
+   * Adobe raadt aan de waarde in te stellen op 0,5 om te profiteren van de helft van de beschikbare processors.
 * `missing.maintenance.configuration`
-   * Opschonen van revisie: raadpleeg [Opschonen van revisie](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html). Het belangrijke deel met betrekking tot de configuratie is hier: [Revisie-opschoning - Tail en volledige compressie configureren](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/revision-cleanup.html#how-to-configure-full-and-tail-compaction).
-   * Lucene Binaries Cleanup: Gelieve te verwijzen naar [Operations-dashboard - opschonen van Lucene-binaire bestanden](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-dashboard.html#lucene-binaries-cleanup).
-   * Verzameling opschonen van gegevensopslag: raadpleeg [Opruimverzameling gegevensopslag](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/data-store-garbage-collection.html).
-   * Werkstroom leegmaken: raadpleeg [Regelmatig leegmaken van workflowinstanties](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/workflows-administering.html#regular-purging-of-workflow-instances).
-   * AuditLog-onderhoudstaak: raadpleeg [Controle van logboekonderhoud](https://experienceleague.adobe.com/docs/experience-manager-65/administering/operations/operations-audit-log.html).
-* Bereik uit naar onze [Klantenzorgteam van Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
+   * Revisie opschonen: Zie [Opschonen van revisie](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup). Het belangrijke deel met betrekking tot de configuratie is hier: [Revisie-opschoning - Tail en volledige compressie configureren](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/revision-cleanup).
+   * Opruiming Lucene Binaries: Zie [Operations-dashboard - opschonen van Lucene-binaire bestanden](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-dashboard#lucene-binaries-cleanup).
+   * Opschoonfunctie gegevensopslag, verzameling: Zie [Opruimverzameling gegevensopslag](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/data-store-garbage-collection).
+   * Werkstroom leegmaken: Zie [Regelmatig leegmaken van workflowinstanties](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/workflows-administering#regular-purging-of-workflow-instances).
+   * AuditLog-onderhoudstaak: Zie [Controle van logboekonderhoud](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/operations/operations-audit-log).
+* Contact opnemen met de [Klantenzorgteam van Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om problemen aan te pakken.

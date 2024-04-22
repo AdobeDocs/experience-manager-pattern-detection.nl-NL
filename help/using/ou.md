@@ -1,10 +1,10 @@
 ---
 title: OU
-description: Help-pagina Patroondetectiecode
+description: Help-pagina Patroondetectiecode.
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ Aangezien de oude versies niet standaard worden geïnstalleerd, werkt de toepass
 
 * Korte termijn: installatie van compatibiliteitspakket kan helpen.
 * Lange termijn: pas de klantcode aan om de nieuwste versie van AEM componenten of API&#39;s te gebruiken.
-* Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
+* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.

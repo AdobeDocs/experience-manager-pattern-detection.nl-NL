@@ -1,10 +1,10 @@
 ---
 title: INST
-description: Help-pagina Patroondetectiecode
+description: Help-pagina Patroondetectiecode.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -59,4 +59,4 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 * Controleren hoe [pakketten van derden insluiten](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#embedding-3rd-party-packages) in uw project voor AEM as a Cloud Service.
 * Pakketten van derden moeten voldoen aan de AEM as a Cloud Service [ontwikkeling](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html) en [verpakking](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/repository-structure-package.html) richtsnoeren.
 * Controleren [verouderd](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) projecten en begrijpen hoe [INST-overtredingen](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) kan worden gecorrigeerd en verenigbaar worden gemaakt met AEM as a Cloud Service.
-* Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
+* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.

@@ -1,10 +1,10 @@
 ---
 title: ASO
-description: Help-pagina Patroondetectiecode
+description: Help-pagina Patroondetectiecode.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: a899311c975efee180bc1d3bc3c7bca30d429a22
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Systeemoverzicht AEM
 Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 
 * `aem.version`: De AEM versie.
-* `aem.product`: Detectie van het gebruik van een AEM product (handel, Forms, enz.).
+* `aem.product`: Detectie van het gebruik van een AEM product (Commerce, Forms, enz.).
 * `node.count`: Het aantal knooppunten van een bepaald type (Pagina, Element, enz.) en het totaal aan knooppunten.
 * `node.store`: Het implementatietype van de nodeopslag (SegmentNodeStore, DocumentNodeStore) en zijn grootte.
 * `data.store`: Het implementatietype voor de gegevensopslag (FileDataStore, S3DataStore, AzureDataStore).
@@ -65,4 +65,4 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 * URL&#39;s met Vanity kunnen worden vervangen door Apache Rewrites.
 * Zie [documentatie](https://experienceleague.adobe.com/docs/experience-manager-65/developing/bestpractices/troubleshooting-slow-queries.html) voor het oplossen van problemen langzame vragen.
 * Controleer de [releaseopmerkingen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html) voor meer informatie over de meest recente wijzigingen in AEM as a Cloud Service.
-* Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
+* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.

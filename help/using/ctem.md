@@ -1,11 +1,11 @@
 ---
 title: CTEM
-description: Help-pagina Patroondetectiecode
+description: Help-pagina Patroondetectiecode.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 1%
+source-wordcount: '250'
+ht-degree: 2%
 
 ---
 
@@ -49,4 +49,4 @@ Sjablonen worden aangeduid met een waarde van het primaire type &quot;cq:Templat
 
 * Gebruik de [AEM moderniseringsinstrumenten](https://opensource.adobe.com/aem-modernize-tools/) om statische sjablonen te migreren naar bewerkbare sjablonen.
 * Meer informatie over bewerkbare sjablonen vindt u op [Sjablonen](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html).
-* Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
+* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.

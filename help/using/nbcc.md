@@ -1,10 +1,10 @@
 ---
 title: NBCC
-description: Help-pagina Patroondetectiecode
+description: Help-pagina Patroondetectiecode.
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -40,4 +40,4 @@ VEROUDERD: Niet-achterwaartse compatibele wijzigingen (vervangen door NCC, niet-
 
 * Bedekking of verwijzing alleen naar achterwaartse compatibele Sling-componenten.
 * Overweeg de middelen die afkomstig zijn van `/libs` of bundels na een AEM upgrade.
-* Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
+* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.

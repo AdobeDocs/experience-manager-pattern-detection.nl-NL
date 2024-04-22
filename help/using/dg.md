@@ -1,10 +1,10 @@
 ---
 title: DG
-description: Help-pagina Patroondetectiecode
+description: Help-pagina Patroondetectiecode.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 65335d21a5035f023577c74fd073e0160a053932
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te i
 
 * `java.io.inputstream`
    * Gebruik een direct-binaire upload benadering waarin het binaire getal direct aan de datastore wordt toegevoegd.
-   * Gebruik deze optie voor gebruik van middelen [aem-upload](https://github.com/adobe/aem-upload). Voor andere typen binaire getallen kan de aangepaste upload-logica worden gemodelleerd volgens hetzelfde patroon.
+   * Voor elementen die u gebruikt, raadpleegt u [aem-upload](https://github.com/adobe/aem-upload). Voor andere typen binaire getallen kan de aangepaste upload-logica worden gemodelleerd volgens hetzelfde patroon.
 
 * `maintenance.task.configuration`
    * AEM as a Cloud Service bekijken [Onderhoudstaken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html) documentatie.
@@ -83,11 +83,11 @@ Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te i
    * Langlopende banen moeten zo mogelijk worden vermeden.
 
 * `unsupported.asset.api`
-   * Gebruik in plaats van de niet-ondersteunde API&#39;s van Asset Manager [aem-upload](https://github.com/adobe/aem-upload).
+   * In plaats van de niet-ondersteunde API&#39;s van Asset Manager te gebruiken raadpleegt u [aem-upload](https://github.com/adobe/aem-upload).
 
 * `javax.jcr.observation.EventListener`
    * In plaats van de gebeurtenislistener te gebruiken, wordt aangeraden het gebeurtenisafhandelingsmechanisme te verwijzen naar [Verkooptaken](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) aangezien zij de garantie van verwerking biedt.
 
 * `custom.guava.cache`
    * Indien nodig moeten er buiten AEM kooien worden gemaakt. Een externe caching-oplossing kan overwogen worden.
-* Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
+* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.
