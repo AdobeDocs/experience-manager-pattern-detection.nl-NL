@@ -1,10 +1,10 @@
 ---
 title: URC
-description: Help-pagina Patroondetectiecode
+description: Help-pagina Patroondetectiecode.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -18,33 +18,33 @@ Niet-ondersteunde configuratie van de uitvoermodus
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_overview"
 >title="Niet-ondersteunde configuratie van de uitvoermodus"
->abstract="URC identificeert het gebruik van configuraties die op een runmode naam gebaseerd zijn die niet in AEM as a Cloud Service wordt gesteund."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#custom-runmodes" text="Ondersteunde uitvoermodi"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#runmodes" text="Runmodi"
+>abstract="URC identificeert het gebruik van configuraties die op een naam van de looppaswijze gebaseerd zijn die niet in AEM as a Cloud Service wordt gesteund."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="Ondersteunde uitvoermodi"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Runmodi"
 
-`URC` identificeert het gebruik van configuraties die op een runmode naam gebaseerd zijn die niet in AEM as a Cloud Service wordt gesteund.
+URC identificeert het gebruik van configuraties die op een naam van de looppaswijze gebaseerd zijn die niet in AEM as a Cloud Service wordt gesteund.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
 >title="Implementatieleiding"
->abstract="De beste praktijk is om te controleren of alle runmodi die in uw toepassing worden gebruikt, worden ondersteund en ervoor te zorgen dat deze de richtlijnen voor de resolutie van de runmode volgen"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#deploying" text="Richtlijnen voor resolutie bij uitvoering"
+>abstract="U kunt het beste controleren of alle runmodi die in uw toepassing worden gebruikt, worden ondersteund en controleren of deze de richtlijnen voor runmodusresolutie volgen"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="Richtlijnen voor resolutie bij uitvoering"
 
-* De reeks namen die in AEM as a Cloud Service voor runmodi kan worden gebruikt, is beperkt.
-* Configuraties die zijn gebaseerd op niet-ondersteunde runmodusnamen hebben geen effect wanneer ze worden geïmplementeerd op AEM as a Cloud Service.
+* De reeks namen die kan worden gebruikt voor het uitvoeren van verschillende modi in AEM as a Cloud Service is beperkt.
+* Configuraties die zijn gebaseerd op niet-ondersteunde namen voor de uitvoeringsmodus, hebben geen effect wanneer ze worden geïmplementeerd AEM as a Cloud Service.
 
 ## Mogelijke oplossingen {#solutions}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="Hulpmiddelen &amp; Middelen"
->abstract="Bekijk het WKND-verouderde project om te begrijpen hoe schendingen van URC compatibel kunnen worden gemaakt met AEM Cloud Service. Lees ook het voorbeeld voor OSGi-configuraties van OSGi-versies op basis van aangepaste runmode op basis van Github om na te gaan of AEM as a Cloud Service is."
+>abstract="Bekijk het WKND-verouderde project om te begrijpen hoe schendingen van URC compatibel kunnen worden gemaakt met AEM Cloud Service. Ook, het Voorbeeld van de Overtreding van het Overzicht URC op GitHub om te begrijpen hoe de douane op runmode-gebaseerde configuraties OSGi kunnen worden bijgewerkt om met AEM as a Cloud Service te houden."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="WKND-verouderd project"
->additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="Voorbeeld van schending van URC - Github"
+>additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="Voorbeeld van URC-schending - GitHub"
 
-* Herzie het gebruik van deze configuratie om te bepalen als het noodzakelijk is.
-* Wijzig de naam van de configuratie in een van de ondersteunde configuraties [runmode-namen](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html#custom-runmodes) en volgen [richtlijnen voor runmode resolutie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html#runmode-resolution).
+* Herzie het gebruik van deze configuratie zodat kunt u bepalen als het noodzakelijk is.
+* Wijzig de naam van de configuratie met een van de ondersteunde configuraties [namen van uitvoermodi](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes) en volgen [Richtlijnen voor resolutie in de uitvoermodus](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#runmode-resolution).
 * Controleren [verouderd](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc) projecten en begrijpen hoe [OTC-overtredingen](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc) kan worden gecorrigeerd en verenigbaar worden gemaakt met AEM as a Cloud Service.
-* Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
+* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.

@@ -1,10 +1,10 @@
 ---
 title: LOCP
-description: Help-pagina Patroondetectiecode
+description: Help-pagina Patroondetectiecode..
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: f1e833bea35ef3b412936d529b14bff6f1cb35c1
+source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ ht-degree: 0%
 >id="aemcloud_bpa_locp_overview"
 >title="/libs Overwriting Custom Packages"
 >abstract="LOCP identificeert de opsporing van een douanepakket dat inhoud aan /libs levert, die een anti-patroon (behalve in het geval ACLs) is."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/deploying/upgrading/sustainable-upgrades.html" text="Duurzame verbeteringen"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html#platform" text="Samenvoeging van verkoopbronnen"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Duurzame verbeteringen"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Samenvoeging van verkoopbronnen"
 
-`LOCP` identificeert de opsporing van een douanepakket dat inhoud aan levert `/libs`, die een anti-patroon (behalve in het geval ACLs) is.
+LOCP identificeert de opsporing van een douanepakket dat inhoud aan levert `/libs`, die een anti-patroon (behalve in het geval ACLs) is.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
-* De klantencode zou voor om het even welke GFP, SP of belangrijke AEM verbetering kunnen worden geschrapt of worden vervangen.
-* In sommige gevallen wordt de nieuwe inhoud mogelijk niet correct geïnstalleerd.
+* De klantencode zou voor om het even welke GFP, SP, of belangrijke AEM verbetering kunnen worden geschrapt of worden vervangen.
+* Soms wordt de nieuwe inhoud mogelijk niet correct geïnstalleerd.
 
 ## Mogelijke oplossingen {#solutions}
 
@@ -35,8 +35,8 @@ ht-degree: 0%
 >id="aemcloud_bpa_locp_guidance"
 >title="Implementatieleiding"
 >abstract="Klanten dienen hun aangepaste code en pakketten te controleren om na te gaan of inhoud wordt geleverd aan /libs en deze opnieuw te ordenen op bedekking van de inhoud onder /apps en deze compatibel te maken met AEM as a Cloud Service. Neem contact op met de Adobe Support voor hulp en verduidelijking"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html#platform" text="Bedekkingen"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Bedekkingen"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Klantpakketten moeten inhoud implementeren op `/apps` in plaats van `/libs`.
-* Neem contact op met onze [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) om verduidelijkingen te krijgen of om problemen aan te pakken.
+* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) indien u verduidelijking of bezorgdheid nodig hebt.
