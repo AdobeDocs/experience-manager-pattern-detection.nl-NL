@@ -2,9 +2,9 @@
 title: NCC
 description: Help-pagina Patroondetectiecode.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Niet-compatibele wijzigingen
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_overview"
 >title="Niet-compatibele wijzigingen"
->abstract="NCC identificeert de situatie waarin sommige JCR-knooppunten of -bundels op een niet-compatibele manier worden gewijzigd. De klant is wellicht niet op de hoogte van deze wijziging voordat een upgrade wordt uitgevoerd."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/aem-cloud-changes.html" text="Opvallende wijzigingen - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html" text="Opmerkingen bij de release - AEM as a Cloud Service"
+>abstract="NCC identificeert de situatie waarin sommige JCR-knooppunten of -bundels op een niet-compatibele manier worden gewijzigd. Het is mogelijk dat de klant niet op de hoogte is van deze wijziging voordat een upgrade wordt uitgevoerd."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Opvallende wijzigingen - AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Opmerkingen bij de release - AEM as a Cloud Service"
 
-`NCC` geeft de situatie aan waarin sommige JCR-knooppunten of -bundels op een niet-compatibele manier worden gewijzigd. De klant is wellicht niet op de hoogte van deze wijziging voordat een upgrade wordt uitgevoerd.
+NCC identificeert de situatie waarin sommige JCR-knooppunten of -bundels op een niet-compatibele manier worden gewijzigd. Het is mogelijk dat de klant niet op de hoogte is van deze wijziging voordat een upgrade wordt uitgevoerd.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -34,8 +34,8 @@ Niet-compatibele wijzigingen
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ncc_guidance"
 >title="Implementatieleiding"
->abstract="Aangepaste code controleren is de beste manier om alleen compatibele Sling-componenten te controleren of ernaar te verwijzen. Neem contact op met de Adobe Support voor hulp en verduidelijking"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/overlays.html#platform" text="Bedekkingen"
+>abstract="Aangepaste code controleren is de beste manier om te controleren of alleen compatibele Sling-componenten worden bedekt of waarnaar wordt verwezen. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays#platform" text="Bedekkingen"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Bedekking of verwijzing alleen compatibele Sling-componenten.

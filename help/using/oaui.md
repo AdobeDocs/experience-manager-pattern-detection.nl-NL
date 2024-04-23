@@ -2,9 +2,9 @@
 title: OAUI
 description: Help-pagina Patroondetectiecode..
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Een voorbeeld is: `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`.
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
 >title="Implementatieleiding"
->abstract="Externe gebruikers die zijn geconfigureerd met OAuth kunnen zich niet aanmelden bij auteur-/publicatieinstanties totdat deze opnieuw zijn geconfigureerd om compatibel te zijn met AEM as a Cloud Service. AEM as a Cloud Service biedt IMS-verificatieondersteuning alleen voor auteur-, Admin- en Dev-gebruikers en SAML-gebaseerde integratie voor de publicatieomgevingen. Neem contact op met de Adobe Support voor hulp en verduidelijking"
+>abstract="Externe gebruikers die zijn geconfigureerd met OAuth kunnen zich niet aanmelden bij auteur-/publicatieinstanties totdat deze opnieuw zijn geconfigureerd om compatibel te zijn met AEM as a Cloud Service. AEM as a Cloud Service biedt IMS-verificatieondersteuning alleen voor auteur-, Admin- en Dev-gebruikers en SAML-gebaseerde integratie voor de publicatieomgevingen. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS-ondersteuning - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML-integratie - Publiceren"
 

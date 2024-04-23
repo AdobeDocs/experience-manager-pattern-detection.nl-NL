@@ -2,9 +2,9 @@
 title: PCX
 description: Help-pagina Patroondetectiecode.
 exl-id: 7e3c1142-c349-4bce-b8de-8e91528f80a0
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_pcx_guidance"
 >title="Implementatieleiding"
->abstract="De beste manier is de inhoudsstructuur te controleren om de complexiteit van pagina&#39;s te verminderen, wat op zijn beurt de weergaveprestaties van pagina&#39;s zou verbeteren. Neem contact op met de Adobe Support voor hulp en verduidelijking"
+>abstract="De beste manier is de inhoudsstructuur te controleren om de complexiteit van pagina&#39;s te verminderen, wat op zijn beurt de weergaveprestaties van pagina&#39;s zou verbeteren. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Verminder het totale aantal knooppunten in een pagina door de volgende actie uit te voeren:

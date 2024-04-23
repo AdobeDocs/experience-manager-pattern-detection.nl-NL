@@ -2,9 +2,9 @@
 title: DG
 description: Help-pagina Patroondetectiecode.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ Richtlijnen voor ontwikkelaars
 >id="aemcloud_bpa_dg_overview"
 >title="Richtlijnen voor ontwikkelaars"
 >abstract="De code van het directoraat-generaal geeft afwijkingen aan van de geselecteerde richtsnoeren voor ontwikkeling voor AEM 6.5 en AEM as a Cloud Service. De beste praktijken kunnen het onderhoud en de prestaties van uw systeem verbeteren. Hoewel sommige van deze afwijkingen geen probleem in andere toepassingscontexten, met inbegrip van vorige versies van AEM kunnen zijn, kunnen zij problemen veroorzaken wanneer gebruikt met AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html" text="AEM ontwikkeling - Richtlijnen en beste praktijken"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html" text="as a Cloud Service ontwikkelingsrichtsnoeren AEM"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM ontwikkeling - Richtlijnen en beste praktijken"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="as a Cloud Service ontwikkelingsrichtsnoeren AEM"
 
 
-`DG` identificeert afwijkingen van geselecteerde ontwikkelingrichtsnoeren voor [AEM 6,5](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/dev-guidelines-bestpractices.html) en [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html). De beste praktijken kunnen het onderhoud en de prestaties van uw systeem verbeteren. Hoewel sommige van deze afwijkingen geen probleem in andere toepassingscontexten, met inbegrip van vorige versies van AEM kunnen zijn, kunnen zij problemen veroorzaken wanneer gebruikt met AEM as a Cloud Service.
+DG geeft afwijkingen aan van geselecteerde richtsnoeren voor ontwikkeling voor [AEM 6,5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) en [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). De beste praktijken kunnen het onderhoud en de prestaties van uw systeem verbeteren. Hoewel sommige van deze afwijkingen geen probleem in andere toepassingscontexten, met inbegrip van vorige versies van AEM kunnen zijn, kunnen zij problemen veroorzaken wanneer gebruikt met AEM as a Cloud Service.
 
 Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te identificeren:
 
@@ -45,7 +45,7 @@ Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te i
 
 * `sling.commons.scheduler`
    * Toepassingen die afhankelijk zijn van achtergrondtaken die [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) werkt mogelijk niet zoals verwacht, omdat uitvoering niet kan worden gegarandeerd in AEM as a Cloud Service.
-   * AEM richtsnoeren voor as a Cloud Service ontwikkeling [achtergrondtaken en langdurige taken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/development-guidelines.html#background-tasks-and-long-running-jobs) suggereert dat de code die als geplande taak wordt uitgevoerd moet veronderstellen dat de instantie het loopt, op elk ogenblik kan worden onderdrukt. Daarom moet de code veerkrachtig en herbruikbaar zijn.
+   * Richtsnoeren voor [achtergrondtaken en langdurige taken](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#background-tasks-and-long-running-jobs) suggereert dat de code die als geplande taak wordt uitgevoerd ook moet veronderstellen dat de instantie het loopt, op elk ogenblik kan worden onderdrukt. Daarom moet de code veerkrachtig en herbruikbaar zijn.
 
 * `unsupported.asset.api`
    * De volgende API&#39;s van AssetManager worden gemarkeerd als niet-ondersteund op AEM as a Cloud Service.
@@ -66,21 +66,21 @@ Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te i
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dg_guidance"
 >title="Implementatieleiding"
->abstract="Volgens AEM ontwikkelings richtlijnen &amp; beste praktijken, zouden de Klanten hun implementaties over gebruik van het Verdelen van de Planner van Commons moeten herzien en hen herstructureren aan het Verlenen van Banen, hun systeemonderhoudstaken herstructureren, het stromen van om het even welke binaire gegevens herzien en hun code om met AEM as a Cloud Service in overeenstemming te zijn te zijn."
+>abstract="Controleer uw implementaties op het gebruik van de Planner van Commons van de Verkoop. Herstructureer hen aan het Verdelen van Banen, herstructureer hun taken van het systeemonderhoud, herzie het stromen van om het even welke binaire gegevens, en vernieuw hun code om met AEM as a Cloud Service compatibel te zijn."
 >additional-url="https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing" text="Verkooptaken"
->additional-url="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html" text="Onderhoudstaken in AEM as a Cloud Service"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance" text="Onderhoudstaken in AEM as a Cloud Service"
 
 * `java.io.inputstream`
    * Gebruik een direct-binaire upload benadering waarin het binaire getal direct aan de datastore wordt toegevoegd.
    * Voor elementen die u gebruikt, raadpleegt u [aem-upload](https://github.com/adobe/aem-upload). Voor andere typen binaire getallen kan de aangepaste upload-logica worden gemodelleerd volgens hetzelfde patroon.
 
 * `maintenance.task.configuration`
-   * AEM as a Cloud Service bekijken [Onderhoudstaken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/maintenance.html) documentatie.
-   * Zorg ervoor dat [Configuratie onderhoudstaken](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#maintenance-tasks-configuration-in-source-control) is in broncontrole.
+   * AEM as a Cloud Service bekijken [Onderhoudstaken](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/maintenance) documentatie.
+   * Zorg ervoor dat [Configuratie onderhoudstaken](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#maintenance-tasks-configuration-in-source-control) is in broncontrole.
 
 * `sling.commons.scheduler`
    * Het gebruik van [Sling Commons Scheduler](https://sling.apache.org/documentation/bundles/scheduler-service-commons-scheduler.html) with [Verkooptaken](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing), die ten minste eenmaal een uitvoeringsgarantie hebben.
-   * Langlopende banen moeten zo mogelijk worden vermeden.
+   * Lange banen moeten worden vermeden.
 
 * `unsupported.asset.api`
    * In plaats van de niet-ondersteunde API&#39;s van Asset Manager te gebruiken raadpleegt u [aem-upload](https://github.com/adobe/aem-upload).

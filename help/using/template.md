@@ -1,9 +1,9 @@
 ---
 title: SJABLOON
 description: Sjabloon voor Help-pagina voor patroondetectiecode.
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,12 @@ Sjabloon
 
 ## Achtergrond {#background}
 
-Geef een beschrijving van de uitgave die deze code vertegenwoordigt.
+Geef een beschrijving van een of meer problemen die deze code vertegenwoordigt.
 Beantwoord de vraag: &quot;Wat is dit?&quot;
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
-Geef een beschrijving van de mogelijke implicaties en risico&#39;s die zich zullen voordoen als daar niets aan wordt gedaan.
+Geef een beschrijving van mogelijke implicaties en risico&#39;s die zich kunnen voordoen als er niets aan wordt gedaan.
 Beantwoord de vraag: &quot;Waarom zou ik me zorgen maken?&quot;
 
 * implicaties of risico #1
@@ -28,7 +28,7 @@ Beantwoord de vraag: &quot;Waarom zou ik me zorgen maken?&quot;
 
 ## Mogelijke oplossingen {#solutions}
 
-Geef een beschrijving van mogelijke stappen die het probleem zullen verhelpen of oplossen. Vermijd het dupliceren van informatie die elders kan worden gevonden—verwijs waar mogelijk de documentatie van de openbare Adobe.
+Geef een beschrijving van mogelijke stappen die het probleem verhelpen of oplossen. Vermijd het dupliceren van informatie die elders kan worden gevonden—verwijs waar mogelijk de documentatie van de openbare Adobe.
 Beantwoord de vraag: &quot;Wat kan ik ermee doen?&quot;
 
 * mogelijke oplossing #1

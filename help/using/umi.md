@@ -2,9 +2,9 @@
 title: UMI
 description: Help-pagina Patroondetectiecode..
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ De volgende configuraties worden gecontroleerd op wijziging:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_umi_guidance"
 >title="Implementatieleiding"
->abstract="De beste praktijken moeten uw huidige configuraties herzien en om het even welke veranderingen terugkeren die aan vermelde configuraties worden aangebracht om om het even welke toekomstige verbeteringskwesties te vermijden. Neem contact op met de Adobe Support voor hulp en verduidelijking"
+>abstract="De beste praktijken moeten uw huidige configuraties herzien en om het even welke veranderingen terugkeren die aan vermelde configuraties worden aangebracht om om het even welke toekomstige verbeteringskwesties te vermijden. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Wijzig of verwijder de vier bovenstaande configuraties niet.

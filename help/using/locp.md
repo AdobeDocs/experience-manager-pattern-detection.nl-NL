@@ -2,9 +2,9 @@
 title: LOCP
 description: Help-pagina Patroondetectiecode..
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ LOCP identificeert de opsporing van een douanepakket dat inhoud aan levert `/lib
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_locp_guidance"
 >title="Implementatieleiding"
->abstract="Klanten dienen hun aangepaste code en pakketten te controleren om na te gaan of inhoud wordt geleverd aan /libs en deze opnieuw te ordenen op bedekking van de inhoud onder /apps en deze compatibel te maken met AEM as a Cloud Service. Neem contact op met de Adobe Support voor hulp en verduidelijking"
+>abstract="Klanten dienen hun aangepaste code en pakketten te controleren om na te gaan of inhoud wordt geleverd aan /libs en deze opnieuw te ordenen op bedekking van de inhoud onder /apps en deze compatibel te maken met AEM as a Cloud Service. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Bedekkingen"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 

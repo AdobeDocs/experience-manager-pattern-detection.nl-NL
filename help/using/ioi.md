@@ -2,9 +2,9 @@
 title: IOI
 description: Help-pagina Patroondetectiecode.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Sommige hiervan worden gebruikt door `com.adobe.granite.repository`, die een ops
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_guidance"
 >title="Implementatieleiding"
->abstract="Klanten dienen hun aangepaste code te herzien om het gebruik van dergelijke API&#39;s te identificeren en te controleren of deze compatibel zijn met AEM as a Cloud Service. Neem contact op met de Adobe Support voor hulp en verduidelijking"
+>abstract="Klanten dienen hun aangepaste code te herzien om het gebruik van dergelijke API&#39;s te identificeren en te controleren of deze compatibel zijn met AEM as a Cloud Service. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Gebruik de Sling Resource API (of de JCR API) in plaats van toegang op laag niveau.

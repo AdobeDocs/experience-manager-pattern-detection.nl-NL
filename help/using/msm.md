@@ -2,9 +2,9 @@
 title: MSM
 description: Help-pagina Patroondetectiecode.
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_guidance"
 >title="Implementatieleiding"
->abstract="De beste praktijken moeten alle configuraties van de douanerolMSM en de acties van de douanerolflatie herzien en ervoor zorgen zij aan AEM as a Cloud Service werken. Neem contact op met de Adobe Support voor hulp en verduidelijking"
+>abstract="De beste praktijken moeten alle configuraties van de douanerolMSM en de acties van de douanerolflatie herzien en ervoor zorgen zij aan AEM as a Cloud Service werken. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.
