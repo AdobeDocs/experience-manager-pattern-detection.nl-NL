@@ -2,9 +2,9 @@
 title: WRK
 description: Help-pagina Patroondetectiecode.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '321'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Workflow
 >abstract="De code van het WRK identificeert een bevinding met betrekking tot een werkschemamodel of een lancerer. Deze worden gerapporteerd omdat workflowmodellen met aangepaste elementen moeten worden gemigreerd wanneer u een upgrade uitvoert naar AEM as a Cloud Service. Met AEM as a Cloud Service, wordt de activaverwerking nu uitgevoerd door activa microservices."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="Asset Microservices"
 
-WRK identificeert het vinden met betrekking tot een werkschemamodel of een lancerer. Deze worden gerapporteerd omdat workflowmodellen met aangepaste elementen moeten worden gemigreerd wanneer u een upgrade uitvoert naar AEM as a Cloud Service.
+`WRK`  Identificeert een bevinding die verwant is aan een workflowmodel of draagprogramma. Deze worden gerapporteerd omdat workflowmodellen met aangepaste elementen moeten worden gemigreerd wanneer u een upgrade uitvoert naar AEM as a Cloud Service.
 
 Een subtype wordt gebruikt om het type werkschemaprobleem te identificeren dat momenteel wordt ontdekt.
 

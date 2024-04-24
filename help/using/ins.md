@@ -2,9 +2,9 @@
 title: INS
 description: Help-pagina Patroondetectiecode.
 exl-id: d89e1589-3195-4b2d-98f4-136bedaecb0b
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Ongeldige naamruimte
 >title="Ongeldige naamruimte"
 >abstract="INS identificeert naamruimteproblemen bij AEM instantie"
 
-`INS`  Ongeldige naamruimte identificeert naamruimteproblemen bij AEM instantie.
+`INS`  (Ongeldige naamruimte) Hiermee worden naamruimteproblemen in AEM instantie aangegeven.
 
 Subtypes worden gebruikt om de verschillende soorten informatie te identificeren, zoals:
 
@@ -28,7 +28,7 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
-* Kan inhoud (op laag) niet repliceren of inhoud kopiëren (in hele omgeving - via `/crx/packMgr` of Inhoud kopiëren).
+* Kan inhoud (op meerdere lagen) niet repliceren of inhoud (op meerdere lagen) kopiëren `env`door `/crx/packMgr`of Inhoud kopiëren).
 
 ## Mogelijke oplossingen {#solutions}
 

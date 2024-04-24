@@ -2,9 +2,9 @@
 title: DG
 description: Help-pagina Patroondetectiecode.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Richtlijnen voor ontwikkelaars
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="as a Cloud Service ontwikkelingsrichtsnoeren AEM"
 
 
-DG geeft afwijkingen aan van geselecteerde richtsnoeren voor ontwikkeling voor [AEM 6,5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) en [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). De beste praktijken kunnen het onderhoud en de prestaties van uw systeem verbeteren. Hoewel sommige van deze afwijkingen geen probleem in andere toepassingscontexten, met inbegrip van vorige versies van AEM kunnen zijn, kunnen zij problemen veroorzaken wanneer gebruikt met AEM as a Cloud Service.
+`DG`  Hiermee worden afwijkingen van geselecteerde ontwikkelrichtlijnen aangegeven voor [AEM 6,5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices) en [AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines). De beste praktijken kunnen het onderhoud en de prestaties van uw systeem verbeteren. Hoewel sommige van deze afwijkingen geen probleem in andere toepassingscontexten, met inbegrip van vorige versies van AEM kunnen zijn, kunnen zij problemen veroorzaken wanneer gebruikt met AEM as a Cloud Service.
 
 Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te identificeren:
 

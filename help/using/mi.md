@@ -2,9 +2,9 @@
 title: MI
 description: Help-pagina Patroondetectiecode.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Probleem met verkeerde configuratie
 >title="Probleem met verkeerde configuratie"
 >abstract="MI identificeert configuratiekwesties op AEM instantie"
 
-MI Misconfiguration Issue identificeert configuratiekwesties op AEM instantie.
+`MI` (Probleem met verkeerde configuratie) Hiermee worden configuratieproblemen in AEM instantie aangegeven.
 
 Subtypes worden gebruikt om de verschillende soorten informatie te identificeren, zoals:
 

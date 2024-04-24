@@ -2,9 +2,9 @@
 title: OID
 description: Help-pagina Patroondetectiecode.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Eak-indexdefinitie
 >abstract="OID identificeert kwesties met betrekking tot de definities van eikenindexen. Het identificeert wijzigingen die aan standaarddefinities van de eikenindex zijn aangebracht. De code identificeert ook de definities van de aangepaste eikenindex die niet compatibel zijn met AEM as a Cloud Service. Het bericht voor elke OID-bevinding identificeert de index en verstrekt aanvullende informatie."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing#how-to-use" text="Richtlijnen voor indexering van inhoud"
 
-OID identificeert kwesties met betrekking tot de definities van eikenindexen. Het identificeert wijzigingen die aan standaarddefinities van de eikenindex zijn aangebracht. De code identificeert ook de definities van de aangepaste eikenindex die niet compatibel zijn met AEM as a Cloud Service. Het bericht voor elke `OID` het zoeken identificeert de index en verstrekt extra informatie.
+`OID`  Identificeert kwesties met betrekking tot de definities van de eikenindex. Het identificeert wijzigingen die aan standaarddefinities van de eikenindex zijn aangebracht. De code identificeert ook de definities van de aangepaste eikenindex die niet compatibel zijn met AEM as a Cloud Service. Het bericht voor elke `OID` het zoeken identificeert de index en verstrekt extra informatie.
 
 Subtypes worden gebruikt om de verschillende soorten informatie te identificeren:
 

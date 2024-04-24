@@ -2,9 +2,9 @@
 title: LUI
 description: Help-pagina Patroondetectiecode.
 exl-id: 742220d6-b37a-48ec-9f89-2f3f0ce6ff96
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Oudere gebruikersinterface
 >abstract="LUI identificeert het gebruik van verouderde gebruikersinterface-elementen die niet worden aanbevolen of niet worden ondersteund in latere versies van AEM en in AEM as a Cloud Service."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Opvallende wijzigingen - AEM as a Cloud Service"
 
-LUI identificeert het gebruik van verouderde gebruikersinterface-elementen die niet worden aanbevolen of niet worden ondersteund in latere versies van AEM en in AEM as a Cloud Service.
+`LUI`  Identificeert het gebruik van vervangen gebruikersinterface-elementen die niet worden aanbevolen of niet worden ondersteund in latere versies van AEM en in AEM as a Cloud Service.
 
 Subtypes worden gebruikt om de verschillende types van gebruikersinterfaceelementen te identificeren die zouden moeten of moeten worden bevorderd:
 

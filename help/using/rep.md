@@ -2,9 +2,9 @@
 title: REP
 description: Help-pagina Patroondetectiecode.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Replication Agent
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="Opvallende wijzigingen - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="Richtlijnen voor ontwikkeling"
 
-REP identificeert toegelaten replicatieagenten. Deze worden gerapporteerd vanwege het potentieel voor problemen die moeten worden aangepakt wanneer wordt overgegaan tot AEM as a Cloud Service.
+`REP`  Identificeert toegelaten replicatieagenten. Deze worden gerapporteerd vanwege het potentieel voor problemen die moeten worden aangepakt wanneer wordt overgegaan tot AEM as a Cloud Service.
 
 Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 

@@ -2,9 +2,9 @@
 title: ECU
 description: Help-pagina Patroondetectiecode.
 exl-id: fd061001-b00e-44ae-bd31-71bd2fa733cd
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ VEROUDERD: gebruik van externe inhoud (vervangen door CAV, schending van inhouds
 
 ## Achtergrond {#background}
 
-De ecu identificeert het patroon waarbij verschillende inhoudsgebieden worden gebruikt op een manier die in strijd is met de regels van de inhoudclassificatie.
+`ECU`  Identificeert het patroon waar verschillende inhoudsgebieden worden gebruikt op een manier die de regels van de inhoudsclassificatie schendt.
 
 Verwerking van verzendverzoeken bepaalt hoe de inhoud van een bron, de `sling:resourceType` wordt met name gebruikt om het script te bepalen dat wordt gebruikt om de inhoud te renderen. (Zie [Script zoeken](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/the-basics#locating-the-script) voor meer informatie .) Sling biedt ook technieken voor het benaderen en samenvoegen van bronnen via &quot;Bedekkingen&quot; en &quot;Overschrijvingen&quot;. Deze worden beschreven als deel van [Samenvoeging van verkoopbronnen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger) en in [Bedekkingen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/overlays).
 

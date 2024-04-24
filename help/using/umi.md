@@ -1,10 +1,10 @@
 ---
 title: UMI
-description: Help-pagina Patroondetectiecode..
+description: Help-pagina Patroondetectiecode.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Probleem met verkeerde configuratie van upgrade
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Opvallende wijzigingen - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Opmerkingen bij de release"
 
-UMI identificeert wijzigingen aan bepaalde configuraties OSGi die kwesties wanneer bevordering, met inbegrip van een ontbroken verbetering of verminderde functionaliteit veroorzaken.
+`UMI`  Identificeert wijzigingen aan bepaalde configuraties OSGi die kwesties wanneer bevordering, met inbegrip van een ontbroken verbetering of verminderde functionaliteit veroorzaken.
 
 De volgende configuraties worden gecontroleerd op wijziging:
 

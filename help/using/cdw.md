@@ -2,7 +2,7 @@
 title: CDW
 description: Help-pagina Patroondetectiecode.
 exl-id: a9e9dae8-0aa2-4679-a3c1-418cab01cfda
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Aangepaste dialoogvensterwidget
 >title="Aangepaste dialoogvensterwidget"
 >abstract="CDW identificeert de widgets van de Dialoog van de Douane die zouden moeten worden bijgewerkt om hen met AEM as a Cloud Service compatibel te zijn."
 
-`CDW`  Aangepaste dialoogvensterwidgets identificeren de aangepaste klassieke-dialoogwidgets. Deze moeten worden bijgewerkt om ze compatibel te maken met AEM as a Cloud Service.
+`CDW`  (Aangepaste dialoogvensterwidgets) Hiermee worden de aangepaste klassieke-dialoogwidgets aangegeven. Deze moeten worden bijgewerkt om ze compatibel te maken met AEM as a Cloud Service.
 
 Subtypes worden gebruikt om de informatie te identificeren, zoals:
 

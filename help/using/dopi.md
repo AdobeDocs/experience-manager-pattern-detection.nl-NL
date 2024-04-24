@@ -2,9 +2,9 @@
 title: DOPI
 description: Help-pagina Patroondetectiecode.
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Index van verouderde geordende eigenschappen
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="Geordende index - Vervangen"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing" text="Indexeren - AEM as a Cloud Service"
 
-DOPI identificeert het gebruik van geordende eigenschappen indexdefinities (`primaryType=oak:QueryIndexDefinition` EN `type="ordered"`), die sinds 6.1 zijn afgekeurd en in punt 6.2 zijn geschrapt.
+`DOPI`  Hiermee wordt het gebruik van geordende eigenschappen van indexdefinities aangegeven (`primaryType=oak:QueryIndexDefinition` EN `type="ordered"`), die sinds AEM 6.1 zijn vervangen en in AEM 6.2 zijn geschrapt.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -45,6 +45,6 @@ DOPI identificeert het gebruik van geordende eigenschappen indexdefinities (`pri
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="WKND-verouderd project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="Voorbeeld van DOPI-schending - GitHub"
 
-* Wijzig de indexdefinitie zodat deze een ondersteunde indexdefinitie wordt (of de index vervangt). (Zie [Oak-query&#39;s en indexering](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)).
+* Bewerk de indexdefinitie zodat deze een ondersteunde indexdefinitie wordt (of de index vervangt). (Zie [Oak-query&#39;s en indexering](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing)).
 * Controleren [verouderd](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi) projecten en begrijpen hoe [DOPI-overtredingen](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi) kan worden gecorrigeerd en verenigbaar worden gemaakt met AEM as a Cloud Service.
 * Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.

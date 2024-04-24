@@ -2,9 +2,9 @@
 title: CCOM
 description: Help-pagina Patroondetectiecode.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Aangepaste component
 >title="Aangepaste component"
 >abstract="CCOM identificeert aangepaste componenten die op AEM zijn geïnstalleerd. Deze informatie wordt verstrekt met het oog op de beoordeling van beste praktijken"
 
-CCOM identificeert aangepaste componenten die op AEM zijn geïnstalleerd. Deze informatie wordt verstrekt met het oog op de beoordeling van beste praktijken.
+`CCOM` Identificeert aangepaste componenten die op AEM zijn geïnstalleerd. Deze informatie wordt verstrekt met het oog op de beoordeling van beste praktijken.
 
 Met deze code wordt een subtype gebruikt om de componentcategorie te identificeren:
 

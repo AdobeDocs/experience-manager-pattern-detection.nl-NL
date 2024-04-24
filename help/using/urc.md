@@ -2,9 +2,9 @@
 title: URC
 description: Help-pagina Patroondetectiecode.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Niet-ondersteunde configuratie van de uitvoermodus
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="Ondersteunde uitvoermodi"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Runmodi"
 
-URC identificeert het gebruik van configuraties die op een naam van de looppaswijze gebaseerd zijn die niet in AEM as a Cloud Service wordt gesteund.
+`URC`  Identificeert het gebruik van configuraties die op een naam van de looppaswijze gebaseerd zijn die niet in AEM as a Cloud Service wordt gesteund.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 

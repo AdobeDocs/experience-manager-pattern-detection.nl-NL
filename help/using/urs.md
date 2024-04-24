@@ -2,9 +2,9 @@
 title: URS
 description: Help-pagina Patroondetectiecode.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Niet-ondersteunde gegevensopslagstructuur
 
 ## Achtergrond {#background}
 
-URS identificeert gevallen van niet-ondersteunde gegevensopslagstructuur en knooppuntkenmerken. Vanaf AEM 6.4 zijn er richtsnoeren voor de herstructurering van de inhoud van de opslagplaats opgesteld. Door hiërarchieën voor AEM productcode en klantencode duidelijk af te bakenen en conflicten tussen hen te vermijden, wordt de inhoud geherstructureerd uit `/etc` naar andere mappen in de opslagplaats, met inachtneming van de volgende regels op hoog niveau:
+`URS`  Identificeert gevallen van niet-ondersteunde repository structuur en knooppuntkenmerken. Vanaf AEM 6.4 zijn er richtsnoeren voor de herstructurering van de inhoud van de opslagplaats opgesteld. Door hiërarchieën voor AEM productcode en klantencode duidelijk af te bakenen en conflicten tussen hen te vermijden, wordt de inhoud geherstructureerd uit `/etc` naar andere mappen in de opslagplaats, met inachtneming van de volgende regels op hoog niveau:
 
 * AEM productcode wordt altijd in geplaatst `/libs`, die niet door aangepaste code mag worden overschreven.
 * Aangepaste code moet in `/apps`, `/content`, en `/conf`.

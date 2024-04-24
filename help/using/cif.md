@@ -2,9 +2,9 @@
 title: CIF
 description: Help-pagina Patroondetectiecode.
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Commerce integration framework, klassiek
 >abstract="CIF identificeert de klassieke versie van het gebruik van het Commerce integration framework die met AEM as a Cloud Service onverenigbaar is."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/introduction" text=" Inhoud en handel"
 
-CIF CIF identificeert de klassieke versie van het gebruik van het Commerce integration framework die met AEM as a Cloud Service onverenigbaar is. Het bericht voor elke `CIF` het vinden identificeert het gebruik en verstrekt extra informatie.
+`CIF`  Hiermee wordt de klassieke versie van het gebruik van het Commerce integration framework aangegeven die niet compatibel is met AEM as a Cloud Service versie. Het bericht voor elke `CIF` het vinden identificeert het gebruik en verstrekt extra informatie.
 
 Subtypes worden gebruikt om de verschillende soorten informatie te identificeren:
 

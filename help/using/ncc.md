@@ -2,9 +2,9 @@
 title: NCC
 description: Help-pagina Patroondetectiecode.
 exl-id: 4a374956-c64e-43fc-8279-ed25f6ed5cb0
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Niet-compatibele wijzigingen
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Opvallende wijzigingen - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Opmerkingen bij de release - AEM as a Cloud Service"
 
-NCC identificeert de situatie waarin sommige JCR-knooppunten of -bundels op een niet-compatibele manier worden gewijzigd. Het is mogelijk dat de klant niet op de hoogte is van deze wijziging voordat een upgrade wordt uitgevoerd.
+`NCC`  Identificeert aan de situatie waarin sommige knopen JCR of bundels op een niet compatibele manier worden veranderd. Het is mogelijk dat de klant niet op de hoogte is van deze wijziging voordat een upgrade wordt uitgevoerd.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 

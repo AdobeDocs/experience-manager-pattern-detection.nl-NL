@@ -2,7 +2,7 @@
 title: CCL
 description: Help-pagina Patroondetectiecode.
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -20,9 +20,10 @@ Aangepaste clientbibliotheek
 >title="Aangepaste clientbibliotheek"
 >abstract="CCL identificeert cliëntbibliotheken die op AEM zijn geïnstalleerd. Deze informatie wordt verstrekt met het oog op de beoordeling van beste praktijken."
 
-`CCL` identificeert clientbibliotheken die op AEM zijn geïnstalleerd. Deze informatie wordt verstrekt met het oog op de beoordeling van beste praktijken.
+`CCL` Identificeert clientbibliotheken die op AEM zijn geïnstalleerd. Deze informatie wordt verstrekt met het oog op de beoordeling van beste praktijken.
 
 Er wordt één subtype gebruikt met deze code:
+
 * `custom.client.library`
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}

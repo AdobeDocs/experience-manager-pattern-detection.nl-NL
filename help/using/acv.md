@@ -2,9 +2,9 @@
 title: ACV
 description: Help-pagina Patroondetectiecode.
 exl-id: 1dd1af45-aa56-48da-8582-c4330cded489
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Assets Content Validator
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview" text="Opmerkelijke wijzigingen - Experience Manager as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Experience Manager as a Cloud Service - Opmerkingen bij de release"
 
-In ACV Assets&#39; Content Validator worden de ontbrekende verplichte knooppunten en overtredingen in de inhoud van elementen geïdentificeerd. Dit kan ertoe leiden dat bepaalde elementen van Activa op as a Cloud Service Experience Manager niet correct zijn.
+`ACV` (Inhoud-validatie van middelen) Hiermee worden de ontbrekende verplichte knooppunten en overtredingen in de inhoud van elementen aangegeven. Dit kan ertoe leiden dat bepaalde elementen van Activa op as a Cloud Service Experience Manager niet correct zijn.
 
 Subtypes worden gebruikt om de verschillende soorten informatie te identificeren, zoals:
 
@@ -54,5 +54,5 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 * Voor de elementen die de oorspronkelijke uitvoering missen, uploadt u de elementen opnieuw of verwijdert u deze voordat u migreert.
 * Geen actie vereist voor ontbrekende subassets van oorspronkelijke uitvoering.
 * In er zijn conflictknooppunten, moeten deze worden opgelost of verwijderd voordat u naar AEM as a Cloud Service migreert.
-* Neem contact op met de klantenondersteuning van de Adobe als u van plan bent om veel grote PSD- of PSB-bestanden te verwerken. Experience Manager mag PSB-bestanden met een hoge resolutie die groter zijn dan 30000 x 23000 pixels, niet verwerken. Zie [documentatie](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
+* Neem contact op met de Klantenondersteuning van de Adobe als u van plan bent een groot aantal grote PSD- of PSB-bestanden te verwerken. Experience Manager mag PSB-bestanden met een hoge resolutie die groter zijn dan 30000 x 23000 pixels, niet verwerken. Zie [documentatie](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/extending/best-practices-for-imagemagick).
 * Contact opnemen met de [Klantenzorgteam van Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om problemen aan te pakken.

@@ -2,9 +2,9 @@
 title: DM
 description: Leer hoe patroondetectiecode het gebruik van AEM Assets - Dynamic Media identificeert.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 982ad1a6f43a29f2ee2284219757c8fc11b31ce0
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Dynamic Media
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM ontwikkeling - Richtlijnen en beste praktijken"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="as a Cloud Service ontwikkelingsrichtsnoeren AEM"
 
-`DM` (Dynamic Media) identificeert het gebruik van AEM Assets Dynamic Media. De Dynamic Media-modus wordt gedetecteerd door de uitvoeringsmodus.
+`DM` (Dynamic Media) Identificeert het gebruik van AEM Assets Dynamic Media. De Dynamic Media-modus wordt gedetecteerd door de uitvoeringsmodus.
 
 Er wordt een subtype gebruikt met deze code:
 
@@ -48,4 +48,4 @@ Er wordt een subtype gebruikt met deze code:
 * `dynamic.media.runmode`
    * Meer informatie vindt u op [Dynamic Media instellen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media).
 
-* Bereik uit aan [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) indien u verduidelijking of bezorgdheid nodig hebt.
+* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) indien u verduidelijking of bezorgdheid nodig hebt.

@@ -2,9 +2,9 @@
 title: CTEM
 description: Help-pagina Patroondetectiecode.
 exl-id: cd70486c-8e21-4c31-89bf-928b80fa8772
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '247'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Aangepaste sjabloon
 >title="Aangepaste sjabloon"
 >abstract="CTEM identificeert douanecomponenten die op AEM zijn geïnstalleerd. Deze informatie wordt verstrekt met het oog op de beoordeling van beste praktijken"
 
-CTEM identificeert douanesjablonen die op AEM zijn geïnstalleerd. Deze informatie wordt verstrekt met het oog op de beoordeling van beste praktijken.
+`CTEM`  Identificeert aangepaste sjablonen die op AEM zijn geïnstalleerd. Deze informatie wordt verstrekt met het oog op de beoordeling van beste praktijken.
 
 Sjablonen worden aangeduid met een waarde van het primaire type van `cq:Template`. Met deze code wordt een subtype gebruikt om de sjablooncategorie aan te duiden:
 

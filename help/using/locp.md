@@ -1,10 +1,10 @@
 ---
 title: LOCP
-description: Help-pagina Patroondetectiecode..
+description: Help-pagina Patroondetectiecode.
 exl-id: a9993b58-7925-47c0-b774-b9ca8a4ee052
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/upgrading/sustainable-upgrades" text="Duurzame verbeteringen"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/sling-resource-merger#platform" text="Samenvoeging van verkoopbronnen"
 
-LOCP identificeert de opsporing van een douanepakket dat inhoud aan levert `/libs`, die een anti-patroon (behalve in het geval ACLs) is.
+`LOCP`  Identificeert de opsporing van een douanepakket dat inhoud aan levert `/libs`, die een anti-patroon (behalve in het geval ACLs) is.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 

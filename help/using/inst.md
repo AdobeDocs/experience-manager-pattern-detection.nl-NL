@@ -2,9 +2,9 @@
 title: INST
 description: Help-pagina Patroondetectiecode.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Geïnstalleerd artefact
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Ontwikkelingsrichtsnoeren - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Richtlijnen voor verpakking - AEM as a Cloud Service"
 
-INST identificeert aangepaste pakketten en bundels van derden die door de klant in AEM zijn geïnstalleerd. Deze worden gerapporteerd om de status van het systeem te beschrijven in het algemene bereik van een upgrade-inspanning.
+`INST`  Identificeert aangepaste pakketten en bundels van derden die door de klant in AEM zijn geïnstalleerd. Deze worden gerapporteerd om de status van het systeem te beschrijven in het algemene bereik van een upgrade-inspanning.
 
 Wanneer meerdere versies van een pakket zijn geïnstalleerd, wordt alleen de laatste versie gerapporteerd.
 

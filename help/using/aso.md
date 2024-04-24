@@ -2,9 +2,9 @@
 title: ASO
 description: Help-pagina Patroondetectiecode.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Systeemoverzicht AEM
 >abstract="ASO-code identificeert algemene informatie over de AEM. Elke vondst verstrekt één waarde van een bepaald type van systeeminformatie die in uw migratieplanning en refactoring inspanning kan helpen."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Opmerkingen bij de release"
 
-ASO identificeert algemene informatie over de AEM instantie. Elke bevinding biedt één waarde voor een bepaald type systeeminformatie.
+`ASO` Hiermee wordt algemene informatie over de AEM opgegeven. Elke bevinding biedt één waarde voor een bepaald type systeeminformatie.
 
 Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 
