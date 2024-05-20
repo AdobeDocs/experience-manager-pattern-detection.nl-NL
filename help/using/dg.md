@@ -2,9 +2,9 @@
 title: DG
 description: Help-pagina Patroondetectiecode.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te i
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
 * `java.io.inputstream`
-   * Streaming van binaire gegevens met `java.io.InputStream` kan geheugenbronnen gebruiken om de prestaties te beïnvloeden. Dit is vooral een probleem vanwege de beperkte hoeveelheid geheugen die beschikbaar is in containers die in AEM as a Cloud Service worden gebruikt.
+   * Streaming van binaire gegevens met `java.io.InputStream` kan geheugenbronnen gebruiken om de prestaties te beïnvloeden. Dit probleem is te wijten aan het beperkte geheugen dat beschikbaar is in containers die in AEM as a Cloud Service worden gebruikt.
 
 * `maintenance.task.configuration`
    * Sommige onderhoudstaken die eerder expliciete configuratie vereiste worden nu automatisch gevormd en binnen as a Cloud Service AEM beheerd.

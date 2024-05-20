@@ -2,9 +2,9 @@
 title: URC
 description: Help-pagina Patroondetectiecode.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Niet-ondersteunde configuratie van de uitvoermodus
 >title="Niet-ondersteunde configuratie van de uitvoermodus"
 >abstract="URC identificeert het gebruik van configuraties die op een naam van de looppaswijze gebaseerd zijn die niet in AEM as a Cloud Service wordt gesteund."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#custom-runmodes" text="Ondersteunde uitvoermodi"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Runmodi"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/overview#runmodes" text="Modus Uitvoeren"
 
 `URC`  Identificeert het gebruik van configuraties die op een naam van de looppaswijze gebaseerd zijn die niet in AEM as a Cloud Service wordt gesteund.
 
@@ -29,8 +29,8 @@ Niet-ondersteunde configuratie van de uitvoermodus
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_guidance"
 >title="Implementatieleiding"
->abstract="U kunt het beste controleren of alle runmodi die in uw toepassing worden gebruikt, worden ondersteund en controleren of deze de richtlijnen voor runmodusresolutie volgen"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="Richtlijnen voor resolutie bij uitvoering"
+>abstract="U kunt het beste controleren of alle uitvoermodi die in uw toepassing worden gebruikt, worden ondersteund. En zorg ervoor dat ze de richtlijnen voor de resolutie van de uitvoeringsmodus volgen"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/deploying/configuring-osgi#deploying" text="Richtlijnen voor resolutie in de modus Uitvoeren"
 
 * De reeks namen die kan worden gebruikt voor het uitvoeren van verschillende modi in AEM as a Cloud Service is beperkt.
 * Configuraties die zijn gebaseerd op niet-ondersteunde namen voor de uitvoeringsmodus, hebben geen effect wanneer ze worden geïmplementeerd AEM as a Cloud Service.
@@ -40,7 +40,7 @@ Niet-ondersteunde configuratie van de uitvoermodus
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
 >title="Hulpmiddelen en Middelen"
->abstract="Bekijk het WKND-verouderde project om te begrijpen hoe schendingen van URC compatibel kunnen worden gemaakt met AEM Cloud Service. Ook, het Voorbeeld van de Overtreding van het Overzicht URC op GitHub om te begrijpen hoe de douane op runmode-gebaseerde configuraties OSGi kunnen worden bijgewerkt om met AEM as a Cloud Service te houden."
+>abstract="Bekijk het WKND-verouderde project om te begrijpen hoe schendingen van URC compatibel kunnen worden gemaakt met AEM Cloud Service. Ook, het Voorbeeld van de Overtreding van het Overzicht URC op GitHub om te begrijpen hoe de op wijze-gebaseerde configuraties van douane looppas OSGi kunnen worden bijgewerkt om met AEM as a Cloud Service te houden."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="WKND-verouderd project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="Voorbeeld van URC-schending - GitHub"
 

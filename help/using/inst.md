@@ -2,9 +2,9 @@
 title: INST
 description: Help-pagina Patroondetectiecode.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Geïnstalleerd artefact
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
 >title="Geïnstalleerd artefact"
->abstract="INST identificeert aangepaste pakketten en bundels van derden die door de klant in AEM zijn geïnstalleerd. Deze worden gerapporteerd om de status van het systeem te beschrijven in het algemene bereik van een upgrade-inspanning. Elk pakket van derden moet voldoen aan de AEM richtsnoeren voor as a Cloud Service ontwikkeling en verpakking."
+>abstract="INST identificeert aangepaste pakketten en bundels van derden die in AEM door de klant zijn geïnstalleerd. Dergelijke pakketten en bundels worden gerapporteerd om de toestand van het systeem en het algemene bereik van een upgrade-inspanning te helpen karakteriseren. Elk pakket van derden moet voldoen aan de AEM richtsnoeren voor as a Cloud Service ontwikkeling en verpakking."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Ontwikkelingsrichtsnoeren - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Richtlijnen voor verpakking - AEM as a Cloud Service"
 
-`INST`  Identificeert aangepaste pakketten en bundels van derden die door de klant in AEM zijn geïnstalleerd. Deze worden gerapporteerd om de status van het systeem te beschrijven in het algemene bereik van een upgrade-inspanning.
+`INST`  Identificeert aangepaste pakketten en bundels van derden die door de klant in AEM zijn geïnstalleerd. Dergelijke pakketten en bundels worden gerapporteerd om de toestand van het systeem en het algemene bereik van een upgrade-inspanning te helpen karakteriseren.
 
 Wanneer meerdere versies van een pakket zijn geïnstalleerd, wordt alleen de laatste versie gerapporteerd.
 
@@ -51,7 +51,7 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
 >title="Hulpmiddelen en Middelen"
->abstract="Bekijk het WKND-verouderde project om te begrijpen hoe INST-schendingen compatibel kunnen worden gemaakt met AEM Cloud Service. Ook, het Voorbeeld van de Schending van het Overzicht INST op GitHub om te begrijpen hoe dit kan worden verbeterd en in AEM as a Cloud Service worden opgesteld."
+>abstract="Bekijk het WKND-verouderde project om te begrijpen hoe INST-schendingen compatibel kunnen worden gemaakt met AEM Cloud Service. Ook, herzie het Voorbeeld van de Schending INST op GitHub om te begrijpen hoe deze kwestie kan worden verbeterd en in AEM as a Cloud Service worden opgesteld."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND-verouderd project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Voorbeeld van INST-schending - GitHub"
 

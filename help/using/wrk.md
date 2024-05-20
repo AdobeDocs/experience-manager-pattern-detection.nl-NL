@@ -2,9 +2,9 @@
 title: WRK
 description: Help-pagina Patroondetectiecode.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
@@ -18,10 +18,10 @@ Workflow
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_overview"
 >title="Workflow"
->abstract="De code van het WRK identificeert een bevinding met betrekking tot een werkschemamodel of een lancerer. Deze worden gerapporteerd omdat workflowmodellen met aangepaste elementen moeten worden gemigreerd wanneer u een upgrade uitvoert naar AEM as a Cloud Service. Met AEM as a Cloud Service, wordt de activaverwerking nu uitgevoerd door activa microservices."
+>abstract="De code van het WRK identificeert een bevinding met betrekking tot een werkschemamodel of een lancerer. Deze identificaties worden gerapporteerd omdat workflowmodellen met aangepaste elementen moeten worden gemigreerd wanneer u een upgrade uitvoert naar AEM as a Cloud Service. Met AEM as a Cloud Service, voeren de activa microservices de activaverwerking uit."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="Asset Microservices"
 
-`WRK`  Identificeert een bevinding die verwant is aan een workflowmodel of draagprogramma. Deze worden gerapporteerd omdat workflowmodellen met aangepaste elementen moeten worden gemigreerd wanneer u een upgrade uitvoert naar AEM as a Cloud Service.
+`WRK`  Identificeert een bevinding die verwant is aan een workflowmodel of draagprogramma. Deze identificaties worden gerapporteerd omdat workflowmodellen met aangepaste elementen moeten worden gemigreerd wanneer u een upgrade uitvoert naar AEM as a Cloud Service.
 
 Een subtype wordt gebruikt om het type werkschemaprobleem te identificeren dat momenteel wordt ontdekt.
 
@@ -32,10 +32,10 @@ Een subtype wordt gebruikt om het type werkschemaprobleem te identificeren dat m
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_guidance"
 >title="Implementatieleiding"
->abstract="Workflows met standaardmiddelen worden automatisch ondersteund door mijn assetmicroservices. Daarom is het aan te raden om alle workflowmodellen voor aangepaste elementen of Lanceerprogramma te bekijken om na te gaan of deze nodig zijn nadat u naar AEM as a Cloud Service bent gegaan. Aanpassingen aan workflows voor bedrijfsmiddelen vereisen migratie om te kunnen werken met AEM as a Cloud Service met behulp van het Hulpprogramma voor migratie van bedrijfsmiddelen"
+>abstract="Workflows met standaardmiddelen worden automatisch ondersteund door mijn assetmicroservices. Daarom is het aan te raden alle workflowmodellen voor aangepaste elementen of Launcher te controleren. Wanneer het herzien, kunt u zien of zijn zij na uw overgang aan AEM as a Cloud Service nodig. Aanpassingen aan workflows voor bedrijfsmiddelen vereisen migratie om te kunnen werken met AEM as a Cloud Service met behulp van het Workflow Migration Tool voor bedrijfsmiddelen"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-microservices-configure-and-use" text="Aan de slag - Asset Microservices"
 
-* Middelenverwerking is traditioneel uitgevoerd met middelenwerkstromen die worden uitgevoerd op de AEM Auteur-instantie. Met AEM as a Cloud Service, wordt de activaverwerking nu uitgevoerd door activa microservices. Zie de [Overzicht van asset microservices](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview) voor meer informatie .
+* Middelenverwerking is traditioneel uitgevoerd met middelenwerkstromen die worden uitgevoerd op de AEM Auteur-instantie. Met AEM as a Cloud Service, voeren de activa microservices de activaverwerking uit. Zie de [Overzicht van asset microservices](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview) voor meer informatie .
 * Workflows met standaardmiddelen worden automatisch ondersteund door mijn assetmicroservices.
 * Voor aanpassingen aan werkstromen met middelen is migratie vereist om met AEM as a Cloud Service te kunnen werken.
 

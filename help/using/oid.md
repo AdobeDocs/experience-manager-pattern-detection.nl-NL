@@ -2,9 +2,9 @@
 title: OID
 description: Help-pagina Patroondetectiecode.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_tools"
 >title="Hulpmiddelen en Middelen"
->abstract="Bekijk het WKND-verouderde project om te begrijpen hoe OID-schendingen in uw project kunnen worden opgelost. Ook, het Voorbeeld van de Schending van OID van het Overzicht op GitHub om te begrijpen hoe de erfenisindexen kunnen worden omgezet gebruikend het hulpmiddel van de Convertor van de Index en compatibel gemaakt met AEM as a Cloud Service."
+>abstract="Bekijk het WKND-verouderde project om te begrijpen hoe OID-schendingen in uw project kunnen worden opgelost. Lees ook het voorbeeld van OID-schending op GitHub. Het kan u helpen begrijpen hoe de erfenisindexen kunnen worden omgezet gebruikend het hulpmiddel van de Convertor van de Index en compatibel gemaakt met AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid" text="WKND-verouderd project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="Voorbeeld van OID-schending - GitHub"
 
@@ -55,4 +55,4 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 * Aangepaste AEM standaardindexen en nieuwe aangepaste Eak-indexdefinities moeten de [richtlijnen voor indexering van inhoud](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing#preparing-the-new-index-definition) voor AEM as a Cloud Service.
 * Controleren [verouderd](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid) projecten en begrijpen hoe [OID-overtredingen](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid) kan worden gecorrigeerd en verenigbaar worden gemaakt met AEM as a Cloud Service.
 * Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.
-* Gebruik de [Indexconversie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools) om bestaande definities van de Index van de Eik van de Douane aan AEM as a Cloud Service compatibele Definities van de Index van de Eik te migreren.
+* Gebruik de [Indexconversie](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/index-converter#refactoring-tools) om bestaande definities van de indexindex van het Eak van de Douane naar AEM as a Cloud Service compatibele indexdefinities van het Eak te migreren.

@@ -2,9 +2,9 @@
 title: DOPI
 description: Help-pagina Patroondetectiecode.
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
-source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
+source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Index van verouderde geordende eigenschappen
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_overview"
 >title="Index van verouderde geordende eigenschappen"
->abstract="DOPI-code identificeert het gebruik van geordende eigenschappen voor indexdefinities (`primaryType=oak:QueryIndexDefinition` AND type=&quot;ordered&quot;), die sinds 6.1 zijn afgekeurd en in 6.2 zijn verwijderd."
+>abstract="DOPI-code identificeert het gebruik van geordende indexdefinities van eigenschappen (`primaryType=oak:QueryIndexDefinition` EN `type="ordered"`). De definitie is vervangen in AEM 6.1 en geschrapt in AEM 6.2."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/queries-and-indexing#the-ordered-index" text="Geordende index - Vervangen"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/operations/indexing" text="Indexeren - AEM as a Cloud Service"
 
-`DOPI`  Hiermee wordt het gebruik van geordende eigenschappen van indexdefinities aangegeven (`primaryType=oak:QueryIndexDefinition` EN `type="ordered"`), die sinds AEM 6.1 zijn vervangen en in AEM 6.2 zijn geschrapt.
+`DOPI`  Hiermee wordt het gebruik van definities van geordende eigenschappenindex aangegeven (`primaryType=oak:QueryIndexDefinition` EN `type="ordered"`). De definities zijn vervangen in AEM 6.1 en geschrapt in AEM 6.2.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -41,7 +41,7 @@ Index van verouderde geordende eigenschappen
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_tools"
 >title="Hulpmiddelen en Middelen"
->abstract="Het WKND-erfenisproject van het overzicht om te begrijpen hoe de schendingen van DOPI met AEM Cloud Service compatibel kunnen worden gemaakt. Ook, het Voorbeeld van de Overtreding van het DOPI van het Overzicht op GitHub om te begrijpen hoe de erfenis geordende indexen in op Lucene gebaseerde indexen kunnen worden omgezet die in AEM as a Cloud Service worden gesteund."
+>abstract="Het WKND-erfenisproject van het overzicht om te begrijpen hoe de schendingen van DOPI met AEM Cloud Service compatibel kunnen worden gemaakt. Lees ook het voorbeeld van DOPI-schending op GitHub. Het kan u helpen begrijpen hoe de erfenis geordende indexen in op Lucene gebaseerde indexen kunnen worden omgezet die in AEM as a Cloud Service worden gesteund."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="WKND-verouderd project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="Voorbeeld van DOPI-schending - GitHub"
 
