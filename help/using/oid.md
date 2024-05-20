@@ -2,9 +2,9 @@
 title: OID
 description: Help-pagina Patroondetectiecode.
 exl-id: 500e0d32-e75e-4abe-a96b-0692ce40c086
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oid_tools"
->title="Hulpmiddelen &amp; Middelen"
+>title="Hulpmiddelen en Middelen"
 >abstract="Bekijk het WKND-verouderde project om te begrijpen hoe OID-schendingen in uw project kunnen worden opgelost. Ook, het Voorbeeld van de Schending van OID van het Overzicht op GitHub om te begrijpen hoe de erfenisindexen kunnen worden omgezet gebruikend het hulpmiddel van de Convertor van de Index en compatibel gemaakt met AEM as a Cloud Service."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/oid" text="WKND-verouderd project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/oid" text="Voorbeeld van OID-schending - GitHub"

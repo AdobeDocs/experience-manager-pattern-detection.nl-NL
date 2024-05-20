@@ -2,9 +2,9 @@
 title: INST
 description: Help-pagina Patroondetectiecode.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_tools"
->title="Hulpmiddelen &amp; Middelen"
+>title="Hulpmiddelen en Middelen"
 >abstract="Bekijk het WKND-verouderde project om te begrijpen hoe INST-schendingen compatibel kunnen worden gemaakt met AEM Cloud Service. Ook, het Voorbeeld van de Schending van het Overzicht INST op GitHub om te begrijpen hoe dit kan worden verbeterd en in AEM as a Cloud Service worden opgesteld."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst" text="WKND-verouderd project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst" text="Voorbeeld van INST-schending - GitHub"

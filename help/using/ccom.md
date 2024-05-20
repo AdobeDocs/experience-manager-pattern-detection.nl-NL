@@ -2,9 +2,9 @@
 title: CCOM
 description: Help-pagina Patroondetectiecode.
 exl-id: 59071538-56ec-44e7-8196-56e6525bb4b9
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -18,20 +18,20 @@ Aangepaste component
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ccom_overview"
 >title="Aangepaste component"
->abstract="CCOM identificeert aangepaste componenten die op AEM zijn geïnstalleerd. Deze informatie wordt verstrekt met het oog op de beoordeling van beste praktijken"
+>abstract="CCOM identificeert douanecomponenten die op AEM worden geïnstalleerd. Deze informatie wordt verstrekt met het oog op de beoordeling van beste praktijken"
 
-`CCOM` Identificeert aangepaste componenten die op AEM zijn geïnstalleerd. Deze informatie wordt verstrekt met het oog op de beoordeling van beste praktijken.
+`CCOM` Identificeert douanecomponenten die op AEM geïnstalleerd zijn. Deze informatie wordt verstrekt met het oog op de beoordeling van beste praktijken.
 
 Met deze code wordt een subtype gebruikt om de componentcategorie te identificeren:
 
-* `custom.core`: Een supertype in de keten van supertypen van de component bevat &quot;core/wcm/components/&quot;, wat aangeeft dat het overerft van een kerncomponent.
-* `custom.foundation`: Een supertype in de keten van supertypen van de component bevat &quot;core/wcm/components/&quot;, wat aangeeft dat het overerft van een kerncomponent.
-* `custom.overlay.foundation`: Het componentpad bevat &quot;wcm/foundation/components/&quot; of &quot;foundation/components/&quot;, wat aangeeft dat het een stivingscomponent bedekt.
+* `custom.core`: Een supertype in de keten van supertypen van de component bevat `core/wcm/components/`, die aangeeft dat deze overerft van een kerncomponent.
+* `custom.foundation`: Een supertype in de keten van supertypen van de component bevat &quot;`core/wcm/components/`, die aangeeft dat deze overerft van een kerncomponent.
+* `custom.overlay.foundation`: Het componentpad bevat `wcm/foundation/components/` of `foundation/components/`, die aangeeft dat deze een stichtingscomponent bedekt.
 * `custom`: De aangepaste component neemt een kern- of stichtingscomponent niet over of bedekt deze.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
-* De beste praktijken moeten het aantal douanecomponenten minimaliseren, kerncomponenten gebruiken, en kerncomponenten met het Systeem van de Stijl gebruiken zodat kunt u technische schuld verminderen.
+* De beste praktijken moeten het aantal douanecomponenten minimaliseren, de Componenten van de Kern gebruiken, en de Componenten van de Kern met het Systeem van de Stijl gebruiken zodat kunt u technische schuld verminderen.
 
 ## Mogelijke oplossingen {#solutions}
 

@@ -2,9 +2,9 @@
 title: DM
 description: Leer hoe patroondetectiecode het gebruik van AEM Assets - Dynamic Media identificeert.
 exl-id: f077df57-f2bc-4875-a7de-41251a9d7f2f
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Dynamic Media
 >id="aemcloud_bpa_dm_overview"
 >title="Dynamic Media"
 >abstract="De DM-code identificeert het gebruik van AEM Assets Dynamic Media in uw huidige implementatie. De Dynamic Media-modus wordt gedetecteerd door de uitvoeringsmodus."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM ontwikkeling - Richtlijnen en beste praktijken"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM ontwikkeling - Richtsnoeren en beste praktijken"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="as a Cloud Service ontwikkelingsrichtsnoeren AEM"
 
 `DM` (Dynamic Media) Identificeert het gebruik van AEM Assets Dynamic Media. De Dynamic Media-modus wordt gedetecteerd door de uitvoeringsmodus.
@@ -40,7 +40,7 @@ Er wordt een subtype gebruikt met deze code:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dm_guidance"
 >title="Implementatieleiding"
->abstract="AEM alleen as a Cloud Service ondersteunt de uitvoeringsmodus dynamicmedia_scene7. Bekijk de huidige instellingen en neem contact op met het ondersteuningsteam voor Adoben voor hulp en uitleg."
+>abstract="AEM alleen as a Cloud Service ondersteunt de uitvoeringsmodus dynamicmedia_scene7. Bekijk de huidige instellingen en neem contact op met het ondersteuningsteam voor Adoben voor hulp en verduidelijkingen."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/administering-dynamic-media" text="Dynamic Media instellen"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 

@@ -2,9 +2,9 @@
 title: WRK
 description: Help-pagina Patroondetectiecode.
 exl-id: 1be1db54-fc91-45d0-80b5-b2978eee1da8
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 1%
 
 ---
@@ -43,8 +43,8 @@ Een subtype wordt gebruikt om het type werkschemaprobleem te identificeren dat m
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_tools"
->title="Hulpmiddelen &amp; Middelen"
->abstract="Reviseren en plannen om het Asset Workflow Migration Tool uit te voeren zodra een aangepast workflowmodel of een startprogramma voor middelen is geïdentificeerd. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
+>title="Hulpmiddelen en Middelen"
+>abstract="Reviseer en plant het programma voor het uitvoeren van Workflow-migratieprogramma voor bedrijfsmiddelen zodra een model of startprogramma voor een aangepaste workflow voor bedrijfsmiddelen is geïdentificeerd. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool" text="De tool Asset Workflow Migration"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 

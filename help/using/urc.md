@@ -2,9 +2,9 @@
 title: URC
 description: Help-pagina Patroondetectiecode.
 exl-id: 1be61351-3e3e-4e51-973f-93f8bf9bf932
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Niet-ondersteunde configuratie van de uitvoermodus
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urc_tools"
->title="Hulpmiddelen &amp; Middelen"
+>title="Hulpmiddelen en Middelen"
 >abstract="Bekijk het WKND-verouderde project om te begrijpen hoe schendingen van URC compatibel kunnen worden gemaakt met AEM Cloud Service. Ook, het Voorbeeld van de Overtreding van het Overzicht URC op GitHub om te begrijpen hoe de douane op runmode-gebaseerde configuraties OSGi kunnen worden bijgewerkt om met AEM as a Cloud Service te houden."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/urc" text="WKND-verouderd project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/urc" text="Voorbeeld van URC-schending - GitHub"

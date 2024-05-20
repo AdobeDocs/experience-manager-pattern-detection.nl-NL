@@ -2,9 +2,9 @@
 title: DOPI
 description: Help-pagina Patroondetectiecode.
 exl-id: ae4df44d-43ca-438c-8373-11381b916af3
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Index van verouderde geordende eigenschappen
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dopi_tools"
->title="Hulpmiddelen &amp; Middelen"
+>title="Hulpmiddelen en Middelen"
 >abstract="Het WKND-erfenisproject van het overzicht om te begrijpen hoe de schendingen van DOPI met AEM Cloud Service compatibel kunnen worden gemaakt. Ook, het Voorbeeld van de Overtreding van het DOPI van het Overzicht op GitHub om te begrijpen hoe de erfenis geordende indexen in op Lucene gebaseerde indexen kunnen worden omgezet die in AEM as a Cloud Service worden gesteund."
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/tree/code/dopi" text="WKND-verouderd project"
 >additional-url="https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/dopi" text="Voorbeeld van DOPI-schending - GitHub"

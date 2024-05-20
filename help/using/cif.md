@@ -2,9 +2,9 @@
 title: CIF
 description: Help-pagina Patroondetectiecode.
 exl-id: cf9d5f62-c9dd-4f56-982c-1b5b19c81506
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 58fdb55e1f0c067dacf6825c4076465bc8c5d821
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cif_tools"
->title="Hulpmiddelen &amp; Middelen"
+>title="Hulpmiddelen en Middelen"
 >abstract="Deze handleiding helpt u de gebieden te identificeren die u moet bijwerken voor de migratie van Experience Managers Cloud Service."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/content-and-commerce/migration" text="Migratiehandleiding voor CIF"
 
