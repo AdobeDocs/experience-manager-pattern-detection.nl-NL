@@ -2,9 +2,9 @@
 title: REP
 description: Help-pagina Patroondetectiecode.
 exl-id: e788deba-a301-404f-8e90-51f721409e69
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Replication Agent
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_rep_overview"
 >title="Replication Agent"
->abstract="REP identificeert toegelaten replicatieagenten. Deze worden gerapporteerd vanwege het potentieel voor problemen die moeten worden aangepakt wanneer wordt overgegaan tot AEM as a Cloud Service. AEM as a Cloud Service gebruikt de Verspreiding van de Inhoud van de Verkoop om inhoud van auteur aan publicatiemilieu&#39;s te verdelen. Dit wordt gedaan buiten AEM runtime gebruikend de pijpleidingsdienst van Adobe I/O Runtime op Adobe Developer. Dit wordt automatisch gevormd in het provisioned AEM as a Cloud Service milieu."
+>abstract="REP identificeert toegelaten replicatieagenten. Deze agentia worden gerapporteerd vanwege de mogelijkheid van problemen die moeten worden aangepakt wanneer wordt overgegaan tot AEM as a Cloud Service. AEM as a Cloud Service gebruikt de Verspreiding van de Inhoud van de Verkoop om inhoud van auteur aan publicatiemilieu&#39;s te verdelen. Deze distributie wordt gedaan buiten AEM runtime gebruikend de pijpleidingsdienst van Adobe I/O Runtime op Adobe Developer. Deze workflow wordt automatisch geconfigureerd in de ingeleverde AEM as a Cloud Service omgeving."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes#replication-agents" text="Opvallende wijzigingen - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines#no-reverse-replication-agents" text="Richtlijnen voor ontwikkeling"
 
-`REP`  Identificeert toegelaten replicatieagenten. Deze worden gerapporteerd vanwege het potentieel voor problemen die moeten worden aangepakt wanneer wordt overgegaan tot AEM as a Cloud Service.
+`REP`  Identificeert toegelaten replicatieagenten. Deze agentia worden gerapporteerd vanwege de mogelijkheid van problemen die moeten worden aangepakt wanneer wordt overgegaan tot AEM as a Cloud Service.
 
 Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 
@@ -31,14 +31,17 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 * `standard.replication.agent.modification`: Identificeer de toegelaten standaardreplicatieagenten die worden gewijzigd.
 * `custom.replication.agent.detection`: Identificeer de toegelaten agenten van de douanereplicatie.
 
-as a Cloud Service gebruik AEM [Distributie van inhoud verkopen](https://sling.apache.org/documentation/bundles/content-distribution.html) om inhoud van auteur naar publicatieomgeving te distribueren. Dit wordt gedaan buiten AEM runtime gebruikend de pijpleidingsdienst van Adobe I/O Runtime op Adobe Developer. Dit wordt automatisch gevormd in het provisioned AEM as a Cloud Service milieu.
+as a Cloud Service gebruik AEM [Distributie van inhoud verkopen](https://sling.apache.org/documentation/bundles/content-distribution.html) om inhoud van auteur naar publicatieomgeving te distribueren. Deze distributie wordt gedaan buiten AEM runtime gebruikend de pijpleidingsdienst van Adobe I/O Runtime op Adobe Developer. Deze workflow wordt automatisch geconfigureerd in de ingeleverde AEM as a Cloud Service omgeving.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
-* De configuratie van replicatie is veranderd met AEM as a Cloud Service. Alle huidige replicatieagenten zouden moeten worden herzien om te zien welke door standaardvermogen worden vervangen, welke configuraties aan code moeten worden verplaatst, en die niet worden gesteund.
+* De configuratie van replicatie is veranderd met AEM as a Cloud Service. Alle huidige replicatieagenten zouden moeten worden herzien. De revisie helpt u om te zien:
+   * die welke standaardcapaciteit kan vervangen;
+   * welke configuraties naar code moeten worden verplaatst;
+   * en die niet worden ondersteund.
 * Om het even welk gebruik van replicatieagenten in douanecode of werkschema&#39;s zou moeten worden herzien terwijl bevordering aan AEM as a Cloud Service.
 * Omgekeerde replicatie wordt in eerste instantie niet ondersteund in AEM as a Cloud Service.
-* Er is geen behoefte om een afzonderlijke Dispatcher flush agent te vormen. Dit wordt automatisch gevormd in het AEM as a Cloud Service milieu.
+* Er is geen behoefte om een afzonderlijke Dispatcher flush agent te vormen. In plaats daarvan, wordt het automatisch gevormd in het AEM as a Cloud Service milieu.
 
 ## Mogelijke oplossingen {#solutions}
 

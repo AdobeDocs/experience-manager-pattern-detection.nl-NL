@@ -2,7 +2,7 @@
 title: CCL
 description: Help-pagina Patroondetectiecode.
 exl-id: 8e9ee7d5-cd69-493e-bf44-ecc1b6ffd122
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Er wordt één subtype gebruikt met deze code:
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
-* De clientbibliotheken die aan AEM zijn toegevoegd, moeten worden herzien om ervoor te zorgen dat er geen duplicatie plaatsvindt en dat de meest recente versies worden gebruikt.
+* De clientbibliotheken die aan AEM zijn toegevoegd, moeten worden gecontroleerd om ervoor te zorgen dat er geen duplicatie plaatsvindt en dat de nieuwste versies worden gebruikt.
 
 ## Mogelijke oplossingen {#solutions}
 

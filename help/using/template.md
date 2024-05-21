@@ -1,9 +1,9 @@
 ---
 title: SJABLOON
 description: Sjabloon voor Help-pagina voor patroondetectiecode.
-source-git-commit: 616fa84f6237893243cffc8af28c7cbe76bf32d7
+source-git-commit: 2881b122773a8a5ad09fb9a14ae35b4a83dae20d
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Beantwoord de vraag: &quot;Wat is dit?&quot;
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
-Geef een beschrijving van mogelijke implicaties en risico&#39;s die zich kunnen voordoen als er niets aan wordt gedaan.
+Geef een beschrijving van de mogelijke implicaties en risico&#39;s die zich kunnen voordoen als er niets aan wordt gedaan.
 Beantwoord de vraag: &quot;Waarom zou ik me zorgen maken?&quot;
 
 * implicaties of risico #1
