@@ -2,9 +2,9 @@
 title: IOI
 description: Help-pagina Patroondetectiecode.
 exl-id: b6c9d11f-5189-4799-98c0-c2699dfe3f40
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,10 @@ Importeren van intern eiken
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_ioi_overview"
 >title="Importeren van intern eiken"
->abstract="IOI-code identificeert het gebruik door klanten van interne eiken-pakketten, die ze via OSGi importeren. Zij worden zonder bepaalde versie uitgevoerd en zijn uitsluitend bestemd voor consumptie door andere eikenbundels of laagactieve AEM."
+>abstract="IOI-code identificeert het gebruik door de klant van interne eiken-pakketten, waarbij deze worden geïmporteerd via OSGi. Ze worden zonder een bepaalde versie geëxporteerd. Oak-bundels of laagactieve AEM gebruiken deze alleen."
 
-`IOI`  Identificeert klantengebruik van interne pakketten van eikenhout, die hen via OSGi invoeren. Zij worden zonder bepaalde versie uitgevoerd en zijn uitsluitend bestemd voor consumptie door andere eikenbundels of laagactieve AEM.
-
-Sommige hiervan worden gebruikt door `com.adobe.granite.repository`, die een opslagplaats voor AEM tijdens het opstarten instelt. Een ander voorbeeld is het `com.adobe.granite.maintenance.oak` Adobe bundel, die omhult en onderhouds taken van eikel verstrekt.
+`IOI`  Identificeert klantengebruik van interne pakketten van eikenhout, die hen via OSGi invoeren. Ze worden zonder een bepaalde versie geëxporteerd. Oak-bundels of laagactieve AEM gebruiken deze alleen.
+Sommige van deze gebieden worden gebruikt door `com.adobe.granite.repository`, die een opslagplaats voor AEM tijdens het opstarten instelt. Een ander voorbeeld is het `com.adobe.granite.maintenance.oak` Adobe bundel, die omhult en onderhouds taken van eikel verstrekt.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 

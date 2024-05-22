@@ -2,9 +2,9 @@
 title: NBCC
 description: Help-pagina Patroondetectiecode.
 exl-id: fa6bdd3c-4deb-41ec-878d-4ea5dc1ddf60
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ VEROUDERD: Niet-achterwaartse compatibele wijzigingen (vervangen door NCC, niet-
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Opvallende wijzigingen - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Opmerkingen bij de release - AEM as a Cloud Service"
 
-`NBCC`  Identificeert aan de situatie waarin sommige knopen JCR of bundels op een niet compatibele manier worden veranderd. Het is mogelijk dat de klant niet op de hoogte is van deze wijziging voordat een upgrade wordt uitgevoerd.
+`NBCC`  Hiermee wordt aangegeven in welke situatie sommige JCR-knooppunten of -bundels niet-compatibel zijn gewijzigd. Het is mogelijk dat de klant niet op de hoogte is van deze wijziging voordat een upgrade wordt uitgevoerd.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -39,5 +39,5 @@ VEROUDERD: Niet-achterwaartse compatibele wijzigingen (vervangen door NCC, niet-
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Bedekking of alleen verwijzing naar achterwaartse compatibele Sling-componenten.
-* Overweeg de middelen die afkomstig zijn van `/libs` of bundels na een AEM upgrade.
+* Overweeg bronnen die afkomstig zijn van `/libs` of bundels na een AEM upgrade.
 * Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.

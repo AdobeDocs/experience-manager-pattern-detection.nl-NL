@@ -2,9 +2,9 @@
 title: FORM
 description: Help-pagina Patroondetectiecode.
 exl-id: ac28760b-b0ab-4082-b7ce-730cddc4ad83
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_forms_overview"
 >title="FORMS"
->abstract="De Forms-code identificeert mogelijke problemen met betrekking tot migratie van Adobe Experience Manager Forms naar Adobe Experience Manager Forms as a Cloud Service. Bekijk de mogelijke implicaties en risico&#39;s die aan deze problemen zijn verbonden en bespreek deze voordat u naar de Cloud Service gaat."
+>abstract="De Forms-code identificeert mogelijke problemen met betrekking tot de migratie van AEM (Adobe Experience Manager) Forms naar AEM Forms as a Cloud Service. Bekijk de mogelijke implicaties en risico&#39;s die aan deze problemen zijn verbonden en bespreek deze voordat u naar de Cloud Service gaat."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-pattern-detection/table-of-contents/forms#implications-and-risks" text="Mogelijke gevolgen en risico&#39;s"
 
 `FORMS`  Identificeert potentiële problemen met betrekking tot migratie van [!DNL Adobe Experience Manager Forms] tot [!DNL Adobe Experience Manager Forms] als [!DNL Cloud Service]. Deze problemen verhelpen voordat u naar [!DNL Cloud Service].
@@ -70,7 +70,7 @@ De volgende problemen verhelpen voordat u gaat migreren naar [!DNL Adobe Experie
 >abstract="Informatie die via FORMS-code wordt weergegeven, kan u helpen bij vervangingen en andere acties die nodig zijn om bepaalde functies en API&#39;s compatibel te maken met de Cloud Service. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
-* Gebruik het migratiehulpprogramma om alle regelscripts in uw omgeving om te zetten in herbruikbare functies. U kunt de herbruikbare functies met de Visuele redacteur van de Regel gebruiken om resultaten te blijven verkrijgen die met regelmanuscripten worden verkregen. (CODE_EDITOR)
+* Gebruik een migratiehulpprogramma om alle regelscripts in uw omgeving om te zetten in herbruikbare functies. U kunt de herbruikbare functies met de Visuele Redacteur van de Regel gebruiken om resultaten te blijven verkrijgen die met regelmanuscripten worden verkregen. (CODE_EDITOR)
 
 * Neem contact op met het ondersteuningsteam zodat ze de functionaliteit voor e-mail (open SMTP-poort) voor uw omgeving kunnen inschakelen. Alleen uitgaande HTTP- en HTTPS-verbindingen zijn standaard ingeschakeld. (E-MAIL_SERVICE_CONFIGURATION, stap E-mail)
 
@@ -78,7 +78,7 @@ De volgende problemen verhelpen voordat u gaat migreren naar [!DNL Adobe Experie
 
 * Verzonden gegevens bevatten Adobe Sign-overeenkomst-id. U kunt de id van de Overeenkomst van het Ondertekenen gebruiken om een PDF van de Overeenkomst van het Ondertekenen terug te winnen, indien nodig. (FORM_SIGN_INTEGRATION)
 
-* Verwijder de stap Handtekening uit een bestaand adaptief formulier. Het adaptieve formulier configureren voor gebruik [in-browser ondertekeningservaring](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). De Adobe Sign-overeenkomst wordt weergegeven om de overeenkomst in de browser te ondertekenen wanneer een adaptief formulier wordt verzonden. Ondertekeningservaring in de browser helpt de ondertekenaar sneller te ondertekenen en bespaart tijd. (SIGNATURE_STEP)
+* Verwijder de stap Handtekening uit een bestaand adaptief formulier. Vorm uw Adaptief Vorm om te gebruiken en [in-browser ondertekeningservaring](https://blog.developer.adobe.com/using-adobe-sign-to-e-sign-an-adaptive-form-heres-the-best-way-to-do-it-dc3e15f9b684). Er wordt Adobe Sign-overeenkomst weergegeven om de overeenkomst in de browser te ondertekenen wanneer een adaptief formulier wordt verzonden. Ondertekeningservaring in de browser helpt de ondertekenaar sneller te ondertekenen en bespaart tijd. (SIGNATURE_STEP)
 
 * Verwijder de controlestap uit uw bestaande Adaptive Forms voordat u dergelijke formulieren naar een [!DNL Cloud Service] milieu. (VERIFY_STEP)
 
@@ -92,9 +92,9 @@ De volgende problemen verhelpen voordat u gaat migreren naar [!DNL Adobe Experie
 
 * Gebruik de Google reCAPTCHA in plaats van de CAPTCHA-service van Adobe Experience Manager. (FORMS_CAPTCHA)
 
-* Migreer geen AEM workflowmodel dat gebruikmaakt van een workflowstap voor documentservices. Migreer of werk geen Adaptieve Forms bij die gebruikersgegevens naar een workflowmodel verzendt dat gebruikmaakt van workflowstappen voor documentservices of de `Submit Action` een [ondersteund één](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) voordat u het formulier migreert. (WORKFLOW_DOCSERVICES)
+* Migreer niet naar een AEM workflowmodel dat gebruikmaakt van een workflowstap voor documentservices. Migreer of werk geen Adaptieve Forms bij die gebruikersgegevens naar een workflowmodel verzendt dat gebruikmaakt van workflowstappen voor documentservices of de `Submit Action` een [ondersteund één](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-submit-actions-and-metadata-submission/configuring-submit-actions) voordat u het formulier migreert. (WORKFLOW_DOCSERVICES)
 
-* Adaptive Forms biedt een responsief ontwerp. Deze formulieren wijzigen de weergave, het ontwerp en de interactiviteit op basis van het onderliggende apparaat. U kunt Adaptive Forms blijven gebruiken op een mobiel apparaat. Zoek naar maandelijkse versienota&#39;s voor informatie over beschikbaarheid van [!DNL AEM Forms] app. (AEM_FORMS_APP)
+* Adaptive Forms biedt een responsief ontwerp. Deze formulieren wijzigen de weergave, het ontwerp en de interactiviteit op basis van het onderliggende apparaat. U kunt Adaptive Forms blijven gebruiken op een mobiel apparaat. Zoek naar maandelijkse versienota&#39;s voor informatie over de beschikbaarheid van [!DNL AEM Forms] app. (AEM_FORMS_APP)
 
 * Ondersteuning voor adaptieve Forms op basis van XFA is niet beschikbaar in de verpakking. Als u van plan bent om op XFA-Gebaseerde Aangepaste Forms te gebruiken, contacteer de Steun van de Adobe met details van uw gebruiksgeval en specifieke vereisten.(XFA_BASED_FORM, XDP_BASED_FORM)
 

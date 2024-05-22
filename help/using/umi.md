@@ -2,9 +2,9 @@
 title: UMI
 description: Help-pagina Patroondetectiecode.
 exl-id: 04efa760-61f5-4690-8b4e-89fa756c5b64
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ De volgende configuraties worden gecontroleerd op wijziging:
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
-* Het wijzigen of verwijderen van configuraties kan hieronder problemen veroorzaken:
+* Het wijzigen of verwijderen van configuraties kan de volgende problemen veroorzaken:
    * De upgrade kan vastlopen (bijvoorbeeld `org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName` ontbreekt, maar aanwezig in `org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration.requiredServicePids`).
    * Autorisatiekwesties kunnen na upgrade optreden (`org.apache.sling.engine.impl.auth.SlingAuthenticator`).
    * Bepaalde functionaliteit werkt mogelijk niet zoals verwacht. Bijvoorbeeld wijzigen `org.apache.sling.scripting.java.impl.JavaScriptEngineFactory` kan ertoe leiden dat sommige JSP dossiers niet worden gecompileerd, wat uiteindelijk in verlies van functionaliteit resulteert.
-   * De waarden van de configuratie ExternalAlizer `com.day.cq.commons.impl.ExternalizerImpl` worden ingesteld door de omgevingsvariabelen van de cloud-manager in AEM as a Cloud Service.
+   * De waarden van de configuratie ExternalAlizer `com.day.cq.commons.impl.ExternalizerImpl` worden ingesteld met de omgevingsvariabelen van de cloud-manager in AEM as a Cloud Service.
    * AEM als Cloud Servicen ondersteunt geen aangepaste logbestanden. Logboeken die naar logboeken met aangepaste namen worden geschreven, zijn niet toegankelijk vanuit AEM as a Cloud Service.
 
 ## Mogelijke oplossingen {#solutions}

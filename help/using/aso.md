@@ -2,9 +2,9 @@
 title: ASO
 description: Help-pagina Patroondetectiecode.
 exl-id: 2ba416b7-80c1-4ec5-a6bf-d80f6d625b07
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,10 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
 * De AEM versie, knooppuntaantallen, groepslidmaatschap, knoopopslag, de types van implementatie van de gegevensopslag, CQ Telling van de Markering, Slimme Telling van de Markering, de versie van de Component van de Kern, AEM instantietype, en Onverwerkte activa worden verstrekt voor informatiedoeleinden.
-* Het hogere aantal vanity URLs (>1000) kan een lading op Dispatcher en de Publish servers met dure vragen plaatsen.
+* Het hogere aantal vanity URLs (>1000) kan een lading op de Dispatcher en de Publish servers met dure vragen plaatsen.
 * De aangepaste toepassing kan afhankelijk zijn van producten of functies die niet beschikbaar zijn in AEM as a Cloud Service.
 * Een upgrade met niet-ondersteunde functies kan resulteren in een mislukte upgrade en een niet-functionele toepassing.
-* Een hoog aantal workflows van de auteur in de status actief of geschaald kan de prestaties nadelig beïnvloeden.
+* Een hoog aantal workflows van auteurs in een actieve of verouderde status kan de prestaties nadelig beïnvloeden.
 * De langzame vragen kunnen de prestaties van het systeem degraderen.
 
 ## Mogelijke oplossingen {#solutions}

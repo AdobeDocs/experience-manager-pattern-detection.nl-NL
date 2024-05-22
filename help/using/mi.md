@@ -2,9 +2,9 @@
 title: MI
 description: Help-pagina Patroondetectiecode.
 exl-id: fa47ac63-1b5d-43b3-8acd-4a71c3fa714e
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: 0d693e3ccadc81b59852914f115bb2fa2ea166b0
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -25,14 +25,14 @@ Probleem met verkeerde configuratie
 Subtypes worden gebruikt om de verschillende soorten informatie te identificeren, zoals:
 
 * `sling.job.max.parallel`: Identificeer de slingertaken waarbij de maximale parallelle configuratie is ingesteld op -1.
-* `missing.maintenance.configuration`: Identificeer ontbrekende configuraties van onderhoudstaak.
+* `missing.maintenance.configuration`: Identificeer ontbrekende configuraties van de Taak van het Onderhoud.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
 * `sling.job.max.parallel`
-   * De waarde -1 wordt vervangen door het aantal beschikbare processors. Dit kan prestatieproblemen veroorzaken bij AEM instantie.
+   * De waarde -1 wordt vervangen door het aantal beschikbare processors. Als dusdanig, zou het prestatieskwesties op een AEM instantie kunnen veroorzaken.
 * `missing.maintenance.configuration`
-   * Ontbrekende configuraties van onderhoudstaken kunnen leiden tot prestatieverlies of beschadiging van instanties.
+   * De ontbrekende configuraties van de Taak van het Onderhoud kunnen verlies van prestaties of instantiecorruptie veroorzaken.
 
 ## Mogelijke oplossingen {#solutions}
 
