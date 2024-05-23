@@ -2,9 +2,9 @@
 title: MSM
 description: Help-pagina Patroondetectiecode.
 exl-id: 47d3736f-146f-4674-a5e8-affad537c120
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Beheer met meerdere sites
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_msm_overview"
 >title="Beheer met meerdere sites"
->abstract="MSM identificeert algemene informatie over de AEM Multisite Manager eigenschap. Deze informatie wordt gegeven om het systeem te helpen karakteriseren."
+>abstract="MSM identificeert algemene informatie over de AEM Multisite Manager eigenschap. Deze informatie wordt verstrekt om het systeem te helpen karakteriseren."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Opvallende wijzigingen - AEM as a Cloud Service"
 
 `MSM`  Hiermee geeft u algemene informatie op over de functie AEM beheer op meerdere locaties. Deze informatie wordt verstrekt om het systeem te helpen karakteriseren.

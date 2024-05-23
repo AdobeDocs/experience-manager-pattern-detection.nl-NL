@@ -2,7 +2,7 @@
 title: OAUI
 description: Help-pagina Patroondetectiecode.
 exl-id: 326144d6-705a-4b2c-ac35-403fd4c2259f
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -18,7 +18,7 @@ OAuth Users Instance
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_overview"
 >title="OAuth Users Instance"
->abstract="De code OAUI identificeert het patroon waar er minstens één op OAuth betrekking hebbende gevormde gebruiker is die correcte migratie vereist. OAuth wordt gevormd voor gebruikers wanneer er een subnode is die direct onder een rep wordt genoemd:AuthorizableId knoop in de vorm van /home/user-path/user-node/oauth"
+>abstract="De code OAUI identificeert het patroon waar er minstens één op OAuth betrekking hebbende gevormde gebruiker is die correcte migratie vereist. OAuth wordt gevormd voor gebruikers wanneer er een subnode genoemd OAuth direct onder een rep:AuthorizableId knoop in de vorm van /home/user-path/user-node/oauth is"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Opmerkingen bij de release"
 
 `OAUI`  Identificeert het patroon waar er minstens één OAuth-Verwante gevormde gebruiker is die correcte migratie vereist.

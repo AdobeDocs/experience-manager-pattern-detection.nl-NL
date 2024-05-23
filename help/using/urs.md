@@ -2,9 +2,9 @@
 title: URS
 description: Help-pagina Patroondetectiecode.
 exl-id: 05c5b664-f034-42a2-918b-07772c8d480f
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ Niet-ondersteunde gegevensopslagstructuur
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="Niet-ondersteunde gegevensopslagstructuur"
->abstract="URS identificeert gevallen van niet-ondersteunde gegevensopslagstructuur en knooppuntkenmerken. Deze oppervlakken bevatten informatie om conflicten te voorkomen tussen AEM productcode en klantcode, inhoud die vanuit /etc wordt geherstructureerd naar andere mappen in de opslagplaats en meer."
+>abstract="URS identificeert gevallen van URS (Unsupported Repository Structure) en knooppuntkenmerken. Deze oppervlakinformatie om conflicten tussen AEM productcode en klantencode te vermijden, die inhoud wordt geherstructureerd uit `/etc` naar andere mappen in de opslagplaats en meer."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="Repositoregeling"
 
 ## Achtergrond {#background}
 
-`URS`  Identificeert gevallen van niet-ondersteunde repository structuur en knooppuntkenmerken. Vanaf AEM 6.4 zijn er richtsnoeren voor de herstructurering van de inhoud van de opslagplaats opgesteld. Door hiërarchieën voor AEM productcode en klantencode duidelijk af te bakenen en conflicten tussen hen te vermijden, wordt de inhoud geherstructureerd uit `/etc` naar andere mappen in de opslagplaats, met inachtneming van de volgende regels op hoog niveau:
+`URS`  Identificeert gevallen van URS (Unsupported Repository Structure) en knooppuntkenmerken. Vanaf AEM 6.4 zijn er richtsnoeren voor de herstructurering van de inhoud van de opslagplaats opgesteld. Door hiërarchieën voor AEM productcode duidelijk af te bakenen, en klantencode, en conflicten tussen hen te vermijden allen, wordt de inhoud geherstructureerd uit van `/etc` naar andere mappen in de repository. Hierbij worden de volgende regels op hoog niveau in acht genomen:
 
-* AEM productcode wordt altijd in geplaatst `/libs`, die niet door aangepaste code mag worden overschreven.
+* AEM productcode wordt altijd in geplaatst `/libs` die aangepaste code mag niet worden overschreven.
 * Aangepaste code moet in `/apps`, `/content`, en `/conf`.
 * Het wordt ten zeerste aanbevolen deze richtsnoeren te volgen voor AEM as a Cloud Service.
 
@@ -46,7 +46,7 @@ Subtypes worden gebruikt om de specifieke types van bewaarplaatskwesties te iden
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="Implementatieleiding"
->abstract="U kunt het beste uw codeproject bekijken. Zorg ervoor dat de code voldoet aan de AEM projectstructuurrichtlijnen en vermijd dat code vertrouwt op oudere/niet-ondersteunde opslagpaden die ongewenste werking in AEM as a Cloud Service kunnen veroorzaken. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
+>abstract="U kunt het beste uw codeproject bekijken. Zorg ervoor dat de code voldoet aan de AEM projectstructuurrichtlijnen en vermijd dat code vertrouwt op oudere of niet-ondersteunde opslagpaden die ongewenst gedrag in AEM as a Cloud Service kunnen veroorzaken. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="Richtlijnen voor de projectstructuur AEM"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 

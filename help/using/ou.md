@@ -2,9 +2,9 @@
 title: OU
 description: Help-pagina Patroondetectiecode.
 exl-id: 6ec96fab-dd6e-46af-864f-05dad387cbb6
-source-git-commit: 84c193b66fbf9c41f546e8575a0aa17e94043b9a
+source-git-commit: b77a168fc8c075e8e41149a38df4d83fd2504a14
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,6 @@ Aangezien de oude versies niet standaard worden geïnstalleerd, werkt de toepass
 >additional-url="https://javadoc.io/doc/com.adobe.aem/aem-sdk-api/latest/index.html" text="ADOBE EXPERIENCE MANAGER SDK API"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
-* Korte termijn: installatie van compatibiliteitspakket kan helpen.
+* Korte termijn: installatie van een compatibiliteitspakket kan helpen.
 * Lange termijn: pas de klantcode aan om de nieuwste versie van AEM componenten of API&#39;s te gebruiken.
 * Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.
