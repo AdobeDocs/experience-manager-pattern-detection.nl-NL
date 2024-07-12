@@ -33,4 +33,4 @@ Beantwoord de vraag: &quot;Wat kan ik ermee doen?&quot;
 
 * mogelijke oplossing #1
 * mogelijke oplossing #2
-* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.
+* Contacteer het [ AEM Team van de Steun ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om kwesties te hebben die worden gericht.

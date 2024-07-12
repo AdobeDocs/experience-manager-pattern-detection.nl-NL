@@ -22,7 +22,7 @@ VEROUDERD: Niet-achterwaartse compatibele wijzigingen (vervangen door NCC, niet-
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Opvallende wijzigingen - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="Opmerkingen bij de release - AEM as a Cloud Service"
 
-`NBCC`  Hiermee wordt aangegeven in welke situatie sommige JCR-knooppunten of -bundels niet-compatibel zijn gewijzigd. Het is mogelijk dat de klant niet op de hoogte is van deze wijziging voordat een upgrade wordt uitgevoerd.
+`NBCC` Hiermee wordt aangegeven in welke situatie sommige JCR-knooppunten of -bundels niet-compatibel zijn gewijzigd. Het is mogelijk dat de klant niet op de hoogte is van deze wijziging voordat een upgrade wordt uitgevoerd.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -39,5 +39,5 @@ VEROUDERD: Niet-achterwaartse compatibele wijzigingen (vervangen door NCC, niet-
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
 * Bedekking of alleen verwijzing naar achterwaartse compatibele Sling-componenten.
-* Overweeg bronnen die afkomstig zijn van `/libs` of bundels na een AEM upgrade.
-* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.
+* U kunt bronnen die afkomstig zijn van `/libs` of bundels aanpassen na een AEM upgrade.
+* Contacteer het [ AEM Team van de Steun ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om kwesties te hebben die worden gericht.

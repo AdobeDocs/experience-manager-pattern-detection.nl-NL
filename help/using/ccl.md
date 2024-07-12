@@ -38,4 +38,4 @@ Er wordt één subtype gebruikt met deze code:
 >abstract="De clientbibliotheken die worden toegevoegd aan AEM die door CCL worden geïdentificeerd, moeten worden gecontroleerd om te voorkomen dat er sprake is van duplicatie en dat de meest recente versies worden gebruikt. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
-* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.
+* Contacteer het [ AEM Team van de Steun ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om kwesties te hebben die worden gericht.

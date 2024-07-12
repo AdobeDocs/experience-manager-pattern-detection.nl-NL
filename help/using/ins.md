@@ -20,15 +20,15 @@ Ongeldige naamruimte
 >title="Ongeldige naamruimte"
 >abstract="INS identificeert naamruimteproblemen bij AEM instantie"
 
-`INS`  (Ongeldige naamruimte) Hiermee worden naamruimteproblemen in AEM instantie aangegeven.
+`INS` (Ongeldige naamruimte) Hiermee worden naamruimteproblemen in AEM instantie geïdentificeerd.
 
 Subtypes worden gebruikt om de verschillende soorten informatie te identificeren, zoals:
 
-* `uri`: Identificeer de ongeldige naamruimte-URI in AEM.
+* `uri`: identificeer de ongeldige naamruimte-URI in AEM.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
-* Kan inhoud (op meerdere lagen) niet repliceren of inhoud (op meerdere lagen) kopiëren `env`door `/crx/packMgr`of Inhoud kopiëren).
+* Kan inhoud (op laag) niet repliceren of inhoud kopiëren (op `env` , via `/crx/packMgr` of Content Copy).
 
 ## Mogelijke oplossingen {#solutions}
 
@@ -38,5 +38,5 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
 >abstract="Neem contact op met de klantenservice voor hulp."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
-* De naamruimtedefinities corrigeren volgens de [JCR-specificatie](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html). Voer de vermelde stappen uit [hier](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163)
-* Contact opnemen met de [Klantenzorgteam van Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om problemen aan te pakken.
+* Verbeter de namespace definities volgens de [ specificatie JCR ](https://developer.adobe.com/experience-manager/reference-materials/spec/jcr/1.0/4.5_Namespaces.html). Volg de hier vermelde stappen [ ](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/how-can-i-delete-a-namespace-created-in-crx/td-p/225163)
+* Contacteer het [ Team van de Zorg van de Klant van de Experience Manager ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om bedenkingen te richten.

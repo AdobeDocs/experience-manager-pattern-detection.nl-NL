@@ -20,12 +20,12 @@ Aangepaste sjabloon
 >title="Aangepaste sjabloon"
 >abstract="CTEM identificeert douanecomponenten die op AEM worden geïnstalleerd. Deze informatie wordt verstrekt met het oog op de beoordeling van beste praktijken"
 
-`CTEM`  Identificeert douanesjablonen die op AEM zijn geïnstalleerd. Deze informatie wordt verstrekt met het oog op de beoordeling van beste praktijken.
+`CTEM` Identificeert aangepaste sjablonen die op AEM zijn geïnstalleerd. Deze informatie wordt verstrekt met het oog op de beoordeling van beste praktijken.
 
-Sjablonen hebben een primaire typewaarde van `cq:Template`, die helpt bij het identificeren ervan. Met deze code wordt een subtype gebruikt om de sjablooncategorie aan te duiden:
+Sjablonen hebben een primaire typewaarde van `cq:Template`, wat nuttig is voor hun identificatie. Met deze code wordt een subtype gebruikt om de sjablooncategorie aan te duiden:
 
-* `custom.editable.template`: Het pad van de sjabloon begint niet met `/apps`.
-* `custom.static.template`: Het pad van de sjabloon begint met `/apps`.
+* `custom.editable.template`: het pad van de sjabloon begint niet met `/apps` .
+* `custom.static.template`: het pad van de sjabloon begint met `/apps` .
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -47,6 +47,6 @@ Sjablonen hebben een primaire typewaarde van `cq:Template`, die helpt bij het id
 >additional-url="https://opensource.adobe.com/aem-modernize-tools/pages/structure/about.html" text="Paginastructuurconverter"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
-* Gebruik de [AEM moderniseringsinstrumenten](https://opensource.adobe.com/aem-modernize-tools/) om statische sjablonen te migreren naar bewerkbare sjablonen.
-* Meer informatie over bewerkbare sjablonen vindt u op [Sjablonen](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates).
-* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.
+* Gebruik [ AEM Moderniseringshulpmiddelen ](https://opensource.adobe.com/aem-modernize-tools/) aan migratie Statische Malplaatjes aan Bewerkbare Malplaatjes.
+* Vind meer informatie over Bewerkbare Malplaatjes bij [ Malplaatjes ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/templates/templates).
+* Contacteer het [ AEM Team van de Steun ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om kwesties te hebben die worden gericht.

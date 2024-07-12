@@ -22,11 +22,11 @@ Complexiteit pagina
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Opvallende wijzigingen - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Opmerkingen bij de release"
 
-`PCX`  Identificeert pagina&#39;s die vele knopen in hun structuur bevatten.
+`PCX` Identificeert pagina&#39;s die veel knooppunten in hun structuur bevatten.
 
 Subtypes worden gebruikt om de verschillende soorten informatie te identificeren:
 
-* `page.complexity.medium`: Een pagina bevat een matig hoog aantal knooppunten dat de renderprestaties kan beïnvloeden.
+* `page.complexity.medium`: Een pagina bevat een gemiddeld hoog aantal knooppunten dat de renderprestaties kan beïnvloeden.
 * `page.complexity.high`: Een pagina bevat een groot aantal knooppunten die de renderprestaties kunnen beïnvloeden.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
@@ -47,4 +47,4 @@ Subtypes worden gebruikt om de verschillende soorten informatie te identificeren
    * Vereenvoudig de pagina-inhoud.
    * Verminder de diepte van de nodestructuur.
    * Refactor omvat alle ervaringsfragmenten voor eenvoud.
-* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.
+* Contacteer het [ AEM Team van de Steun ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om kwesties te hebben die worden gericht.

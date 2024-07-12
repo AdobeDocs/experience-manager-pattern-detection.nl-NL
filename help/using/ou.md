@@ -21,7 +21,7 @@ Verouderd gebruik
 >abstract="OU identificeert de situatie waarin sommige knopen JCR, zoals Sling of AEM componenten of uitvoer API OSGi, op een niet compatibele manier worden veranderd of verwijderd. Het is mogelijk dat de klant niet op de hoogte is van deze wijziging voordat een upgrade wordt uitgevoerd. Ze kunnen worden bijgewerkt naar een niet-compatibele versie of zijn helemaal niet beschikbaar."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/aem-cloud-changes" text="Opvallende wijzigingen - AEM as a Cloud Service"
 
-`OU`  Identificeert de situatie waarin sommige knopen JCR, zoals Sling of AEM componenten of uitvoer API OSGi, op een niet compatibele manier worden veranderd of verwijderd. Het is mogelijk dat de klant niet op de hoogte is van deze wijziging voordat een upgrade wordt uitgevoerd. Ze kunnen worden bijgewerkt naar een niet-compatibele versie of zijn helemaal niet beschikbaar.
+`OU` Hiermee wordt aangegeven in welke situatie sommige JCR-knooppunten, zoals Sling- of AEM-componenten of OSGi-API-exportbewerkingen, op een niet-compatibele manier worden gewijzigd of verwijderd. Het is mogelijk dat de klant niet op de hoogte is van deze wijziging voordat een upgrade wordt uitgevoerd. Ze kunnen worden bijgewerkt naar een niet-compatibele versie of zijn helemaal niet beschikbaar.
 
 Aangezien de oude versies niet standaard worden geïnstalleerd, werkt de toepassing van de klant mogelijk niet correct.
 
@@ -41,4 +41,4 @@ Aangezien de oude versies niet standaard worden geïnstalleerd, werkt de toepass
 
 * Korte termijn: installatie van een compatibiliteitspakket kan helpen.
 * Lange termijn: pas de klantcode aan om de nieuwste versie van AEM componenten of API&#39;s te gebruiken.
-* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.
+* Contacteer het [ AEM Team van de Steun ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om kwesties te hebben die worden gericht.

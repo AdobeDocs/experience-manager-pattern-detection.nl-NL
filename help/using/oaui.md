@@ -21,11 +21,11 @@ OAuth Users Instance
 >abstract="De code OAUI identificeert het patroon waar er minstens één op OAuth betrekking hebbende gevormde gebruiker is die correcte migratie vereist. OAuth wordt gevormd voor gebruikers wanneer er een subnode genoemd OAuth direct onder een rep:AuthorizableId knoop in de vorm van /home/user-path/user-node/oauth is"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/release-notes/release-notes-current" text="AEM as a Cloud Service - Opmerkingen bij de release"
 
-`OAUI`  Identificeert het patroon waar er minstens één OAuth-Verwante gevormde gebruiker is die correcte migratie vereist.
+`OAUI` Hiermee wordt het patroon geïdentificeerd waarbij ten minste één geconfigureerde gebruiker met betrekking tot OAuth de juiste migratie vereist.
 
-OAuth wordt gevormd voor gebruikers wanneer er een subnode genoemd is `oauth` rechtstreeks onder een `rep:AuthorizableId` knooppunt in de vorm van `/home/user-path/user-node/oauth`.
+OAuth wordt geconfigureerd voor gebruikers wanneer er een subknooppunt met de naam `oauth` direct onder een `rep:AuthorizableId` -knooppunt in de vorm `/home/user-path/user-node/oauth` is.
 
-Een voorbeeld is: `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`.
+Een voorbeeld is: `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth` .
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -36,9 +36,9 @@ Een voorbeeld is: `/home/users/ims/0001/R80w6XaUCBq3jHE47xDN/oauth`.
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_oaui_guidance"
 >title="Implementatieleiding"
->abstract="Externe gebruikers die zijn geconfigureerd met OAuth kunnen zich niet aanmelden bij auteur-/publicatieinstanties totdat deze opnieuw zijn geconfigureerd om compatibel te zijn met AEM as a Cloud Service. AEM as a Cloud Service biedt IMS-verificatieondersteuning alleen voor auteur-, Admin- en Dev-gebruikers en SAML-gebaseerde integratie voor de publicatieomgevingen. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
+>abstract="Externe gebruikers die zijn geconfigureerd met OAuth kunnen zich niet aanmelden bij auteur-/publicatieinstanties totdat ze opnieuw zijn geconfigureerd om compatibel te zijn met AEM as a Cloud Service. AEM as a Cloud Service biedt alleen ondersteuning voor IMS-verificatie voor auteur-, Admin- en Dev-gebruikers en voor SAML-gebaseerde integratie voor de publicatieomgevingen. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support" text="IMS-ondersteuning - AEM as a Cloud Service"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML-integratie - Publiceren"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/personalization/user-and-group-sync-for-publish-tier#integration-with-an-idp" text="SAML-integratie - Publish"
 
 * Neem contact op met uw Adobe als u opties voor gebruikersmigratie moet bespreken.
-* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.
+* Contacteer het [ AEM Team van de Steun ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om kwesties te hebben die worden gericht.

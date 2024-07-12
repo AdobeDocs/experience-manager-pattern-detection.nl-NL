@@ -18,26 +18,26 @@ Workflow
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_overview"
 >title="Workflow"
->abstract="De code van het WRK identificeert een bevinding met betrekking tot een werkschemamodel of een lancerer. Deze identificaties worden gerapporteerd omdat workflowmodellen met aangepaste elementen moeten worden gemigreerd wanneer u een upgrade uitvoert naar AEM as a Cloud Service. Met AEM as a Cloud Service, voeren de activa microservices de activaverwerking uit."
+>abstract="De code van het WRK identificeert een bevinding met betrekking tot een werkschemamodel of een lancerer. Deze identificaties worden gerapporteerd omdat workflowmodellen voor aangepaste middelen moeten worden gemigreerd wanneer u een upgrade naar AEM as a Cloud Service uitvoert. Met AEM as a Cloud Service voert asset microservices de verwerking van bedrijfsmiddelen uit."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview" text="Asset Microservices"
 
-`WRK`  Identificeert een bevinding die verwant is aan een workflowmodel of draagprogramma. Deze identificaties worden gerapporteerd omdat workflowmodellen met aangepaste elementen moeten worden gemigreerd wanneer u een upgrade uitvoert naar AEM as a Cloud Service.
+`WRK` Hiermee wordt een bevinding geïdentificeerd die gerelateerd is aan een workflowmodel of startprogramma. Deze identificaties worden gerapporteerd omdat workflowmodellen voor aangepaste middelen moeten worden gemigreerd wanneer u een upgrade naar AEM as a Cloud Service uitvoert.
 
 Een subtype wordt gebruikt om het type werkschemaprobleem te identificeren dat momenteel wordt ontdekt.
 
-* `custom.asset.workflow`: Detection of a custom asset workflow model or launch.
+* `custom.asset.workflow`: detectie van een workflowmodel voor aangepaste elementen of een opstartprogramma.
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_wrk_guidance"
 >title="Implementatieleiding"
->abstract="Workflows met standaardmiddelen worden automatisch ondersteund door mijn assetmicroservices. Daarom is het aan te raden alle workflowmodellen voor aangepaste elementen of Launcher te controleren. Wanneer het herzien, kunt u zien of zijn zij na uw overgang aan AEM as a Cloud Service nodig. Aanpassingen aan workflows voor bedrijfsmiddelen vereisen migratie om te kunnen werken met AEM as a Cloud Service met behulp van het Workflow Migration Tool voor bedrijfsmiddelen"
+>abstract="Workflows met standaardmiddelen worden automatisch ondersteund door mijn assetmicroservices. Daarom is het aan te raden alle workflowmodellen voor aangepaste elementen of Launcher te controleren. Bij het bekijken kunt u zien of ze nodig zijn na de overgang naar AEM as a Cloud Service. Aanpassingen aan workflows voor bedrijfsmiddelen vereisen migratie om met AEM as a Cloud Service te kunnen werken met behulp van het Asset Workflow Migration Tool"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-microservices-configure-and-use" text="Aan de slag - Asset Microservices"
 
-* Middelenverwerking is traditioneel uitgevoerd met middelenwerkstromen die worden uitgevoerd op de AEM Auteur-instantie. Met AEM as a Cloud Service, voeren de activa microservices de activaverwerking uit. Zie de [Overzicht van asset microservices](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview) voor meer informatie .
+* Middelenverwerking is traditioneel uitgevoerd met middelenwerkstromen die worden uitgevoerd op de AEM Auteur-instantie. Met AEM as a Cloud Service voert asset microservices de verwerking van bedrijfsmiddelen uit. Zie het [ overzicht van activa microservices ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/asset-microservices-overview) voor meer informatie.
 * Workflows met standaardmiddelen worden automatisch ondersteund door mijn assetmicroservices.
-* Voor aanpassingen aan werkstromen met middelen is migratie vereist om met AEM as a Cloud Service te kunnen werken.
+* Voor aanpassingen aan workflows met middelen is migratie vereist om met AEM as a Cloud Service te kunnen werken.
 
 ## Mogelijke oplossingen {#solutions}
 
@@ -48,6 +48,6 @@ Een subtype wordt gebruikt om het type werkschemaprobleem te identificeren dat m
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool" text="De tool Asset Workflow Migration"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
-* Als er een workflowmodel voor aangepaste middelen of een startprogramma is geïdentificeerd, kunt u het programma [Hulpprogramma voor migratie van workflows](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool).
-* Controleer de [Aan de slag met middelenmicroservices](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-microservices-configure-and-use) voor meer informatie .
-* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.
+* Als een model of de lancering van het douaneactiva werkschemamodel wordt geïdentificeerd, van plan om het [ Hulpmiddel van de Migratie van het Werkschema van Activa in werking te stellen ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/asset-workflow-migration-tool).
+* Herzie [ Begonnen het worden van activa microservices ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/asset-microservices-configure-and-use) voor meer informatie.
+* Contacteer het [ AEM Team van de Steun ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om kwesties te hebben die worden gericht.

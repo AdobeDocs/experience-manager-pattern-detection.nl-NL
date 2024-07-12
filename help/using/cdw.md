@@ -18,9 +18,9 @@ Aangepaste dialoogvensterwidget
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_cdw_overview"
 >title="Aangepaste dialoogvensterwidget"
->abstract="CDW identificeert de widgets van de Dialoog van de Douane die zouden moeten worden bijgewerkt opdat zij met AEM as a Cloud Service compatibel zijn."
+>abstract="CDW identificeert de widgets voor de aangepaste dialoog die moeten worden bijgewerkt om compatibel te zijn met AEM as a Cloud Service."
 
-`CDW`  (`Custom Dialog Widgets`) Identificeert de aangepaste Klassieke Dialoogwidgets. Deze widgets moeten worden bijgewerkt zodat ze compatibel zijn met AEM as a Cloud Service.
+`CDW` (`Custom Dialog Widgets`) Identificeert de aangepaste Klassieke Dialoogwidgets. Deze widgets moeten worden bijgewerkt om compatibel te zijn met AEM as a Cloud Service.
 
 Subtypes worden gebruikt om de informatie te identificeren, zoals:
 
@@ -38,5 +38,5 @@ Subtypes worden gebruikt om de informatie te identificeren, zoals:
 >abstract="Neem contact op met de klantenservice voor hulp."
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
-* Aangepaste Klassieke dialoogvensterwidgets moeten worden omgezet van ExtJS in [CoralUI](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html).
-* Contact opnemen met de [Klantenzorgteam van Experience Manager](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om problemen aan te pakken.
+* De Klassieke Widgets van de Dialoog van de douane zouden van ExtJS in [ CoralUI ](https://developer.adobe.com/experience-manager/reference-materials/6-5/coral-ui/coralui3/getting-started.html) moeten worden omgezet.
+* Contacteer het [ Team van de Zorg van de Klant van de Experience Manager ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om bedenkingen te richten.

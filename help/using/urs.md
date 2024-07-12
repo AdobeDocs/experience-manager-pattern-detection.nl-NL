@@ -16,23 +16,23 @@ Niet-ondersteunde gegevensopslagstructuur
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_overview"
 >title="Niet-ondersteunde gegevensopslagstructuur"
->abstract="URS identificeert gevallen van URS (Unsupported Repository Structure) en knooppuntkenmerken. Deze oppervlakinformatie om conflicten tussen AEM productcode en klantencode te vermijden, die inhoud wordt geherstructureerd uit `/etc` naar andere mappen in de opslagplaats en meer."
+>abstract="URS identificeert gevallen van URS (Unsupported Repository Structure) en knooppuntkenmerken. Op deze manier wordt informatie weergegeven om conflicten te voorkomen tussen AEM productcode en klantcode, waarbij inhoud buiten `/etc` wordt geherstructureerd naar andere mappen in de opslagplaats en meer."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring" text="Repositoregeling"
 
 ## Achtergrond {#background}
 
-`URS`  Identificeert gevallen van URS (Unsupported Repository Structure) en knooppuntkenmerken. Vanaf AEM 6.4 zijn er richtsnoeren voor de herstructurering van de inhoud van de opslagplaats opgesteld. Door hiërarchieën voor AEM productcode duidelijk af te bakenen, en klantencode, en conflicten tussen hen te vermijden allen, wordt de inhoud geherstructureerd uit van `/etc` naar andere mappen in de repository. Hierbij worden de volgende regels op hoog niveau in acht genomen:
+`URS` Identificeert gevallen van URL&#39;s (niet-ondersteunde Repository Structure) en knooppuntkenmerken. Vanaf AEM 6.4 zijn er richtsnoeren voor de herstructurering van de inhoud van de opslagplaats opgesteld. Door hiërarchieën voor AEM productcode duidelijk te omlijnen, en klantencode te vermijden, en conflicten tussen hen allen te vermijden, wordt de inhoud geherstructureerd uit `/etc` aan andere omslagen in de bewaarplaats. Hierbij worden de volgende regels op hoog niveau in acht genomen:
 
-* AEM productcode wordt altijd in geplaatst `/libs` die aangepaste code mag niet worden overschreven.
-* Aangepaste code moet in `/apps`, `/content`, en `/conf`.
-* Het wordt ten zeerste aanbevolen deze richtsnoeren te volgen voor AEM as a Cloud Service.
+* AEM productcode wordt altijd in `/libs` geplaatst dat aangepaste code niet mag worden overschreven.
+* Aangepaste code moet worden geplaatst in `/apps` , `/content` en `/conf` .
+* Het wordt ten zeerste aanbevolen deze richtsnoeren voor AEM as a Cloud Service te volgen.
 
 Subtypes worden gebruikt om de specifieke types van bewaarplaatskwesties te identificeren die zouden moeten worden opgelost:
 
-* `clientlibs.location`: Een clientbibliotheek die verwijst naar `/etc` per pad.
-* `file.location`: Een bestand onder `/etc` die sinds de installatie is gewijzigd.
-* `node.location`: Een knooppunt onder `/etc` die sinds de installatie is gewijzigd.
-* `workflow.location`: Een workflowmodel of een startprogramma onder `/etc/workflow`.
+* `clientlibs.location`: een clientbibliotheek die `/etc` per pad verwijst.
+* `file.location`: Een bestand onder `/etc` dat sinds de installatie is gewijzigd.
+* `node.location`: een knooppunt onder `/etc` dat sinds de installatie is gewijzigd.
+* `workflow.location`: een workflowmodel of een startprogramma onder `/etc/workflow` .
 * `package.structure`: Een pakket dat zowel muteerbare als onveranderlijke inhoud bevat.
 * `node.size`: Een knooppunt met niet-ondersteunde grootte.
 
@@ -46,11 +46,11 @@ Subtypes worden gebruikt om de specifieke types van bewaarplaatskwesties te iden
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_urs_guidance"
 >title="Implementatieleiding"
->abstract="U kunt het beste uw codeproject bekijken. Zorg ervoor dat de code voldoet aan de AEM projectstructuurrichtlijnen en vermijd dat code vertrouwt op oudere of niet-ondersteunde opslagpaden die ongewenst gedrag in AEM as a Cloud Service kunnen veroorzaken. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
+>abstract="U kunt het beste uw codeproject bekijken. Zorg ervoor dat de code voldoet aan de AEM projectstructuurrichtlijnen en vermijd dat code vertrouwt op oudere of niet-ondersteunde opslagpaden die ongewenste gedragingen in AEM as a Cloud Service kunnen veroorzaken. Neem contact op met de ondersteuning van de Adobe voor hulp of verduidelijking."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure" text="Richtlijnen voor de projectstructuur AEM"
 >additional-url="https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html" text="Ondersteuning voor Experience Cloud"
 
-* Zie [Repositoregeling](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring) richtsnoeren ter voorbereiding op AEM as a Cloud Service.
-* Zie ook [AEM projectstructuur](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) als u meer wilt weten over veranderbare en onveranderlijke gebieden van de gegevensopslagplaats.
-* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om de problemen te verhelpen.
-* Gebruik de [Repository Modernizer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) bestaande projectpakketten te herstructureren door inhoud en code te scheiden in afzonderlijke pakketten, zodat deze verenigbaar zijn met de voor Adobe Experience Manager as a Cloud Service gedefinieerde projectstructuur.
+* Zie [ Herstructurering van de Bewaarplaats ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/restructuring/repository-restructuring) voor begeleiding om voor AEM as a Cloud Service voor te bereiden.
+* Zie ook [ AEM de Structuur van het Project ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure) als u meer over veranderlijke en onveranderlijke gebieden van de bewaarplaats wilt leren.
+* Contacteer het [ AEM Team van de Steun ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om kwesties te hebben die worden gericht.
+* Gebruik de [ Modernizer van de Bewaarplaats ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/migration-journey/refactoring-tools/repo-modernizer#refactoring-tools) om bestaande projectpakketten te herstructureren door inhoud en code in discrete pakketten te scheiden om met de projectstructuur compatibel te zijn die voor Adobe Experience Manager as a Cloud Service wordt bepaald.

@@ -19,4 +19,4 @@ De pagina had niet bereikt mogen worden.
 
 ## Mogelijke oplossingen {#solutions}
 
-* Contact opnemen met de [Ondersteuningsteam AEM](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) moet de fout melden.
+* Contacteer het [ AEM Team van de Steun ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) de fout moet melden.
