@@ -2,9 +2,9 @@
 title: INST
 description: Help-pagina Patroondetectiecode.
 exl-id: 9b8129d7-63d7-4975-a68b-9ba704d01532
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Geïnstalleerd artefact
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_overview"
 >title="Geïnstalleerd artefact"
->abstract="INST identificeert aangepaste pakketten en bundels van derden die in AEM door de klant zijn geïnstalleerd. Dergelijke pakketten en bundels worden gerapporteerd om de toestand van het systeem en het algemene bereik van een upgrade-inspanning te helpen karakteriseren. Elk pakket van derden moet voldoen aan de AEM as a Cloud Service-richtlijnen voor ontwikkeling en verpakking."
+>abstract="INST identificeert aangepaste pakketten en bundels van derden die door de klant in AEM zijn geïnstalleerd. Dergelijke pakketten en bundels worden gerapporteerd om de toestand van het systeem en het algemene bereik van een upgrade-inspanning te helpen karakteriseren. Elk pakket van derden moet voldoen aan de AEM as a Cloud Service-richtlijnen voor ontwikkeling en verpakking."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="Ontwikkelingsrichtsnoeren - AEM as a Cloud Service"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package" text="Richtlijnen voor verpakking - AEM as a Cloud Service"
 
@@ -26,7 +26,7 @@ Geïnstalleerd artefact
 
 Wanneer meerdere versies van een pakket zijn geïnstalleerd, wordt alleen de laatste versie gerapporteerd.
 
-Pakketten en bundels die worden gedetecteerd, zijn niet noodzakelijkerwijs geoptimaliseerd voor AEM as a Cloud Service. Elk pakket van derden moet met de maker of Adobe ervan worden gecontroleerd op compatibiliteit met AEM as a Cloud Service.
+Pakketten en bundels die worden gedetecteerd, zijn niet noodzakelijkerwijs geoptimaliseerd voor AEM as a Cloud Service. Elk pakket van derden moet met de maker of Adobe worden gecontroleerd op compatibiliteit met AEM as a Cloud Service.
 
 Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 
@@ -38,13 +38,17 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_inst_guidance"
 >title="Implementatieleiding"
->abstract="Klanten kunnen geen pakketten van derden meer installeren met CRX Package Manager. Klanten moeten deze geïnstalleerde artefacten die moeten worden gestructureerd, controleren en optimaliseren om met AEM as a Cloud Service te werken. Verifieer om het even welk derspakket met of zijn schepper of met Adobe voor verenigbaarheid met AEM as a Cloud Service."
+>abstract="Klanten kunnen geen pakketten van derden meer installeren met CRX Package Manager. Klanten moeten deze geïnstalleerde artefacten die moeten worden gestructureerd, controleren en optimaliseren om met AEM as a Cloud Service te werken. Controleer of een pakket van derden compatibel is met AEM as a Cloud Service of met de maker of Adobe."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embeddeds" text="Subpakketten insluiten in het Containerpakket"
 
 
 * Installatie van pakketten van derden met CRX Package Manager is niet mogelijk in AEM as a Cloud Service.
 * Toepassingen die van pakketten van derden afhankelijk zijn, werken mogelijk pas zoals verwacht als ze op de juiste wijze zijn geïmplementeerd om met AEM as a Cloud Service te werken.
-* Pakketten van andere leveranciers, die niet zijn geoptimaliseerd voor AEM als cloudservice, kunnen leiden tot ongewenste functionaliteit.
+* Pakketten van andere leveranciers, die niet zijn geoptimaliseerd voor AEM als Cloud-service, kunnen leiden tot ongewenste functionaliteit.
+
+Overweeg ook aandacht voor deze specifieke subtypen:
+
+* `guava.bundle` - Guava wordt niet ondersteund vanuit het vak op AEM 6.5 LTS en de bundel is niet beschikbaar na de upgrade.
 
 ## Mogelijke oplossingen {#solutions}
 
@@ -59,4 +63,5 @@ Subtypes worden gebruikt om verschillende soorten informatie te identificeren:
 * Herzie hoe te om [ derdepakketten ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/aem-project-content-package-structure#embedding-3rd-party-packages) in uw project voor AEM as a Cloud Service in te bedden.
 * De pakketten van de derde moeten aan de ontwikkeling van AEM as a Cloud Service [ ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines) en [ verpakken ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/repository-structure-package) richtlijnen naleven.
 * Het overzicht [ wknd-erfenis ](https://github.com/adobe/aem-guides-wknd-legacy/tree/code/inst) project en begrijpt hoe [ de schendingen van INST ](https://github.com/adobe/aem-guides-wknd-legacy/compare/main...code/inst) kunnen worden verbeterd en compatibel gemaakt met AEM as a Cloud Service.
-* Contacteer het [ AEM Team van de Steun ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om kwesties te hebben die worden gericht.
+* Contacteer het [ Team van de Steun van AEM ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om behandelde zorgen te hebben.
+* Voor het subtype `guava.bundle` installeert u Guava of verwijdert u het gebruik als Guava wordt gebruikt in uw aangepaste code.

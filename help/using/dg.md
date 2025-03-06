@@ -2,9 +2,9 @@
 title: DG
 description: Help-pagina Patroondetectiecode.
 exl-id: 7ee3b177-bd79-41cd-abaf-ece3ae98ce03
-source-git-commit: dd60fb9fb21d534e7b6f264826d3cc1477def421
+source-git-commit: 8dd9a42a3bba63d62fa2469b0f78ca15a608b4f9
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ Richtlijnen voor ontwikkelaars
 >[!CONTEXTUALHELP]
 >id="aemcloud_bpa_dg_overview"
 >title="Richtlijnen voor ontwikkelaars"
->abstract="De code van het directoraat-generaal geeft afwijkingen aan van de geselecteerde richtsnoeren voor ontwikkeling voor AEM 6.5 en AEM as a Cloud Service. De beste praktijken kunnen het onderhoud en de prestaties van uw systeem verbeteren. Hoewel sommige van deze afwijkingen geen probleem in andere toepassingscontexten, met inbegrip van vorige versies van AEM kunnen zijn, kunnen zij problemen veroorzaken wanneer gebruikt met AEM as a Cloud Service."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM ontwikkeling - Richtsnoeren en beste praktijken"
+>abstract="De code van het directoraat-generaal geeft afwijkingen aan van bepaalde richtsnoeren voor ontwikkeling voor AEM 6.5 en AEM as a Cloud Service. De beste praktijken kunnen het onderhoud en de prestaties van uw systeem verbeteren. Hoewel sommige van deze afwijkingen geen probleem in andere toepassingscontexten, met inbegrip van vorige versies van AEM kunnen zijn, kunnen zij problemen veroorzaken wanneer gebruikt met AEM as a Cloud Service."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/introduction/dev-guidelines-bestpractices" text="AEM Development - Guidelines and Best Practices"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/developing/development-guidelines" text="AEM as a Cloud Service-ontwikkelingsrichtsnoeren"
 
 
@@ -33,6 +33,10 @@ Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te i
 * `unsupported.asset.api`: Het gebruik van niet-ondersteunde API&#39;s van Asset Manager in de toepassingscode.
 * `javax.jcr.observation.EventListener`: Het gebruik van Event Listener in toepassingscode.
 * `custom.guava.cache`: Het gebruik van de cache van Guava in de toepassingscode.
+* `java.api`: Sommige Java API&#39;s zijn verwijderd van Java 11 naar Java 17.
+* `configuration.admin`: Aangepaste code die configuraties benadert, wordt gemarkeerd.
+* `guava.api`: Guava wordt niet ondersteund in het vak op AEM 6.5 LTS.
+* `com.day.cq.dam.scene7.api.model`: er is een belangrijke versiewijziging voor `package com.day.cq.dam.scene7.api.model` .
 
 ## Mogelijke gevolgen en risico&#39;s {#implications-and-risks}
 
@@ -59,6 +63,18 @@ Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te i
 
 * `custom.guava.cache`
    * Het gebruik van de Guava-cache kan prestatieproblemen veroorzaken bij AEM.
+
+* `java.api`
+   * Met AEM 6.5 LTS op JRE17 zijn deze verwijderde Java API&#39;s niet beschikbaar en zal hun gebruik mislukken.
+
+* `configuration.admin`
+   * U moet naar uw gebruik kijken om ervoor te zorgen dat u geen niet-ondersteunde configuraties zoals sociale configuraties gebruikt.
+
+* `guava.api`
+   * Aangezien Guava niet wordt ondersteund in AEM 6.5 LTS, is de aangepaste code die guava gebruikt, niet actief.
+
+* `com.day.cq.dam.scene7.api.model`
+   * Geïmporteerd pakket `com.day.cq.dam.scene7.api.model` in aangepaste bundels wordt niet opgelost als gevolg van een grote versiewijziging.
 
 
 ## Mogelijke oplossingen {#solutions}
@@ -89,5 +105,14 @@ Subtypes worden gebruikt om de verschillende types van ontdekte schendingen te i
    * In plaats van het gebruiken van de Listener van de Gebeurtenis, wordt het geadviseerd om het gebeurtenis behandelend mechanisme aan [ het Schuiven van Banen ](https://sling.apache.org/documentation/bundles/apache-sling-eventing-and-job-handling.html#jobs-guarantee-of-processing) te refactoreren aangezien het de garantie van verwerking verstrekt.
 
 * `custom.guava.cache`
-   * Indien nodig moeten er buiten AEM kooien worden gemaakt. Een externe caching-oplossing kan overwogen worden.
-* Contacteer het [ AEM Team van de Steun ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om kwesties te hebben die worden gericht.
+   * Indien nodig moeten er buiten AEM bussen worden gemaakt. Een externe caching-oplossing kan overwogen worden.
+* Contacteer het [ Team van de Steun van AEM ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) voor verduidelijkingen of om behandelde zorgen te hebben.
+
+* `configuration.admin`
+   * Verwijder om het even welk config gebruik van niet gestaafde eigenschappen zoals Sociaal.
+
+* `guava.api`
+   * Installeer Guava of verwijder gebruik als Guava in uw douanecode wordt gebruikt.
+
+* `com.day.cq.dam.scene7.api.model`
+   * Werk de versiewaaier voor het ingevoerde pakket `com.day.cq.dam.scene7.api.model` aan **3.0.4** bij.
